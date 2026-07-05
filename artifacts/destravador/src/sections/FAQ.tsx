@@ -9,29 +9,40 @@ import { FadeIn } from '@/components/FadeIn';
 
 const faqs = [
   {
-    question: "Preciso ter experiência com IA para usar?",
-    answer: "Não. O sistema é feito para ser usado por qualquer vendedor. O Prompt Mestre já vem pronto para você simplesmente colar na IA junto com a sua conversa. É um processo de 'copiar e colar'."
+    question: 'Isso é um curso?',
+    answer:
+      'Não. É um sistema de auditoria comercial com IA. O objetivo é analisar conversas e entregar diagnóstico prático — você não assiste aulas, você aplica o protocolo nas suas conversas reais.',
   },
   {
-    question: "Isso é um curso ou treinamento?",
-    answer: "Não. É um Sistema de Diagnóstico. Você não vai ficar horas assistindo aulas teóricas — você aplica o protocolo imediatamente nas suas conversas reais e já tem o feedback do que melhorar."
+    question: 'Preciso saber usar IA?',
+    answer:
+      'Não. Você recebe o comando estruturado (Prompt Mestre) e o passo a passo completo para aplicar. É um processo de copiar, colar e ler o diagnóstico.',
   },
   {
-    question: "Para qual tipo de venda funciona?",
-    answer: "Para qualquer venda consultiva onde há diálogo: B2B, prestação de serviços, corretagem de imóveis, infoprodutos high-ticket, saúde, seguros e consultorias."
+    question: 'Funciona para WhatsApp?',
+    answer:
+      'Sim. Você pode usar em conversas de WhatsApp, abordagens por mensagem e follow-ups. O sistema inclui um guia específico para aplicação em texto.',
   },
   {
-    question: "Quanto tempo leva para ver resultado?",
-    answer: "A maioria dos nossos usuários relata uma diferença clara de postura e conexão logo na primeira conversa após aplicar o diagnóstico."
+    question: 'Funciona para ligação?',
+    answer:
+      'Sim. Basta transcrever ou resumir a call e inserir no sistema conforme o passo a passo. Funciona para qualquer formato de conversa comercial.',
   },
   {
-    question: "Tenho acesso imediato após a compra?",
-    answer: "Sim. Assim que o pagamento for confirmado, você recebe o acesso a todo o material por e-mail em menos de 5 minutos."
+    question: 'Serve para qualquer tipo de venda?',
+    answer:
+      'Funciona melhor para vendas consultivas, high ticket, B2B, serviços, mentorias, infoprodutos e negociações onde existe conversa antes da decisão.',
   },
   {
-    question: "E se não funcionar para mim?",
-    answer: "Você está protegido pela nossa garantia incondicional de 7 dias. Se não gostar do formato ou achar que não serve para o seu mercado, basta enviar um e-mail e devolvemos 100% do seu dinheiro."
-  }
+    question: 'Isso substitui treinamento comercial?',
+    answer:
+      'Não. Ele funciona como uma ferramenta prática de correção e melhoria contínua das suas conversas — um gerente comercial de bolso para usar depois de cada call.',
+  },
+  {
+    question: 'Tenho garantia?',
+    answer:
+      'Sim. Você tem 7 dias de garantia. Se acessar o Destravador e sentir que ele não te ajuda a enxergar suas conversas com mais clareza, basta solicitar o reembolso.',
+  },
 ];
 
 export function FAQ() {
@@ -47,15 +58,15 @@ export function FAQ() {
         <FadeIn delay={0.2}>
           <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem 
-                key={index} 
+              <AccordionItem
+                key={index}
                 value={`item-${index}`}
                 className="bg-card border border-border px-6 rounded-xl data-[state=open]:border-primary/50 transition-colors"
               >
-                <AccordionTrigger className="text-left font-semibold text-lg hover:no-underline hover:text-primary py-6">
+                <AccordionTrigger className="text-left font-semibold text-base hover:no-underline hover:text-primary py-5">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-6">
+                <AccordionContent className="text-muted-foreground text-sm leading-relaxed pb-5">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

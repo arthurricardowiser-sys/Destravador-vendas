@@ -1,0 +1,585 @@
+Quero que você revise profundamente a landing page atual do produto “Destravador de Vendas”.
+
+Essa página será usada para 100% tráfego frio. Portanto, a primeira dobra precisa gerar identificação imediata antes de tentar vender a ferramenta.
+
+A nova lógica da página deve seguir:
+
+DOR → CAUSA → MECANISMO → SOLUÇÃO → CONVICÇÃO → OFERTA
+
+Não comece vendendo IA.
+Não comece vendendo prompt.
+Não comece vendendo ferramenta.
+Comece fazendo o vendedor pensar:
+
+“Isso acontece comigo.”
+
+==================================================
+POSICIONAMENTO
+==================================================
+
+Marca:
+DESTRAVADOR DE VENDAS
+
+Nome funcional:
+AUDITOR COMERCIAL IA
+
+Definição:
+“Um gerente comercial dentro do ChatGPT, treinado com lógica real de auditoria comercial para revisar suas calls, WhatsApps e abordagens, mostrando exatamente onde você perdeu o cliente e qual pergunta poderia ter mudado o rumo da venda.”
+
+Não vender como:
+- curso
+- PDF
+- prompt genérico
+- mentoria
+- robô milagroso
+
+Vender como:
+“Um processo real de auditoria comercial transformado em um sistema com IA.”
+
+==================================================
+HERO — PRIMEIRA DOBRA PARA TRÁFEGO FRIO
+==================================================
+
+Estrutura exata:
+
+1. Badge de autoridade
+2. Headline de identificação
+3. Subheadline de mecanismo
+4. Mockup grande do notebook
+5. CTA claro
+
+-------------------------------------
+
+BADGE SUPERIOR:
+
+“Baseado em um processo de auditoria comercial utilizado em uma operação com mais de R$ 50 milhões em vendas acumuladas.”
+
+Visual:
+- badge discreto
+- fundo verde claro
+- borda arredondada
+- ícone pequeno
+- não parecer promessa exagerada
+
+-------------------------------------
+
+HEADLINE PRINCIPAL:
+
+“Nunca mais termine uma call sem saber por que perdeu a venda.”
+
+Essa headline deve ser o H1.
+
+Ela precisa ter grande destaque visual.
+
+Destacar visualmente:
+“sem saber por que perdeu a venda”
+
+-------------------------------------
+
+SUBHEADLINE:
+
+“Cole qualquer conversa. O Auditor Comercial IA identifica onde você perdeu o cliente, qual erro cometeu e qual pergunta poderia ter mudado o rumo da negociação.”
+
+-------------------------------------
+
+CTA PRINCIPAL:
+
+“Quero Auditar Minha Próxima Conversa”
+
+Microcopy abaixo:
+✓ Funciona para calls e WhatsApp  
+✓ Sem instalação  
+✓ Diagnóstico prático em poucos minutos  
+
+-------------------------------------
+
+LAYOUT DO HERO:
+
+Desktop:
+- Texto à esquerda
+- Notebook grande à direita
+- Notebook ocupando quase metade da primeira dobra
+- O olho do visitante deve ir imediatamente para o mockup
+
+Mobile:
+- Badge
+- Headline
+- Subheadline
+- CTA
+- Microcopy
+- Notebook logo abaixo
+
+==================================================
+MOCKUP DO NOTEBOOK — OBRIGATÓRIO
+==================================================
+
+O notebook precisa parecer uma prova viva do produto funcionando.
+
+Não pode parecer apenas uma interface bonita.
+
+Criar com imagem ou CSS puro.
+
+A tela do notebook deve mostrar:
+
+Topo:
+“AUDITORIA COMERCIAL IA”
+
+Status:
+“Conversa enviada...”
+
+Barra de progresso animada:
+██████████
+
+Status final:
+“✔ Diagnóstico concluído”
+
+Score:
+“SCORE DA CALL”
+“Diagnóstico: 38/100”
+
+Erro mais crítico:
+“Você apresentou a solução antes de descobrir a prioridade real do cliente.”
+
+Impacto:
+“Isso fez o cliente responder: ‘vou pensar’.”
+
+Pergunta que faltou:
+“O que faria essa decisão fazer sentido para você hoje?”
+
+Chance de recuperação:
+“Alta”
+
+Badge:
+“Erro crítico encontrado”
+
+Adicionar:
+- cards internos
+- barra de progresso
+- ícones pequenos
+- loading sutil
+- brilho discreto
+- sombra premium
+- bordas arredondadas
+- aparência SaaS/IA
+
+Objetivo:
+O visitante precisa entender em 3 segundos:
+
+“Eu colo minha conversa e isso mostra onde perdi a venda.”
+
+==================================================
+SEÇÃO 1 — DOR EMOCIONAL
+==================================================
+
+Título:
+“O pior não é perder a venda. É não saber onde você errou.”
+
+Subtítulo:
+“Todo vendedor já terminou uma call achando que foi bem… até o cliente sumir.”
+
+Texto:
+“Você desliga a call, entra no carro, abre o WhatsApp ou atualiza o CRM e fica tentando lembrar em qual momento a conversa esfriou.”
+
+Cards:
+- Você termina a call revendo mentalmente tudo que falou.
+- O cliente diz “vou pensar” e nunca mais responde.
+- Você acredita que perdeu por preço, mas não tem certeza.
+- A conversa parecia boa, mas não avançou.
+- Você sente que falou demais tentando convencer.
+- Você queria voltar cinco minutos e fazer outra pergunta.
+- Você abre o CRM e escreve “cliente vai pensar”, mas no fundo sabe que perdeu a venda.
+- Você nunca descobre em qual minuto perdeu autoridade.
+
+Fechamento:
+“O Destravador foi criado para encontrar exatamente esse ponto.”
+
+==================================================
+SEÇÃO 2 — CAUSA REAL
+==================================================
+
+Título:
+“Você não perde vendas no fechamento. Você perde no diagnóstico.”
+
+Texto:
+“A maioria dos vendedores tenta melhorar argumentos, respostas para objeções e técnicas de fechamento. Mas muitas vendas já morreram antes disso.”
+
+Explicação:
+“A venda começa a morrer quando a dor é explorada de forma rasa, a urgência não aparece, a prioridade não fica clara e o cliente não se sente compreendido.”
+
+Cards:
+1. Perguntas rasas
+“Você pergunta, mas não aprofunda.”
+
+2. Solução cedo demais
+“Você apresenta sua solução antes de entender o que realmente importa.”
+
+3. Objeção mal interpretada
+“Você responde preço, quando o problema pode ser insegurança, falta de prioridade ou baixa percepção de valor.”
+
+4. Diagnóstico fraco
+“Você tenta fechar sem ter criado clareza suficiente na cabeça do cliente.”
+
+Frase de impacto:
+“O ‘vou pensar’ normalmente não nasce no final da conversa. Ele nasce no momento em que o cliente deixou de se sentir compreendido.”
+
+==================================================
+SEÇÃO 3 — MECANISMO ÚNICO
+==================================================
+
+Título:
+“Um gerente comercial dentro do ChatGPT.”
+
+Subtítulo:
+“O Destravador transforma uma lógica real de auditoria comercial em um sistema com IA capaz de revisar suas conversas como um gerente experiente faria.”
+
+Texto:
+“Ele não apenas resume sua call. Ele procura o ponto de ruptura: o momento em que você perdeu força, falou demais, pulou etapas ou deixou de fazer a pergunta que revelaria a dor real.”
+
+Frase destacada:
+“Não é sobre falar melhor. É sobre diagnosticar melhor.”
+
+Comparativo:
+
+Vendedor comum:
+- Tenta convencer
+- Responde objeções rápido demais
+- Fala mais do que escuta
+- Apresenta solução cedo
+- Sai da call sem saber onde errou
+
+Vendedor com Auditor Comercial IA:
+- Identifica o ponto de ruptura
+- Entende a causa da objeção
+- Recebe perguntas melhores
+- Corrige a próxima abordagem
+- Termina a call sabendo o que melhorar
+
+==================================================
+SEÇÃO 4 — DEMONSTRAÇÃO PRÁTICA
+==================================================
+
+Título:
+“Veja como uma conversa perdida vira diagnóstico.”
+
+Subtítulo:
+“Em vez de decorar respostas prontas, você aprende a enxergar o que deveria ter sido diagnosticado antes da objeção aparecer.”
+
+Demonstração em 3 etapas:
+
+1. O cliente diz:
+“Está caro.”
+
+2. O Destravador identifica:
+“Preço não foi a causa principal. A objeção apareceu porque o valor não foi conectado à dor principal.”
+
+3. A pergunta sugerida:
+“Se esse problema continuar por mais seis meses, qual seria o impacto real para você?”
+
+Explicação:
+“Enquanto vendedores comuns tentam responder objeções, o Destravador mostra onde a conversa perdeu profundidade e qual pergunta poderia ter mudado o rumo da venda.”
+
+==================================================
+SEÇÃO 5 — AUTORIDADE / ORIGEM DO MÉTODO
+==================================================
+
+Essa seção precisa ser forte.
+
+Título:
+“Esse sistema não nasceu em uma sala de aula.”
+
+Subtítulo:
+“Ele nasceu revisando conversas reais de vendedores que precisavam bater meta.”
+
+Texto:
+“Durante anos, vendas importantes foram revisadas. Calls foram auditadas. Objeções foram estudadas. Perguntas foram corrigidas. Abordagens foram comparadas com aquilo que realmente fazia o cliente avançar.”
+
+Complemento:
+“Foi assim que nasceu uma lógica interna de auditoria comercial. Agora essa mesma lógica foi organizada em um sistema apoiado por IA para que você possa aplicar nas suas próprias conversas.”
+
+Bloco destaque:
+“O Destravador nasceu no campo de batalha comercial — não em teoria, não em achismo, não em frases prontas.”
+
+Timeline visual:
+1. Calls reais analisadas
+2. Objeções mapeadas
+3. Erros comerciais identificados
+4. Perguntas corrigidas
+5. Padrões de avanço reconhecidos
+6. Lógica transformada em Auditor Comercial IA
+
+Adicionar nota responsável:
+“Baseado em um processo real usado em uma operação comercial com mais de R$ 50 milhões em vendas acumuladas.”
+
+==================================================
+SEÇÃO 6 — O QUE A IA PROCURA
+==================================================
+
+Título:
+“O que o Auditor Comercial IA procura na sua conversa?”
+
+Subtítulo:
+“Ele analisa sinais que normalmente passam despercebidos pelo vendedor.”
+
+Cards:
+- Onde você perdeu o cliente
+- Onde você falou demais
+- Onde faltou diagnóstico
+- Onde a objeção nasceu
+- Qual pergunta poderia mudar o rumo
+- Onde você perdeu autoridade
+
+Descrições:
+“Identifica o ponto exato em que a conversa deixou de gerar avanço.”
+“Mostra quando você tentou convencer antes de entender.”
+“Aponta perguntas que deveriam ter sido feitas para aprofundar dor, urgência e prioridade.”
+“Revela se o ‘vou pensar’ apareceu por preço, insegurança, falta de clareza ou baixa percepção de valor.”
+“Sugere perguntas melhores para reconduzir a conversa com naturalidade.”
+“Mostra quando sua condução deixou de gerar confiança.”
+
+==================================================
+SEÇÃO 7 — O QUE VOCÊ RECEBE
+==================================================
+
+Título:
+“O que está incluído no Destravador”
+
+Subtítulo:
+“Tudo que você precisa para transformar conversas perdidas em aprendizado prático para a próxima venda.”
+
+Cards:
+1. Auditor Comercial IA
+“Analise calls, mensagens de WhatsApp e abordagens comerciais com base em uma lógica real de auditoria.”
+
+2. Prompt Mestre de Diagnóstico
+“O comando estruturado para fazer a IA agir como um gerente comercial experiente revisando sua conversa.”
+
+3. Protocolo de Correção de Calls
+“O passo a passo para encontrar erros de abordagem, diagnóstico, condução e fechamento.”
+
+4. Biblioteca de Perguntas de Alto Impacto
+“Para você nunca mais ficar sem saber o que perguntar quando a conversa trava.”
+
+5. Biblioteca de Objeções
+“Entenda o que existe por trás de ‘está caro’, ‘vou pensar’, ‘preciso falar com alguém’ e outras objeções comuns.”
+
+6. Guia de Aplicação no WhatsApp e Call
+“Aprenda a usar o sistema tanto em ligações quanto em conversas por mensagem.”
+
+==================================================
+SEÇÃO 8 — DIFERENCIAÇÃO
+==================================================
+
+Título:
+“Por que isso é diferente de um prompt genérico?”
+
+Subtítulo:
+“Um prompt genérico responde. O Destravador audita.”
+
+Comparativo:
+
+Prompt genérico:
+- Dá respostas superficiais
+- Analisa sem contexto comercial
+- Foca em frases bonitas
+- Não entende onde a venda morreu
+- Não segue lógica de auditoria
+- Parece útil, mas não corrige sua condução
+
+Destravador:
+- Analisa com lógica comercial real
+- Identifica o erro de diagnóstico
+- Mostra a pergunta que faltou
+- Aponta o ponto de ruptura
+- Ajuda a corrigir a próxima abordagem
+- Funciona como um gerente comercial revisando sua call
+
+==================================================
+SEÇÃO 9 — BENEFÍCIOS TRANSFORMACIONAIS
+==================================================
+
+Título:
+“O que muda na prática?”
+
+Subtítulo:
+“Você para de vender no escuro.”
+
+Cards:
+- Descubra exatamente onde perdeu autoridade.
+- Pare de responder objeções no automático.
+- Saiba qual pergunta fazer quando o cliente trava.
+- Termine cada call sabendo o que melhorar.
+- Transforme conversas perdidas em aprendizado prático.
+- Corrija sua abordagem antes da próxima oportunidade.
+- Venda com mais clareza, menos ansiedade e mais controle.
+- Pare de depender apenas da intuição.
+
+==================================================
+SEÇÃO 10 — OFERTA
+==================================================
+
+Título:
+“Você não está comprando informação. Está comprando clareza comercial.”
+
+Texto:
+“Uma única conversa melhor conduzida pode recuperar o investimento. O objetivo do Destravador é fazer você parar de vender por tentativa e erro e começar a corrigir suas abordagens com base em diagnóstico.”
+
+Incluir:
+- Acesso ao Auditor Comercial IA
+- Prompt Mestre
+- Protocolo de Correção de Calls
+- Biblioteca de Perguntas
+- Biblioteca de Objeções
+- Guia para WhatsApp e Calls
+- Garantia de 7 dias
+
+CTA:
+“Quero Acessar o Destravador Agora”
+
+Microcopy:
+“Compra segura • Acesso imediato • Garantia de 7 dias”
+
+==================================================
+GARANTIA
+==================================================
+
+Título:
+“Teste por 7 dias sem risco.”
+
+Texto:
+“Se você acessar o Destravador e sentir que ele não te ajuda a enxergar suas conversas de vendas com mais clareza, basta solicitar o reembolso dentro do prazo de garantia.”
+
+==================================================
+FAQ
+==================================================
+
+Criar FAQ com accordion Bootstrap.
+
+Perguntas:
+1. Isso é um curso?
+2. Preciso saber usar IA?
+3. Funciona para WhatsApp?
+4. Funciona para ligação?
+5. Serve para qualquer tipo de venda?
+6. Isso substitui treinamento comercial?
+7. Tenho garantia?
+
+Respostas:
+“Não. É um sistema de auditoria comercial com IA. O objetivo é analisar conversas e entregar diagnóstico prático.”
+
+“Não. Você recebe o comando estruturado e o passo a passo para aplicar.”
+
+“Sim. Você pode usar em conversas de WhatsApp, calls transcritas, abordagens e follow-ups.”
+
+“Sim. Basta transcrever ou resumir a call e inserir no sistema conforme o passo a passo.”
+
+“Funciona melhor para vendas consultivas, high ticket, B2B, serviços, mentorias, infoprodutos e negociações onde existe conversa antes da decisão.”
+
+“Não. Ele funciona como uma ferramenta prática de correção e melhoria contínua das suas conversas.”
+
+“Sim. Você tem 7 dias de garantia.”
+
+==================================================
+CTA FINAL
+==================================================
+
+Título:
+“Antes de perder mais uma venda sem saber o motivo, audite sua próxima conversa.”
+
+Subtítulo:
+“O Destravador mostra o ponto exato onde sua abordagem perdeu força — e qual pergunta poderia ter mudado o rumo da venda.”
+
+Botão:
+“Quero Auditar Minha Próxima Conversa”
+
+==================================================
+DESIGN
+==================================================
+
+Referências:
+Stripe, Apple, Notion, Linear, Vercel, Framer.
+
+Estilo:
+- SaaS premium
+- IA moderna
+- minimalista
+- elegante
+- tecnológico
+- sofisticado
+- nada de página de afiliado
+
+Aplicar:
+- Inter
+- muito espaço em branco
+- cards premium
+- sombras suaves
+- bordas arredondadas
+- gradientes discretos
+- ícones modernos
+- microanimações no scroll
+- hover elegante
+- botões com profundidade
+- seções com ritmo visual
+- hierarquia forte
+- fundo claro com detalhes tecnológicos sutis
+
+==================================================
+MOBILE
+==================================================
+
+No mobile:
+- Headline com quebra perfeita
+- CTA visível rápido
+- Notebook logo após CTA
+- Sticky footer com botão “Auditar conversa”
+- Cards empilhados
+- Textos curtos
+- Excelente legibilidade
+- Scroll agradável
+- Mockup grande o suficiente para ser entendido
+
+==================================================
+TÉCNICO
+==================================================
+
+Usar:
+- HTML5
+- Bootstrap 5 via CDN
+- CSS puro
+- JavaScript puro
+
+Garantir:
+- HTML semântico
+- H1 único
+- H2 bem distribuídos
+- Meta title
+- Meta description
+- Open Graph
+- Schema Product
+- Schema FAQ
+- Lazy loading
+- CSS otimizado
+- JS leve
+- PageSpeed acima de 90
+- Responsividade completa
+- Acessibilidade básica
+- Alt text em imagens
+- aria-label nos botões principais
+
+==================================================
+ENTREGA FINAL
+==================================================
+
+Aplicar as mudanças no código atual.
+
+Prioridades absolutas:
+
+1. Página pensada para tráfego frio.
+2. Ordem: dor → causa → mecanismo → solução.
+3. Hero com dor emocional como headline.
+4. Badge dos R$ 50 milhões como autoridade, não como promessa principal.
+5. Notebook grande como prova visual.
+6. Mockup mostrando o produto funcionando.
+7. Mais emoção e menos explicação técnica.
+8. Vender “um gerente comercial dentro do ChatGPT”, não “uma IA”.
+9. Transformar benefícios em clareza, controle e correção prática.
+10. Fazer o visitante pensar: “isso acontece comigo e eu preciso testar na próxima conversa.”

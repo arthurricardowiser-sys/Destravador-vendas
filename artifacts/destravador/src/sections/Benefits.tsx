@@ -1,77 +1,76 @@
 import React from 'react';
-import { Target, Microscope, ShieldCheck, HelpCircle, MessageCircleHeart, TrendingUp } from 'lucide-react';
+import { Target, MessageSquareOff, HelpCircle, TrendingUp, BookOpen, RotateCcw, Brain, ShieldOff } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
-import { ButtonCTA } from '@/components/ButtonCTA';
 
 const benefits = [
   {
-    icon: <Target className="w-8 h-8 text-primary" />,
-    title: "Fim da venda por tentativa e erro",
-    description: "Pare de adivinhar o que deu errado. Tenha clareza matemática do motivo da perda de cada negociação."
+    icon: <Target className="w-7 h-7 text-primary" />,
+    text: 'Descubra exatamente onde perdeu autoridade.',
   },
   {
-    icon: <Microscope className="w-8 h-8 text-accent" />,
-    title: "Diagnóstico preciso",
-    description: "Encontre os gargalos invisíveis no seu discurso que estão afastando os clientes."
+    icon: <MessageSquareOff className="w-7 h-7 text-orange-500" />,
+    text: 'Pare de responder objeções no automático.',
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-primary" />,
-    title: "Mais confiança em negociações",
-    description: "Quando você sabe exatamente como diagnosticar, nenhuma objeção te pega de surpresa."
+    icon: <HelpCircle className="w-7 h-7 text-accent" />,
+    text: 'Saiba qual pergunta fazer quando o cliente trava.',
   },
   {
-    icon: <HelpCircle className="w-8 h-8 text-accent" />,
-    title: "Perguntas que revelam a dor",
-    description: "Aprenda o arsenal de perguntas que faz o cliente vender para si mesmo."
+    icon: <TrendingUp className="w-7 h-7 text-purple-500" />,
+    text: 'Termine cada call sabendo o que melhorar.',
   },
   {
-    icon: <MessageCircleHeart className="w-8 h-8 text-primary" />,
-    title: "Conversas que criam conexão",
-    description: "Saia do roteiro engessado e crie um relacionamento de confiança em minutos."
+    icon: <BookOpen className="w-7 h-7 text-yellow-600" />,
+    text: 'Transforme conversas perdidas em aprendizado prático.',
   },
   {
-    icon: <TrendingUp className="w-8 h-8 text-accent" />,
-    title: "Mais conversões sem pressão",
-    description: "Venda diagnosticando, não empurrando. O fechamento torna-se a consequência natural."
-  }
+    icon: <RotateCcw className="w-7 h-7 text-rose-500" />,
+    text: 'Corrija sua abordagem antes da próxima oportunidade.',
+  },
+  {
+    icon: <Brain className="w-7 h-7 text-primary" />,
+    text: 'Venda com mais clareza, menos ansiedade e mais controle.',
+  },
+  {
+    icon: <ShieldOff className="w-7 h-7 text-muted-foreground" />,
+    text: 'Pare de depender apenas da intuição.',
+  },
 ];
 
 export function Benefits() {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden">
-      {/* Decorative background blobs */}
-      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[400px] h-[400px] rounded-full bg-primary/5 blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] rounded-full bg-accent/5 blur-3xl"></div>
+      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[400px] h-[400px] rounded-full bg-primary/5 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] rounded-full bg-accent/5 blur-3xl pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto relative z-10">
-        <FadeIn className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            O que muda depois do Destravador
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A transformação de um "tirador de pedidos" para um "diagnosticar consultivo" que os clientes respeitam.
-          </p>
+      <div className="max-w-5xl mx-auto relative z-10">
+
+        {/* Header */}
+        <FadeIn>
+          <div className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              O que muda na prática?
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground">
+              Você para de vender no escuro.
+            </p>
+          </div>
         </FadeIn>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {benefits.map((benefit, index) => (
-            <FadeIn key={index} delay={index * 0.1}>
-              <div className="glass-card p-8 rounded-2xl h-full border border-border/50 hover:border-primary/30 transition-colors group">
-                <div className="mb-6 p-4 bg-muted/50 rounded-xl inline-block group-hover:scale-110 transition-transform">
-                  {benefit.icon}
+        {/* 8 benefit cards — 2 col grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {benefits.map((b, i) => (
+            <FadeIn key={i} delay={i * 0.07}>
+              <div className="bg-card border border-border rounded-2xl p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 transition-all group">
+                <div className="bg-muted p-3 rounded-xl group-hover:scale-105 transition-transform flex-shrink-0">
+                  {b.icon}
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-3">{benefit.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
+                <p className="text-sm font-semibold text-foreground leading-snug">{b.text}</p>
               </div>
             </FadeIn>
           ))}
         </div>
 
-        <FadeIn delay={0.6} className="mt-16 text-center">
-          <ButtonCTA href="#oferta" className="px-8 py-4">
-            Quero ter esses resultados na prática
-          </ButtonCTA>
-        </FadeIn>
       </div>
     </section>
   );

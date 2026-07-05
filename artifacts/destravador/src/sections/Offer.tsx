@@ -4,13 +4,12 @@ import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
 const included = [
-  'Auditor Comercial com IA',
+  'Acesso ao Auditor Comercial IA',
   'Prompt Mestre de Diagnóstico',
   'Protocolo de Correção de Calls',
   'Biblioteca de Perguntas de Alto Impacto',
   'Biblioteca de Objeções',
   'Guia de Aplicação no WhatsApp e Call',
-  'Atualizações futuras inclusas',
   'Garantia incondicional de 7 dias',
 ];
 
@@ -33,14 +32,15 @@ export function Offer() {
 
             {/* Value block */}
             <FadeIn delay={0.05}>
-              <div className="mb-10 p-6 rounded-2xl bg-muted/50 border border-border text-center">
-                <p className="text-base font-semibold text-foreground mb-2">
-                  Você não está comprando informação. Está comprando clareza comercial.
-                </p>
-                <p className="text-sm text-muted-foreground leading-relaxed max-w-xl mx-auto">
+              <div className="mb-10 text-center">
+                <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+                  Você não está comprando informação.{' '}
+                  <span className="text-primary">Está comprando clareza comercial.</span>
+                </h2>
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-xl mx-auto">
                   Uma única conversa melhor conduzida pode recuperar o investimento. O objetivo do
-                  Destravador é fazer você parar de vender por tentativa e erro e começar a
-                  corrigir suas abordagens com base em diagnóstico.
+                  Destravador é fazer você parar de vender por tentativa e erro e começar a corrigir
+                  suas abordagens com base em diagnóstico.
                 </p>
               </div>
             </FadeIn>
@@ -71,7 +71,11 @@ export function Offer() {
 
             {/* CTA */}
             <div className="flex justify-center mb-6">
-              <ButtonCTA href="#" className="w-full sm:w-auto px-12 py-5 text-lg">
+              <ButtonCTA
+                href="#"
+                aria-label="Quero acessar o Destravador agora"
+                className="w-full sm:w-auto px-12 py-5 text-lg"
+              >
                 Quero Acessar o Destravador Agora <ArrowRight className="w-5 h-5 ml-2" />
               </ButtonCTA>
             </div>

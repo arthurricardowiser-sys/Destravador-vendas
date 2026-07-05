@@ -6,7 +6,6 @@ import { FadeIn } from '@/components/FadeIn';
 export function FinalCTA() {
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8 bg-foreground text-background relative overflow-hidden">
-      {/* Glows */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-primary/20 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[100px] pointer-events-none" />
 
@@ -23,6 +22,7 @@ export function FinalCTA() {
           <div className="flex justify-center mb-8">
             <ButtonCTA
               href="#oferta"
+              aria-label="Quero auditar minha próxima conversa"
               className="px-12 py-6 text-xl shadow-[0_0_40px_rgba(34,197,94,0.3)]"
             >
               Quero Auditar Minha Próxima Conversa <ArrowRight className="w-6 h-6 ml-2" />

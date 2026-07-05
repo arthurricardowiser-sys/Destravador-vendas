@@ -4,18 +4,17 @@ import NotFound from '@/pages/not-found';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { MobileStickyCTA } from '@/components/MobileStickyCTA';
 
-// Sections — in narrative order
+// Sections — DOR → CAUSA → MECANISMO → SOLUÇÃO → CONVICÇÃO → OFERTA
 import { Hero } from '@/sections/Hero';
+import { Pain } from '@/sections/Pain';
+import { CausaReal } from '@/sections/CausaReal';
+import { MecanismoUnico } from '@/sections/MecanismoUnico';
+import { Demo } from '@/sections/Demo';
 import { OrigemReal } from '@/sections/OrigemReal';
 import { WhyItWorks } from '@/sections/WhyItWorks';
-import { Demo } from '@/sections/Demo';
-import { Pain } from '@/sections/Pain';
-import { TheTruth } from '@/sections/TheTruth';
-import { Presentation } from '@/sections/Presentation';
-import { HowItWorks } from '@/sections/HowItWorks';
-import { Benefits } from '@/sections/Benefits';
 import { WhatYouGet } from '@/sections/WhatYouGet';
 import { UniqueAngle } from '@/sections/UniqueAngle';
+import { Benefits } from '@/sections/Benefits';
 import { Testimonials } from '@/sections/Testimonials';
 import { Offer } from '@/sections/Offer';
 import { Guarantee } from '@/sections/Guarantee';
@@ -26,60 +25,55 @@ import { Footer } from '@/sections/Footer';
 function LandingPage() {
   return (
     <main className="w-full flex flex-col bg-background min-h-[100dvh]">
-      {/* Global CRO components */}
       <ReadingProgress />
 
-      {/* 1. Hero — first fold, product promise + laptop mockup */}
+      {/* Hero — identificação imediata para tráfego frio */}
       <Hero />
 
-      {/* 2. Origem Real — "não nasceu em uma sala de aula" — credencial de campo */}
-      <OrigemReal />
-
-      {/* 3. What the AI looks for — 5 analysis cards */}
-      <WhyItWorks />
-
-      {/* 4. Demo — conversation lost → diagnosis */}
-      <Demo />
-
-      {/* 5. Pain — "O pior não é perder a venda. É não saber onde você errou." */}
+      {/* 1. DOR — "O pior não é perder a venda. É não saber onde você errou." */}
       <Pain />
 
-      {/* 6. The Truth — reframe the real problem */}
-      <TheTruth />
+      {/* 2. CAUSA — "Você não perde vendas no fechamento. Você perde no diagnóstico." */}
+      <CausaReal />
 
-      {/* 7. Presentation — introduce the product */}
-      <Presentation />
+      {/* 3. MECANISMO — "Um gerente comercial dentro do ChatGPT." */}
+      <MecanismoUnico />
 
-      {/* 8. How It Works — 5-step process */}
-      <HowItWorks />
+      {/* 4. DEMONSTRAÇÃO — conversa perdida vira diagnóstico */}
+      <Demo />
 
-      {/* 9. Benefits — transformation outcomes */}
-      <Benefits />
+      {/* 5. AUTORIDADE — origem do método */}
+      <OrigemReal />
 
-      {/* 10. What You Get — 6 deliverable cards */}
+      {/* 6. O QUE A IA PROCURA — 6 análises */}
+      <WhyItWorks />
+
+      {/* 7. O QUE VOCÊ RECEBE — 6 entregáveis */}
       <WhatYouGet />
 
-      {/* 11. Unique Angle — vs generic prompt comparison */}
+      {/* 8. DIFERENCIAÇÃO — vs prompt genérico */}
       <UniqueAngle />
 
-      {/* 12. Testimonials — social proof */}
+      {/* 9. BENEFÍCIOS — o que muda na prática */}
+      <Benefits />
+
+      {/* CONVICÇÃO — prova social */}
       <Testimonials />
 
-      {/* 13. Offer — price and CTA */}
+      {/* 10. OFERTA */}
       <Offer />
 
-      {/* 14. Guarantee — risk reversal */}
+      {/* GARANTIA */}
       <Guarantee />
 
-      {/* 15. FAQ — objection handling */}
+      {/* FAQ */}
       <FAQ />
 
-      {/* 16. Final CTA — last push */}
+      {/* CTA FINAL */}
       <FinalCTA />
 
       <Footer />
 
-      {/* Mobile sticky CTA */}
       <MobileStickyCTA />
     </main>
   );
