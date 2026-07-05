@@ -1,0 +1,319 @@
+Quero que você revise e atualize a landing page atual do produto “Destravador de Vendas de Alta Conversão”, mantendo o design premium, mas aumentando a clareza da oferta, o desejo e a conversão.
+
+IMPORTANTE:
+Não refaça a página do zero se não for necessário. Aplique melhorias estratégicas na estrutura atual, principalmente na primeira dobra, copy, CTAs, demonstração visual e valor percebido.
+
+OBJETIVO DA PÁGINA:
+Fazer o visitante entender rapidamente que o Destravador não é um curso, nem uma mentoria. É um Sistema Inteligente de Diagnóstico Comercial com IA que ajuda vendedores a analisarem conversas, identificarem onde a venda começou a morrer e descobrirem qual pergunta deveriam ter feito para revelar a dor real do cliente.
+
+TOM DE VOZ:
+Direto, sofisticado, consultivo, profissional e empático.
+Evitar gatilhos baratos, promessas exageradas, escassez falsa e linguagem de afiliado.
+
+==================================================
+1. ATUALIZAR A PRIMEIRA DOBRA / HERO
+==================================================
+
+Substituir a headline atual por esta:
+
+“Descubra exatamente onde sua venda começou a morrer antes do cliente dizer ‘vou pensar’.”
+
+A headline deve ter hierarquia visual forte, com destaque em palavras-chave como:
+“onde sua venda começou a morrer”
+e
+“antes do cliente dizer ‘vou pensar’”
+
+Substituir a subheadline por:
+
+“O Destravador usa Inteligência Artificial para analisar suas conversas, identificar seus erros de diagnóstico e mostrar exatamente qual pergunta deveria ter sido feita.”
+
+Adicionar acima da headline uma tag pequena/pill:
+
+“Sistema Inteligente de Diagnóstico Comercial com IA”
+
+Atualizar o botão principal para:
+
+“Quero Receber Meu Diagnóstico Comercial”
+
+Botão verde vibrante, com hover, sombra suave e microanimação.
+
+Abaixo do botão, substituir as provas atuais por microcopy mais clara:
+
+✓ Funciona com ChatGPT  
+✓ Sem instalação  
+✓ Primeiro diagnóstico em menos de 5 minutos  
+
+Remover ou reduzir destaque de números genéricos como “2.847 profissionais”, para evitar aparência de prova social artificial.
+
+==================================================
+2. ADICIONAR MOCKUP VISUAL DO PRODUTO NO HERO
+==================================================
+
+Na primeira dobra, criar um mockup premium do produto funcionando.
+
+No desktop, o layout deve ter:
+- Texto à esquerda
+- Mockup à direita
+
+No mobile, o mockup deve aparecer abaixo do CTA.
+
+O mockup deve parecer uma interface moderna, estilo SaaS/IA, contendo:
+
+Bloco 1:
+“Conversa analisada”
+
+Exemplo:
+Cliente: “Achei interessante, mas vou pensar e te retorno.”
+
+Bloco 2:
+“Erro identificado pela IA”
+
+Texto:
+“Você tentou contornar a objeção antes de entender o critério real de decisão do cliente.”
+
+Bloco 3:
+“Pergunta sugerida”
+
+Texto:
+“O que precisaria ficar claro para você sentir segurança em avançar hoje?”
+
+Bloco 4:
+“Próxima ação”
+
+Texto:
+“Volte ao diagnóstico antes de apresentar novos argumentos.”
+
+Esse mockup deve ter cards, bordas arredondadas, sombra suave, ícones pequenos e aparência premium.
+
+==================================================
+3. ADICIONAR SEÇÃO DE DEMONSTRAÇÃO LOGO APÓS O HERO
+==================================================
+
+Criar uma seção chamada:
+
+“Veja o Destravador em ação”
+
+Subtítulo:
+
+“Em vez de decorar respostas prontas, você aprende a enxergar o ponto exato onde a conversa perdeu força.”
+
+Criar um exemplo visual em 3 colunas ou cards:
+
+Card 1 — O que o cliente disse:
+“Está caro.”
+
+Card 2 — O que a IA encontrou:
+“Você apresentou valor antes de entender prioridade, urgência e consequência.”
+
+Card 3 — A pergunta certa:
+“O que faria esse investimento valer a pena para você neste momento?”
+
+Adicionar pequena explicação abaixo:
+
+“O objetivo não é forçar o fechamento. É voltar ao ponto da conversa onde o cliente ainda não se sentiu compreendido.”
+
+==================================================
+4. ADICIONAR SEÇÃO “O QUE VOCÊ ESTÁ COMPRANDO?”
+==================================================
+
+Criar uma seção clara para eliminar dúvida sobre o produto.
+
+Título:
+
+“O que você está comprando de verdade?”
+
+Texto:
+
+“Você não está comprando um PDF genérico. Está acessando um sistema prático de auditoria comercial para usar com IA e transformar conversas perdidas em diagnósticos mais inteligentes.”
+
+Cards:
+
+1. Prompt Mestre do Auditor Comercial
+Descrição:
+“Um comando estruturado para fazer a IA analisar suas conversas como um mentor de vendas consultivas.”
+
+2. Protocolo de Diagnóstico
+Descrição:
+“O passo a passo para identificar onde a venda travou: dor, urgência, prioridade, autoridade ou confiança.”
+
+3. Biblioteca de Perguntas Estratégicas
+Descrição:
+“Perguntas para aprofundar a dor do cliente sem parecer forçado, robótico ou insistente.”
+
+4. Biblioteca de Objeções
+Descrição:
+“Estrutura para entender objeções como sintomas de um diagnóstico incompleto.”
+
+5. Guia de Aplicação Prática
+Descrição:
+“Como usar o sistema antes, durante e depois das suas conversas comerciais.”
+
+==================================================
+5. MELHORAR A SEÇÃO DE DOR
+==================================================
+
+Atualizar a seção “Você se identifica?” com copy mais forte.
+
+Título:
+
+“Você talvez não tenha um problema de fechamento.”
+
+Subtítulo:
+
+“Talvez você esteja tentando fechar uma venda que nunca foi diagnosticada de verdade.”
+
+Cards de dor:
+
+- O cliente diz “vou pensar” e desaparece
+- Você sente que fala demais para tentar convencer
+- A conversa parece boa, mas não avança
+- Você responde objeções sem entender a causa
+- O cliente elogia, mas não compra
+- Você sai da call sem saber onde errou
+
+Adicionar frase de transição:
+
+“A maioria tenta melhorar o fechamento. Mas a venda geralmente começa a morrer muito antes: no diagnóstico.”
+
+==================================================
+6. REFORÇAR MECANISMO ÚNICO
+==================================================
+
+Adicionar uma seção curta chamada:
+
+“Por que isso funciona?”
+
+Texto principal:
+
+“As pessoas não compram porque você fala bem. Elas compram quando se sentem compreendidas.”
+
+Complemento:
+
+“O Destravador usa IA para mostrar onde sua conversa perdeu profundidade, qual ponto emocional não foi explorado e qual pergunta poderia ter aberto o verdadeiro motivo de compra.”
+
+Criar 3 cards:
+
+1. Menos discurso
+“Pare de tentar convencer com argumentos longos.”
+
+2. Mais diagnóstico
+“Aprenda a encontrar o que realmente impede o cliente de avançar.”
+
+3. Perguntas melhores
+“Receba sugestões práticas para conduzir a conversa com mais profundidade.”
+
+==================================================
+7. MELHORAR A OFERTA
+==================================================
+
+Antes do preço, adicionar um bloco de valor percebido:
+
+“Você não está pagando por informação. Está pagando por clareza comercial.”
+
+Texto:
+
+“Uma única conversa melhor conduzida pode recuperar o investimento. O objetivo do Destravador é fazer você parar de vender por tentativa e erro.”
+
+Na oferta, destacar:
+
+- Acesso ao sistema
+- Prompt Mestre
+- Protocolos
+- Bibliotecas
+- Atualizações futuras, se houver
+- Garantia de 7 dias
+
+Botão da oferta:
+
+“Quero Acessar o Destravador Agora”
+
+Adicionar microcopy abaixo:
+
+“Compra segura • Acesso imediato • Garantia de 7 dias”
+
+==================================================
+8. MELHORAR CTA FINAL
+==================================================
+
+Substituir CTA final por:
+
+Título:
+
+“Antes de tentar convencer mais um cliente, descubra onde sua conversa está falhando.”
+
+Subtítulo:
+
+“O Destravador ajuda você a transformar cada conversa perdida em aprendizado prático para vender melhor na próxima oportunidade.”
+
+Botão:
+
+“Quero Diagnosticar Minhas Vendas”
+
+==================================================
+9. AJUSTES DE DESIGN
+==================================================
+
+Manter estilo premium, minimalista e moderno.
+
+Referências visuais:
+Stripe, Apple, Notion, Linear, Vercel.
+
+Aplicar:
+- Espaço em branco
+- Cards com sombras suaves
+- Bordas arredondadas
+- Gradientes sutis
+- Ícones modernos
+- Layout limpo
+- Hierarquia forte
+- Animações suaves no scroll
+- Hover elegante nos botões e cards
+
+A headline não deve parecer pesada demais. Criar contraste visual entre partes da frase, usando variação de peso, cor ou gradiente discreto.
+
+==================================================
+10. MOBILE
+==================================================
+
+No mobile:
+- Headline deve quebrar bem
+- CTA deve aparecer sem precisar rolar muito
+- Mockup deve ficar abaixo do CTA
+- Adicionar sticky footer com botão:
+“Diagnosticar agora”
+- Evitar blocos muito longos
+- Cards devem ficar empilhados
+
+==================================================
+11. SEO E PERFORMANCE
+==================================================
+
+Garantir:
+- HTML semântico
+- H1 único
+- H2 bem distribuídos
+- Meta title
+- Meta description
+- Open Graph
+- Schema Product
+- Schema FAQ
+- Lazy loading nas imagens
+- Código limpo
+- PageSpeed acima de 90
+
+==================================================
+12. ENTREGA
+==================================================
+
+Aplicar todas essas mudanças no código atual.
+
+Separar bem:
+- HTML
+- CSS
+- JavaScript
+
+Comentar cada seção principal.
+
+Manter responsividade completa.
+
+O resultado final deve parecer uma landing page premium de um produto digital de vendas com inteligência artificial, com clareza imediata do mecanismo, alto valor percebido e copy mais sedutora.
