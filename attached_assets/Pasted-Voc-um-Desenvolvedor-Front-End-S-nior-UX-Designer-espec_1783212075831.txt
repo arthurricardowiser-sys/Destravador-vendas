@@ -1,0 +1,541 @@
+Você é um Desenvolvedor Front-End Sênior, UX Designer especialista em CRO (Conversion Rate Optimization), Copywriter de Direct Response e Product Designer especializado em páginas de vendas de alta conversão.
+
+Seu objetivo é criar uma Landing Page Premium para um produto digital chamado:
+
+# DESTRAVADOR DE VENDAS DE ALTA CONVERSÃO
+
+O resultado NÃO deve parecer uma página pronta de afiliado.
+
+Ela deve transmitir a sensação de um software premium, uma ferramenta profissional criada para vendedores consultivos.
+
+A página precisa parecer desenvolvida por uma agência especializada em CRO de alto nível.
+
+A experiência visual deve transmitir:
+
+• Autoridade
+• Inteligência
+• Clareza
+• Simplicidade
+• Tecnologia
+• Confiança
+• Sofisticação
+
+A sensação do usuário ao entrar na página deve ser:
+
+"Finalmente encontrei algo realmente diferente de mais um curso de vendas."
+
+--------------------------------------------------
+
+# SOBRE O PRODUTO
+
+O Destravador de Vendas de Alta Conversão NÃO é um curso.
+
+Não é uma mentoria.
+
+Não é um treinamento gravado.
+
+É um Sistema Inteligente de Diagnóstico Comercial baseado em IA.
+
+O produto ensina vendedores a utilizar Inteligência Artificial como um mentor comercial para analisar conversas de vendas, identificar erros de diagnóstico e sugerir perguntas capazes de revelar a verdadeira dor emocional do cliente.
+
+Enquanto vendedores comuns tentam convencer...
+
+...o Destravador ensina a descobrir o motivo pelo qual o cliente realmente compra.
+
+O sistema foi desenvolvido após anos estudando técnicas de venda consultiva, psicologia da decisão, SPIN Selling, Challenger Sale, Sandler, análise de calls comerciais e padrões de conversão.
+
+Seu objetivo é transformar vendedores que falam demais em profissionais que conduzem conversas através de perguntas inteligentes.
+
+--------------------------------------------------
+
+# PÚBLICO
+
+A página é destinada para:
+
+• Closers
+
+• SDRs
+
+• Executivos comerciais
+
+• Consultores
+
+• Corretores
+
+• Vendedores B2B
+
+• Infoprodutores
+
+• Prestadores de serviço
+
+• Profissionais que fazem vendas consultivas
+
+Faixa etária:
+
+23 a 45 anos.
+
+--------------------------------------------------
+
+# PRINCIPAL DOR
+
+O visitante normalmente pensa:
+
+"Tenho conhecimento..."
+
+"Estudo vendas..."
+
+"Mas continuo perdendo negócios."
+
+Ele frequentemente escuta:
+
+"Vou pensar."
+
+"Depois eu vejo."
+
+"Agora não."
+
+"Está caro."
+
+"Preciso conversar com meu sócio."
+
+Ele acredita que o problema é a objeção.
+
+Mas a página deve mostrar que o problema começou muito antes:
+
+No diagnóstico.
+
+--------------------------------------------------
+
+# MECANISMO ÚNICO
+
+Toda comunicação deve reforçar que:
+
+As pessoas não compram porque você fala bem.
+
+Elas compram quando se sentem compreendidas.
+
+O Destravador utiliza IA para encontrar exatamente onde a venda começou a morrer.
+
+Depois ensina exatamente qual pergunta deveria ter sido feita naquele momento.
+
+Esse é o mecanismo único.
+
+Nunca apresentar como curso.
+
+Sempre como Sistema de Diagnóstico.
+
+--------------------------------------------------
+
+# TECNOLOGIAS
+
+Utilizar apenas:
+
+HTML5
+
+Bootstrap 5 CDN
+
+CSS puro
+
+JavaScript puro
+
+Sem frameworks.
+
+Sem bibliotecas pesadas.
+
+Código altamente organizado.
+
+Arquivos separados.
+
+Comentários em todas as seções.
+
+Componentes reutilizáveis.
+
+--------------------------------------------------
+
+# DESIGN
+
+Inspirado em:
+
+Stripe
+
+Apple
+
+Linear
+
+Notion
+
+Vercel
+
+Framer
+
+Arc Browser
+
+Visual extremamente moderno.
+
+Muito espaço em branco.
+
+Cards premium.
+
+Bordas arredondadas.
+
+Gradientes suaves.
+
+Glassmorphism leve.
+
+Microinterações elegantes.
+
+Animações discretas.
+
+Scroll extremamente agradável.
+
+Nada poluído.
+
+Nada exagerado.
+
+--------------------------------------------------
+
+# PALETA
+
+Branco predominante
+
+Cinza claro
+
+Cinza escuro
+
+Preto
+
+Verde apenas para CTAs
+
+Azul discreto para detalhes
+
+--------------------------------------------------
+
+# TIPOGRAFIA
+
+Google Fonts
+
+Inter
+
+Hierarquia impecável.
+
+Excelente contraste.
+
+Alta legibilidade.
+
+--------------------------------------------------
+
+# EXPERIÊNCIA
+
+A página deve ser extremamente fluida.
+
+Criar sensação de progresso durante a leitura.
+
+Cada bloco deve preparar psicologicamente o próximo.
+
+Adicionar animações suaves de entrada conforme o scroll.
+
+Adicionar hover elegante.
+
+Adicionar estados de foco.
+
+Adicionar transições suaves.
+
+--------------------------------------------------
+
+# ESTRUTURA
+
+## 1 HERO
+
+Headline:
+
+Pare de ser o vendedor que fala, fala... e não fecha.
+
+Subheadline:
+
+Use o Destravador de Vendas para descobrir a verdadeira dor do cliente antes mesmo de apresentar sua solução.
+
+Adicionar mockup premium do produto.
+
+Adicionar botão CTA.
+
+Adicionar pequenos indicadores de confiança.
+
+--------------------------------------------------
+
+## 2 DOR
+
+Título:
+
+Você se identifica com alguma dessas situações?
+
+Cards:
+
+Cliente diz "vou pensar"
+
+Cliente desaparece
+
+Objeções constantes
+
+Conversas robóticas
+
+Muito esforço para vender
+
+Perde vendas mesmo estudando
+
+--------------------------------------------------
+
+## 3 A VERDADE
+
+Explicar que:
+
+O problema nunca foi a objeção.
+
+Foi o diagnóstico.
+
+Utilizar ilustração.
+
+--------------------------------------------------
+
+## 4 APRESENTAÇÃO
+
+Apresentar o Destravador.
+
+Mostrar que ele funciona como um mentor comercial alimentado por IA.
+
+--------------------------------------------------
+
+## 5 COMO FUNCIONA
+
+Criar timeline moderna.
+
+Etapa 1
+
+Cole sua conversa
+
+↓
+
+Etapa 2
+
+IA encontra os erros
+
+↓
+
+Etapa 3
+
+Receba o diagnóstico
+
+↓
+
+Etapa 4
+
+Aprenda exatamente qual pergunta deveria ter sido feita
+
+↓
+
+Etapa 5
+
+Aplique na próxima venda
+
+--------------------------------------------------
+
+## 6 BENEFÍCIOS
+
+Cards modernos.
+
+Fim da venda por tentativa e erro
+
+Diagnóstico preciso
+
+Mais confiança
+
+Perguntas melhores
+
+Conversas naturais
+
+Mais conversões
+
+--------------------------------------------------
+
+## 7 O QUE VOCÊ RECEBE
+
+Cards Premium:
+
+✔ Protocolo de Diagnóstico (PDF)
+
+✔ Prompt Mestre do Auditor Comercial
+
+✔ Biblioteca Inteligente de Objeções
+
+✔ Framework das Perguntas
+
+✔ Guia de Análise de Calls
+
+--------------------------------------------------
+
+## 8 DEPOIMENTOS
+
+Layout premium.
+
+Fotos circulares.
+
+Nome.
+
+Profissão.
+
+Estrelas.
+
+--------------------------------------------------
+
+## 9 OFERTA
+
+Mostrar:
+
+Valor
+
+Parcelamento
+
+Botão CTA
+
+Compra Segura
+
+SSL
+
+Pagamento protegido
+
+--------------------------------------------------
+
+## 10 GARANTIA
+
+Garantia incondicional de 7 dias.
+
+--------------------------------------------------
+
+## 11 FAQ
+
+Accordion Bootstrap.
+
+--------------------------------------------------
+
+## 12 CTA FINAL
+
+Headline forte.
+
+Botão destacado.
+
+Reforçar o mecanismo.
+
+--------------------------------------------------
+
+# CRO
+
+Adicionar CTA em vários pontos.
+
+Adicionar Sticky CTA no Mobile.
+
+Adicionar barra de progresso de leitura.
+
+Adicionar efeito de botão.
+
+Adicionar feedback visual nos cliques.
+
+--------------------------------------------------
+
+# SEO
+
+Meta Title
+
+Meta Description
+
+Open Graph
+
+Twitter Card
+
+Schema Product
+
+Schema FAQ
+
+Estrutura H1 H2 H3 correta.
+
+--------------------------------------------------
+
+# ACESSIBILIDADE
+
+ARIA Labels
+
+Contraste AA
+
+Alt nas imagens
+
+Navegação por teclado
+
+--------------------------------------------------
+
+# PERFORMANCE
+
+Lazy Loading
+
+Imagens otimizadas
+
+CSS otimizado
+
+JS otimizado
+
+Sem render blocking desnecessário
+
+Objetivo:
+
+Google PageSpeed superior a 90.
+
+--------------------------------------------------
+
+# COPY
+
+O tom de voz deve ser:
+
+Consultivo.
+
+Elegante.
+
+Profissional.
+
+Seguro.
+
+Inteligente.
+
+Sem exageros.
+
+Sem promessas milagrosas.
+
+Sem escassez falsa.
+
+Sem gatilhos baratos.
+
+Utilizar princípios de:
+
+• Eugene Schwartz
+
+• Claude Hopkins
+
+• Robert Cialdini
+
+• Blair Warren
+
+• Chris Voss
+
+• SPIN Selling
+
+• Challenger Sale
+
+--------------------------------------------------
+
+# IMPORTANTE
+
+O código deve parecer desenvolvido por um time profissional.
+
+Cada seção deve possuir comentários explicativos.
+
+Separar HTML, CSS e JavaScript.
+
+Criar componentes reutilizáveis.
+
+O resultado final deve estar pronto para publicação no Replit, seguindo boas práticas de engenharia de software e UX, com aparência equivalente às melhores landing pages SaaS do mercado.
