@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/raio-x/"
+title = "RAIO-X OS"
+version = "1.0.0"
+id = "artifacts/raio-x-os"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/raio-x/" ]
+localPort = 22542
+
+[services.development]
+run = "pnpm --filter @workspace/raio-x-os run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/raio-x-os", "run", "build" ]
+publicDir = "artifacts/raio-x-os/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22542"
+BASE_PATH = "/raio-x/"

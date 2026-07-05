@@ -1,0 +1,281 @@
+Você é um desenvolvedor full-stack sênior e especialista em landing pages de alta conversão.
+
+Crie uma landing page responsiva, moderna e premium para o produto RAIO-X OS.
+
+OBJETIVO DA PÁGINA:
+Validar uma oferta de MVP para profissionais que vendem por conversas 1 a 1.
+
+PRODUTO:
+RAIO-X OS — Sistema de auditoria comercial baseada em evidências.
+
+PROMESSA CENTRAL:
+Descubra em poucos minutos exatamente onde sua negociação começou a dar errado e receba um plano claro para aumentar sua conversão na próxima conversa.
+
+DOR PRINCIPAL:
+Profissionais que vendem por WhatsApp, ligação, Google Meet, Zoom, e-mail ou chat perdem negociações sem saber exatamente onde começaram a errar.
+
+PÚBLICO-ALVO:
+- Closers
+- Afiliados
+- Consultores
+- Corretores
+- SDRs
+- Executivos comerciais
+- Prestadores de serviço
+- Infoprodutores que vendem no WhatsApp ou direct
+
+INIMIGO DA OFERTA:
+O achismo comercial.
+
+Narrativa:
+Muitos vendedores acham que perderam a venda por preço, falta de dinheiro, concorrência ou lead ruim. Mas, na maioria das vezes, o problema está em um comportamento específico que fez a negociação sair do controle.
+
+MECANISMO ÚNICO:
+Auditoria Comercial Baseada em Evidências.
+
+Não é uma IA genérica.
+Não é mais um curso de vendas.
+Não é um script pronto.
+É um sistema que analisa a conversa real do vendedor e identifica:
+- onde o erro começou;
+- qual comportamento prejudicou a negociação;
+- qual foi a causa raiz;
+- qual impacto isso teve na venda;
+- como corrigir na próxima conversa.
+
+TOM DA PÁGINA:
+Direto, moderno, comercial, premium, sem parecer exagerado.
+Não usar promessas impossíveis.
+Não prometer fechar todas as vendas.
+Focar em clareza, diagnóstico e plano de ação.
+
+ESTILO VISUAL:
+- Visual dark premium
+- Fundo escuro
+- Cards com bordas suaves
+- Detalhes em azul, roxo ou verde
+- Layout limpo
+- Fontes modernas
+- Responsivo para desktop e mobile
+- Animações leves
+- Aparência de software/SaaS
+
+ESTRUTURA DA LANDING PAGE:
+
+1. HERO SECTION
+
+Headline principal:
+Nunca mais termine uma negociação sem saber exatamente por que ela foi perdida.
+
+Subheadline:
+O RAIO-X OS analisa suas conversas de venda e mostra, em poucos minutos, onde a negociação começou a sair do controle — com causa raiz, plano de ação e script corrigido para sua próxima conversa.
+
+CTA principal:
+Quero testar o RAIO-X
+
+CTA secundário:
+Ver como funciona
+
+Elementos visuais:
+Criar um mockup de dashboard com:
+- Score da negociação
+- Causa raiz
+- Erro crítico
+- Plano de ação
+- Próxima missão
+
+2. SEÇÃO DE DOR
+
+Título:
+Você está perdendo vendas ou apenas repetindo erros invisíveis?
+
+Texto:
+Muitos vendedores saem de uma negociação pensando:
+“Foi o preço.”
+“O cliente não tinha dinheiro.”
+“Ele só queria pesquisar.”
+“O lead era ruim.”
+
+Mas sem uma auditoria da conversa, tudo isso é apenas achismo.
+
+Cards:
+- Cliente sumiu depois da proposta
+- Você deu desconto e mesmo assim não fechou
+- A conversa parecia boa, mas esfriou
+- Você não sabe o que deveria ter falado diferente
+
+3. SEÇÃO DO INIMIGO
+
+Título:
+O verdadeiro inimigo da sua conversão é o achismo comercial.
+
+Texto:
+Quando você não sabe onde errou, você corrige o problema errado.
+E quando corrige o problema errado, continua perdendo negociações pelos mesmos motivos.
+
+Criar bloco visual:
+ACHISMO → REPETIÇÃO → PERDA → FRUSTRAÇÃO
+
+Depois:
+EVIDÊNCIA → DIAGNÓSTICO → CORREÇÃO → EVOLUÇÃO
+
+4. SEÇÃO DO MECANISMO
+
+Título:
+Auditoria Comercial Baseada em Evidências
+
+Texto:
+O RAIO-X OS transforma qualquer conversa comercial em um diagnóstico estruturado.
+
+Ele analisa:
+- WhatsApp
+- ligação
+- Google Meet
+- Zoom
+- e-mail
+- chat
+
+E entrega:
+- onde o erro começou;
+- qual foi o comportamento crítico;
+- qual objeção não foi tratada;
+- qual parte da conversa perdeu força;
+- qual script deveria ter sido usado;
+- qual habilidade treinar na próxima negociação.
+
+5. SEÇÃO “COMO FUNCIONA”
+
+Criar 3 passos:
+
+Passo 1:
+Cole a conversa ou transcrição
+
+Passo 2:
+O RAIO-X audita a negociação
+
+Passo 3:
+Você recebe diagnóstico, causa raiz e plano de ação
+
+6. SEÇÃO DE RESULTADO
+
+Título:
+O que você recebe em cada auditoria
+
+Cards:
+- Score da negociação
+- Causa raiz
+- Erros críticos
+- Perfil comportamental do lead
+- Comparação: como foi vs. como deveria ser
+- Script corrigido
+- Plano de ação
+- Próxima missão
+
+7. SEÇÃO DE TRANSFORMAÇÃO
+
+Antes:
+- “Não sei onde errei.”
+- “Acho que foi preço.”
+- “O cliente sumiu.”
+- “Não sei o que melhorar.”
+
+Depois:
+- “Sei exatamente onde perdi controle.”
+- “Entendi a causa raiz.”
+- “Tenho um plano para a próxima negociação.”
+- “Sei qual comportamento corrigir.”
+
+8. SEÇÃO PARA QUEM É
+
+Título:
+Para quem vende por conversa e precisa melhorar conversão
+
+Lista:
+- Closers
+- Afiliados
+- Consultores
+- Corretores
+- SDRs
+- Prestadores de serviço
+- Infoprodutores
+- Vendedores no WhatsApp
+
+9. SEÇÃO PARA QUEM NÃO É
+
+Título:
+O RAIO-X não é para você se...
+
+Lista:
+- você não conversa com leads;
+- você não quer revisar suas negociações;
+- você procura uma promessa milagrosa;
+- você não quer corrigir sua execução comercial.
+
+10. SEÇÃO DA OFERTA
+
+Título:
+Entre na primeira versão do RAIO-X OS
+
+Texto:
+Acesse o MVP v1 do sistema de auditoria comercial baseada em evidências e comece a revisar suas negociações com mais clareza.
+
+O que está incluso:
+- Prompt ChatGPT
+- Prompt Gemini
+- Framework de auditoria
+- Biblioteca de comportamentos comerciais
+- Sistema de score
+- Modelo de diagnóstico
+- Scripts corrigidos
+- Plano de ação por negociação
+
+CTA:
+Quero acessar agora
+
+11. GARANTIA
+
+Título:
+Garantia simples
+
+Texto:
+Se você acessar o RAIO-X OS e sentir que ele não trouxe mais clareza sobre suas negociações, você pode solicitar reembolso dentro do prazo de garantia.
+
+12. FAQ
+
+Perguntas:
+- Preciso ser vendedor profissional?
+- Funciona para WhatsApp?
+- Funciona para ligação ou reunião?
+- Preciso saber usar IA?
+- Isso substitui um treinamento de vendas?
+- O RAIO-X promete que vou fechar todas as vendas?
+- Posso usar no ChatGPT e no Gemini?
+
+13. CTA FINAL
+
+Título:
+Pare de vender no escuro.
+
+Texto:
+Se você vende por conversas, cada negociação perdida pode esconder um padrão. O RAIO-X mostra onde está o erro e o que corrigir antes da próxima oportunidade.
+
+Botão:
+Quero testar o RAIO-X
+
+REQUISITOS TÉCNICOS:
+- Criar em React + Tailwind CSS
+- Design responsivo
+- Código limpo
+- Componentes organizados
+- Não usar backend neste MVP
+- CTA pode apontar para “#checkout” ou link placeholder
+- Criar animações suaves com hover
+- Criar layout pronto para deploy
+- Não usar imagens externas obrigatórias
+- Usar cards, badges, mockups e seções visuais
+
+IMPORTANTE:
+Não criar uma página genérica sobre IA.
+A página deve vender clareza comercial.
+O produto não é “IA para vendas”.
+O produto é um sistema para descobrir por que negociações não avançam.
