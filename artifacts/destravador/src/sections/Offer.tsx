@@ -4,12 +4,12 @@ import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
 const included = [
-  'Acesso ao sistema completo',
-  'Prompt Mestre do Auditor Comercial',
-  'Protocolo de Diagnóstico',
-  'Biblioteca de Perguntas Estratégicas',
+  'Auditor Comercial com IA',
+  'Prompt Mestre de Diagnóstico',
+  'Protocolo de Correção de Calls',
+  'Biblioteca de Perguntas de Alto Impacto',
   'Biblioteca de Objeções',
-  'Guia de Aplicação Prática',
+  'Guia de Aplicação no WhatsApp e Call',
   'Atualizações futuras inclusas',
   'Garantia incondicional de 7 dias',
 ];
@@ -35,11 +35,12 @@ export function Offer() {
             <FadeIn delay={0.05}>
               <div className="mb-10 p-6 rounded-2xl bg-muted/50 border border-border text-center">
                 <p className="text-base font-semibold text-foreground mb-2">
-                  Você não está pagando por informação. Está pagando por clareza comercial.
+                  Você não está comprando informação. Está comprando clareza comercial.
                 </p>
                 <p className="text-sm text-muted-foreground leading-relaxed max-w-xl mx-auto">
-                  Uma única conversa melhor conduzida pode recuperar o investimento. O objetivo
-                  do Destravador é fazer você parar de vender por tentativa e erro.
+                  Uma única conversa melhor conduzida pode recuperar o investimento. O objetivo do
+                  Destravador é fazer você parar de vender por tentativa e erro e começar a
+                  corrigir suas abordagens com base em diagnóstico.
                 </p>
               </div>
             </FadeIn>

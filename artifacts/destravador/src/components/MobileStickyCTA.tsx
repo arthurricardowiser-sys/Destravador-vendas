@@ -23,7 +23,7 @@ export function MobileStickyCTA() {
       }`}
     >
       <ButtonCTA href="#oferta" className="w-full shadow-xl">
-        Diagnosticar agora <ArrowRight className="w-4 h-4 ml-1.5" />
+        Auditar conversa <ArrowRight className="w-4 h-4 ml-1.5" />
       </ButtonCTA>
     </div>
   );

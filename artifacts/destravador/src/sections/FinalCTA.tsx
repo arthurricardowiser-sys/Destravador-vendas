@@ -13,12 +13,11 @@ export function FinalCTA() {
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <FadeIn>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-white">
-            Antes de tentar convencer mais um cliente, descubra onde sua conversa está
-            falhando.
+            Antes de perder mais uma venda sem saber o motivo, audite sua próxima conversa.
           </h2>
           <p className="text-lg md:text-xl text-white/65 mb-12 max-w-2xl mx-auto leading-relaxed">
-            O Destravador ajuda você a transformar cada conversa perdida em aprendizado prático
-            para vender melhor na próxima oportunidade.
+            O Destravador mostra o ponto exato onde sua abordagem perdeu força — e qual pergunta
+            poderia ter mudado o rumo da venda.
           </p>
 
           <div className="flex justify-center mb-8">
@@ -26,7 +25,7 @@ export function FinalCTA() {
               href="#oferta"
               className="px-12 py-6 text-xl shadow-[0_0_40px_rgba(34,197,94,0.3)]"
             >
-              Quero Diagnosticar Minhas Vendas <ArrowRight className="w-6 h-6 ml-2" />
+              Quero Auditar Minha Próxima Conversa <ArrowRight className="w-6 h-6 ml-2" />
             </ButtonCTA>
           </div>
 

@@ -1,22 +1,45 @@
 import React from 'react';
-import { MessageSquareOff, Stethoscope, HelpCircle } from 'lucide-react';
+import { MapPin, VolumeX, Stethoscope, AlertCircle, HelpCircle } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
 
-const pillars = [
+/* ─── 5 cards: what the AI looks for ─── */
+const cards = [
   {
-    icon: <MessageSquareOff className="w-6 h-6 text-primary" />,
-    title: 'Menos discurso',
-    description: 'Pare de tentar convencer com argumentos longos.',
+    icon: <MapPin className="w-6 h-6 text-primary" />,
+    accent: 'border-primary/20 hover:border-primary/40',
+    iconBg: 'bg-primary/8',
+    title: 'Onde você perdeu o cliente',
+    description: 'Identifica o ponto exato em que a conversa deixou de gerar avanço.',
+  },
+  {
+    icon: <VolumeX className="w-6 h-6 text-orange-500" />,
+    accent: 'border-orange-200/60 hover:border-orange-300',
+    iconBg: 'bg-orange-50',
+    title: 'Onde você falou demais',
+    description: 'Mostra momentos em que você tentou convencer antes de entender.',
   },
   {
     icon: <Stethoscope className="w-6 h-6 text-accent" />,
-    title: 'Mais diagnóstico',
-    description: 'Aprenda a encontrar o que realmente impede o cliente de avançar.',
+    accent: 'border-accent/20 hover:border-accent/40',
+    iconBg: 'bg-accent/8',
+    title: 'Onde faltou diagnóstico',
+    description:
+      'Aponta perguntas que deveriam ter sido feitas para aprofundar dor, urgência e prioridade.',
   },
   {
-    icon: <HelpCircle className="w-6 h-6 text-orange-500" />,
-    title: 'Perguntas melhores',
-    description: 'Receba sugestões práticas para conduzir a conversa com mais profundidade.',
+    icon: <AlertCircle className="w-6 h-6 text-destructive" />,
+    accent: 'border-destructive/20 hover:border-destructive/40',
+    iconBg: 'bg-destructive/5',
+    title: 'Onde a objeção nasceu',
+    description:
+      'Revela se o "vou pensar" apareceu por preço, insegurança, falta de clareza ou baixa percepção de valor.',
+  },
+  {
+    icon: <HelpCircle className="w-6 h-6 text-purple-500" />,
+    accent: 'border-purple-200/60 hover:border-purple-300',
+    iconBg: 'bg-purple-50',
+    title: 'Qual pergunta poderia mudar o rumo',
+    description: 'Sugere perguntas melhores para reconduzir a conversa com naturalidade.',
   },
 ];
 
@@ -28,34 +51,46 @@ export function WhyItWorks() {
         {/* Header */}
         <FadeIn>
           <div className="text-center mb-14 max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Por que isso funciona?
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              O que o Destravador procura na sua conversa?
             </h2>
-            <p className="text-xl font-semibold text-foreground/80 leading-snug mb-4">
-              As pessoas não compram porque você fala bem.
-              <br />
-              Elas compram quando se sentem compreendidas.
-            </p>
-            <p className="text-base text-muted-foreground leading-relaxed">
-              O Destravador usa IA para mostrar onde sua conversa perdeu profundidade, qual ponto
-              emocional não foi explorado e qual pergunta poderia ter aberto o verdadeiro motivo
-              de compra.
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              A IA não analisa o que você disse. Ela analisa o que{' '}
+              <strong className="text-foreground font-medium">deixou de ser dito</strong> — e que
+              custou a venda.
             </p>
           </div>
         </FadeIn>
 
-        {/* 3 pillars */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {pillars.map((pillar, i) => (
-            <FadeIn key={i} delay={i * 0.1}>
-              <div className="bg-card border border-border rounded-2xl p-8 text-center flex flex-col items-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 transition-all group">
-                <div className="w-14 h-14 rounded-2xl bg-muted flex items-center justify-center group-hover:scale-110 transition-transform">
-                  {pillar.icon}
+        {/* Cards grid — 2 cols md, 3 cols last row centered */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {cards.map((card, i) => (
+            <FadeIn
+              key={i}
+              delay={i * 0.09}
+              className={
+                /* last card (odd total) centered on md+ */
+                i === cards.length - 1 && cards.length % 2 !== 0
+                  ? 'md:col-span-2 md:max-w-sm md:mx-auto w-full'
+                  : ''
+              }
+            >
+              <div
+                className={`bg-card border ${card.accent} rounded-2xl p-6 flex items-start gap-5 shadow-sm hover:shadow-md transition-all h-full group`}
+              >
+                <div
+                  className={`${card.iconBg} p-3 rounded-xl flex-shrink-0 group-hover:scale-105 transition-transform`}
+                >
+                  {card.icon}
                 </div>
-                <h3 className="text-lg font-bold text-foreground">{pillar.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  {pillar.description}
-                </p>
+                <div>
+                  <h3 className="text-base font-semibold text-foreground mb-1.5 leading-snug">
+                    {card.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {card.description}
+                  </p>
+                </div>
               </div>
             </FadeIn>
           ))}

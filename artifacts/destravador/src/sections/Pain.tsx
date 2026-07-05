@@ -4,48 +4,48 @@ import {
   Volume2,
   TrendingDown,
   ShieldOff,
-  ThumbsUp,
   HelpCircle,
+  DollarSign,
+  Rewind,
 } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
 
-/* ── Pain cards ── */
+/* ── 7 pain cards ── */
 const painPoints = [
   {
     icon: <MessageSquareDashed className="w-5 h-5 text-accent" />,
-    title: 'O cliente diz "vou pensar" e desaparece',
-    description:
-      'E você fica sem entender o que aconteceu, sem saber onde a conversa perdeu força.',
-  },
-  {
-    icon: <Volume2 className="w-5 h-5 text-orange-500" />,
-    title: 'Você sente que fala demais para tentar convencer',
-    description:
-      'Argumentos, benefícios, diferenciais — e mesmo assim o cliente não avança.',
+    title: 'Você escuta "vou pensar" e nunca descobre o motivo real',
+    description: 'O cliente desaparece e você fica sem entender onde a conversa perdeu força.',
   },
   {
     icon: <TrendingDown className="w-5 h-5 text-destructive" />,
-    title: 'A conversa parece boa, mas não avança',
-    description:
-      'O rapport existe, o cliente parece interessado, mas a decisão nunca vem.',
+    title: 'A call parece boa, mas o cliente não avança',
+    description: 'O rapport existe, o interesse parece genuíno — mas a decisão nunca vem.',
+  },
+  {
+    icon: <Volume2 className="w-5 h-5 text-orange-500" />,
+    title: 'Você responde objeções no automático',
+    description: 'Trata o sintoma sem chegar na raiz. O cliente continua resistindo.',
   },
   {
     icon: <ShieldOff className="w-5 h-5 text-purple-500" />,
-    title: 'Você responde objeções sem entender a causa',
-    description:
-      'Trata o sintoma sem chegar na raiz — e o cliente continua resistindo.',
-  },
-  {
-    icon: <ThumbsUp className="w-5 h-5 text-yellow-600" />,
-    title: 'O cliente elogia, mas não compra',
-    description:
-      '"Adorei sua apresentação" — e depois o silêncio. Elogio não é compra.',
+    title: 'Você sente que falou demais tentando convencer',
+    description: 'Argumentos, benefícios, diferenciais — e mesmo assim o cliente não fecha.',
   },
   {
     icon: <HelpCircle className="w-5 h-5 text-primary" />,
-    title: 'Você sai da call sem saber onde errou',
-    description:
-      'Sem clareza sobre o ponto exato onde a venda travou, o ciclo se repete.',
+    title: 'Você sai da conversa pensando: "onde foi que eu perdi esse cliente?"',
+    description: 'Sem clareza do ponto exato onde a venda travou, o ciclo se repete.',
+  },
+  {
+    icon: <DollarSign className="w-5 h-5 text-yellow-600" />,
+    title: 'Você acredita que perdeu por preço, mas não tem certeza',
+    description: 'A objeção de preço quase nunca é sobre preço. E você sente isso.',
+  },
+  {
+    icon: <Rewind className="w-5 h-5 text-rose-500" />,
+    title: 'Você gostaria de voltar cinco minutos da conversa e fazer outra pergunta',
+    description: 'Você sabe que havia um ponto de virada — mas não sabe qual era.',
   },
 ];
 
@@ -58,20 +58,21 @@ export function Pain() {
         <FadeIn>
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
-              Você talvez não tenha um problema de fechamento.
+              O pior não é perder a venda.{' '}
+              <span className="text-destructive">É não saber onde você errou.</span>
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Talvez você esteja tentando fechar uma venda que nunca foi diagnosticada de verdade.
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              Todo vendedor já terminou uma call achando que foi bem… até o cliente sumir.
             </p>
           </div>
         </FadeIn>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {painPoints.map((point, index) => (
-            <FadeIn key={index} delay={index * 0.08}>
-              <div className="bg-card border border-border p-7 rounded-2xl shadow-sm hover:shadow-md hover:border-border/80 transition-all h-full flex items-start gap-4 group">
-                <div className="bg-muted p-2.5 rounded-xl group-hover:scale-105 transition-transform flex-shrink-0">
+            <FadeIn key={index} delay={index * 0.07}>
+              <div className="bg-card border border-border p-6 rounded-2xl shadow-sm hover:shadow-md hover:border-border/80 transition-all h-full flex items-start gap-4 group">
+                <div className="bg-muted p-2.5 rounded-xl group-hover:scale-105 transition-transform flex-shrink-0 mt-0.5">
                   {point.icon}
                 </div>
                 <div>
@@ -89,10 +90,10 @@ export function Pain() {
 
         {/* Transition phrase */}
         <FadeIn delay={0.5}>
-          <div className="mt-14 text-center max-w-2xl mx-auto">
+          <div className="mt-12 text-center max-w-2xl mx-auto">
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed border-l-4 border-primary/40 pl-5 text-left bg-primary/3 py-4 pr-5 rounded-r-xl">
-              A maioria tenta melhorar o fechamento. Mas a venda geralmente começa a morrer muito antes:{' '}
-              <strong className="text-foreground font-semibold">no diagnóstico.</strong>
+              O Destravador foi criado para encontrar exatamente{' '}
+              <strong className="text-foreground font-semibold">esse ponto.</strong>
             </p>
           </div>
         </FadeIn>
