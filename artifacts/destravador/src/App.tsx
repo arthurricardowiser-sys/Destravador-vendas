@@ -10,11 +10,13 @@ import { Pain } from '@/sections/Pain';
 import { CausaReal } from '@/sections/CausaReal';
 import { MecanismoUnico } from '@/sections/MecanismoUnico';
 import { Demo } from '@/sections/Demo';
+import { WhatsAppSection } from '@/sections/WhatsAppSection';
 import { OrigemReal } from '@/sections/OrigemReal';
 import { WhyItWorks } from '@/sections/WhyItWorks';
 import { WhatYouGet } from '@/sections/WhatYouGet';
 import { UniqueAngle } from '@/sections/UniqueAngle';
 import { Benefits } from '@/sections/Benefits';
+import { AntesDepois } from '@/sections/AntesDepois';
 import { Testimonials } from '@/sections/Testimonials';
 import { Offer } from '@/sections/Offer';
 import { Guarantee } from '@/sections/Guarantee';
@@ -42,25 +44,31 @@ function LandingPage() {
       {/* 4. DEMONSTRAÇÃO — conversa perdida vira diagnóstico */}
       <Demo />
 
-      {/* 5. AUTORIDADE — origem do método */}
+      {/* 5. WHATSAPP — seção específica para vendas no WhatsApp */}
+      <WhatsAppSection />
+
+      {/* 6. AUTORIDADE — origem do método */}
       <OrigemReal />
 
-      {/* 6. O QUE A IA PROCURA — 6 análises */}
+      {/* 7. O QUE A IA PROCURA — 6 análises */}
       <WhyItWorks />
 
-      {/* 7. O QUE VOCÊ RECEBE — 6 entregáveis */}
+      {/* 8. O QUE VOCÊ RECEBE — 6 entregáveis */}
       <WhatYouGet />
 
-      {/* 8. DIFERENCIAÇÃO — vs prompt genérico */}
+      {/* 9. DIFERENCIAÇÃO — vs prompt genérico */}
       <UniqueAngle />
 
-      {/* 9. BENEFÍCIOS — o que muda na prática */}
+      {/* 10. BENEFÍCIOS — o que muda na prática */}
       <Benefits />
+
+      {/* 11. ANTES E DEPOIS */}
+      <AntesDepois />
 
       {/* CONVICÇÃO — prova social */}
       <Testimonials />
 
-      {/* 10. OFERTA */}
+      {/* 12. OFERTA */}
       <Offer />
 
       {/* GARANTIA */}

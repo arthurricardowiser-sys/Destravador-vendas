@@ -4,12 +4,14 @@ import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
 const included = [
-  'Acesso ao Auditor Comercial IA',
+  'Acesso imediato',
+  'Funciona para call e WhatsApp',
+  'Auditor Comercial IA',
   'Prompt Mestre de Diagnóstico',
-  'Protocolo de Correção de Calls',
+  'Protocolo de Correção de Conversas',
   'Biblioteca de Perguntas de Alto Impacto',
   'Biblioteca de Objeções',
-  'Guia de Aplicação no WhatsApp e Call',
+  'Guia de aplicação em Call e WhatsApp',
   'Garantia incondicional de 7 dias',
 ];
 

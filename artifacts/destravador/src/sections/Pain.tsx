@@ -9,18 +9,19 @@ import {
   ClipboardX,
   ShieldOff,
 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
-/* ── 8 pain cards ── */
 const painPoints = [
   {
     icon: <RefreshCcw className="w-5 h-5 text-primary" />,
-    title: 'Você termina a call revendo mentalmente tudo que falou',
-    description: 'Ficou repassando a conversa, tentando entender em que momento ela esfriou.',
+    title: 'Você sente que falou demais tentando convencer',
+    description: 'Argumentos, benefícios, diferenciais — e mesmo assim o cliente não fechou.',
   },
   {
     icon: <MessageSquareDashed className="w-5 h-5 text-accent" />,
-    title: 'O cliente diz "vou pensar" e nunca mais responde',
+    title: 'O cliente some depois de dizer "vou ver e te aviso"',
     description: 'E você fica sem entender o que exatamente aconteceu.',
   },
   {
@@ -30,28 +31,28 @@ const painPoints = [
   },
   {
     icon: <TrendingDown className="w-5 h-5 text-destructive" />,
+    title: 'Você responde objeções sem saber a causa real',
+    description: 'Tenta convencer sem entender o que está travando o cliente de verdade.',
+  },
+  {
+    icon: <Volume2 className="w-5 h-5 text-orange-500" />,
     title: 'A conversa parecia boa, mas não avançou',
     description: 'O rapport estava lá, o interesse parecia real — mas a decisão nunca veio.',
   },
   {
-    icon: <Volume2 className="w-5 h-5 text-orange-500" />,
-    title: 'Você sente que falou demais tentando convencer',
-    description: 'Argumentos, benefícios, diferenciais — e mesmo assim o cliente não fechou.',
-  },
-  {
     icon: <Rewind className="w-5 h-5 text-rose-500" />,
-    title: 'Você queria voltar cinco minutos e fazer outra pergunta',
+    title: 'Você queria voltar alguns minutos e fazer outra pergunta',
     description: 'Você sentia que havia um ponto de virada — mas não sabia qual era.',
   },
   {
     icon: <ClipboardX className="w-5 h-5 text-purple-500" />,
-    title: 'Você abre o CRM e escreve "cliente vai pensar", mas sabe que perdeu',
+    title: 'Você registra "cliente vai pensar", mas sabe que a venda morreu antes disso',
     description: 'No fundo você sabe. Mas não sabe onde exatamente errou.',
   },
   {
     icon: <ShieldOff className="w-5 h-5 text-muted-foreground" />,
-    title: 'Você nunca descobre em qual minuto perdeu autoridade',
-    description: 'Sem esse dado, o ciclo se repete na próxima call.',
+    title: 'Você termina a conversa sem saber onde perdeu autoridade',
+    description: 'Sem esse dado, o mesmo ciclo se repete na próxima oportunidade.',
   },
 ];
 
@@ -67,25 +68,33 @@ export function Pain() {
               O pior não é perder a venda.{' '}
               <span className="text-destructive">É não saber onde você errou.</span>
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground">
-              Todo vendedor já terminou uma call achando que foi bem… até o cliente sumir.
-            </p>
           </div>
         </FadeIn>
 
-        {/* Narrative text */}
+        {/* Mini storytelling */}
         <FadeIn delay={0.1}>
-          <p className="text-center text-muted-foreground text-sm md:text-base max-w-2xl mx-auto mb-12 leading-relaxed">
-            Você desliga a call, entra no carro, abre o WhatsApp ou atualiza o CRM e fica tentando
-            lembrar em qual momento a conversa esfriou.
-          </p>
+          <div className="max-w-2xl mx-auto mb-10 text-center space-y-3">
+            <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
+              Você termina a conversa, fecha o notebook, abre o WhatsApp ou atualiza o CRM e tenta lembrar em qual momento o cliente esfriou.
+            </p>
+            <div className="bg-card border border-border rounded-2xl px-7 py-6 text-left space-y-2 shadow-sm">
+              <p className="text-sm text-muted-foreground leading-relaxed">Às vezes a conversa parecia boa.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">O cliente respondeu bem. Fez perguntas. Demonstrou interesse.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Mas, no final, veio o clássico:</p>
+              <p className="text-base font-bold text-foreground italic">"Vou pensar."</p>
+              <p className="text-sm text-muted-foreground leading-relaxed pt-1">E depois disso, silêncio.</p>
+            </div>
+            <p className="text-sm md:text-base text-muted-foreground leading-relaxed pt-2">
+              O problema é que a maioria dos vendedores nunca descobre se perdeu por preço, falta de confiança, baixa percepção de valor, ausência de urgência — ou simplesmente porque fez a pergunta errada no momento errado.
+            </p>
+          </div>
         </FadeIn>
 
         {/* Cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {painPoints.map((point, index) => (
             <FadeIn key={index} delay={index * 0.06}>
-              <div className="bg-card border border-border p-6 rounded-2xl shadow-sm hover:shadow-md hover:border-border/80 transition-all h-full flex items-start gap-4 group">
+              <div className="bg-card border border-border p-6 rounded-2xl shadow-sm hover:shadow-md hover:border-primary/20 transition-all h-full flex items-start gap-4 group">
                 <div className="bg-muted p-2.5 rounded-xl group-hover:scale-105 transition-transform flex-shrink-0 mt-0.5">
                   {point.icon}
                 </div>
@@ -105,9 +114,12 @@ export function Pain() {
         {/* Closing line */}
         <FadeIn delay={0.5}>
           <div className="mt-12 text-center max-w-2xl mx-auto">
-            <p className="text-base md:text-lg font-medium text-foreground border-l-4 border-primary/50 pl-5 text-left bg-primary/3 py-4 pr-5 rounded-r-xl">
+            <p className="text-base md:text-lg font-medium text-foreground border-l-4 border-primary/50 pl-5 text-left bg-primary/3 py-4 pr-5 rounded-r-xl mb-8">
               O Destravador foi criado para encontrar exatamente esse ponto.
             </p>
+            <ButtonCTA href="#oferta" className="w-full sm:w-auto px-8 py-4">
+              Quero Descobrir Onde Perdi o Cliente <ArrowRight className="w-5 h-5 ml-1" />
+            </ButtonCTA>
           </div>
         </FadeIn>
 

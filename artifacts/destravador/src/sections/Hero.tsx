@@ -3,7 +3,6 @@ import { ArrowRight, CheckCircle, AlertTriangle, Lightbulb, TrendingUp, BadgeAle
 import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
-/* ── Animated progress bar inside the mockup ── */
 function ProgressBar() {
   const [width, setWidth] = useState(0);
   useEffect(() => {
@@ -20,22 +19,24 @@ function ProgressBar() {
   );
 }
 
+const tabs = ['Call', 'WhatsApp', 'Follow-up'] as const;
+type Tab = typeof tabs[number];
+
 export function Hero() {
+  const [activeTab, setActiveTab] = useState<Tab>('Call');
+
   return (
     <section className="relative min-h-screen flex items-center pt-20 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden bg-background">
-      {/* Grid background */}
       <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#80808010_1px,transparent_1px),linear-gradient(to_bottom,#80808010_1px,transparent_1px)] bg-[size:28px_28px]" />
-      {/* Glows */}
       <div className="absolute left-1/4 top-1/4 -z-10 h-[500px] w-[500px] rounded-full bg-primary/10 opacity-60 blur-[140px]" />
       <div className="absolute right-1/4 bottom-1/4 -z-10 h-[350px] w-[350px] rounded-full bg-accent/8 opacity-40 blur-[110px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-          {/* ── LEFT: copy ── */}
+          {/* LEFT: copy */}
           <div className="flex flex-col gap-7">
 
-            {/* Authority badge */}
             <FadeIn delay={0}>
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary/6 px-4 py-2 text-[11px] font-semibold text-primary tracking-wide w-fit max-w-sm leading-snug">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0 animate-pulse" />
@@ -43,25 +44,21 @@ export function Hero() {
               </div>
             </FadeIn>
 
-            {/* H1 */}
             <FadeIn delay={0.1}>
               <h1 className="text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold tracking-tight leading-[1.1] text-foreground">
-                Nunca mais termine uma call{' '}
+                Nunca mais termine uma conversa de venda{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70">
-                  sem saber por que perdeu a venda.
+                  sem saber por que o cliente travou.
                 </span>
               </h1>
             </FadeIn>
 
-            {/* Subheadline */}
             <FadeIn delay={0.2}>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
-                Cole qualquer conversa. O Auditor Comercial IA identifica onde você perdeu o
-                cliente, qual erro cometeu e qual pergunta poderia ter mudado o rumo da negociação.
+                Cole uma call transcrita, conversa de WhatsApp ou follow-up. O Auditor Comercial IA identifica onde você perdeu o cliente, qual erro cometeu e qual pergunta ou mensagem poderia ter mudado o rumo da negociação.
               </p>
             </FadeIn>
 
-            {/* CTA */}
             <FadeIn delay={0.3}>
               <div className="flex flex-col gap-4">
                 <ButtonCTA
@@ -83,15 +80,14 @@ export function Hero() {
             </FadeIn>
           </div>
 
-          {/* ── RIGHT: laptop dashboard mockup ── */}
+          {/* RIGHT: notebook mockup */}
           <FadeIn delay={0.45} className="w-full">
             <div className="relative flex justify-center lg:justify-end">
 
-              {/* Outer glow */}
               <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-accent/10 rounded-[36px] blur-3xl opacity-50 -z-10" />
 
-              {/* Laptop wrapper */}
-              <div className="w-full max-w-[560px]" style={{ perspective: '1200px' }}>
+              {/* Laptop wrapper — ~15% bigger than before */}
+              <div className="w-full max-w-[640px]" style={{ perspective: '1200px' }}>
                 <div
                   className="relative"
                   style={{ transform: 'rotateX(3deg) rotateY(-3deg)', transformStyle: 'preserve-3d' }}
@@ -99,10 +95,8 @@ export function Hero() {
                   {/* Screen bezel */}
                   <div className="relative rounded-[20px] bg-gray-900 p-[10px] shadow-[0_40px_80px_-10px_rgba(0,0,0,0.55),0_0_0_1px_rgba(255,255,255,0.06)] border border-gray-800">
 
-                    {/* Camera */}
                     <div className="absolute top-[5px] left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-gray-700" />
 
-                    {/* Screen */}
                     <div className="rounded-[11px] overflow-hidden bg-background border border-gray-800/40">
 
                       {/* Window chrome */}
@@ -119,13 +113,32 @@ export function Hero() {
                         </span>
                       </div>
 
+                      {/* Tabs */}
+                      <div className="flex border-b border-border/60 bg-muted/20 px-3 pt-1 gap-1">
+                        {tabs.map((tab) => (
+                          <button
+                            key={tab}
+                            onClick={() => setActiveTab(tab)}
+                            className={`px-3 py-1.5 text-[10px] font-semibold rounded-t-md transition-all ${
+                              activeTab === tab
+                                ? 'bg-background text-primary border-t border-l border-r border-border/60 -mb-px'
+                                : 'text-muted-foreground hover:text-foreground'
+                            }`}
+                          >
+                            {tab}
+                          </button>
+                        ))}
+                      </div>
+
                       {/* Dashboard content */}
                       <div className="p-4 space-y-3 bg-gradient-to-br from-background to-muted/10">
 
                         {/* Status + progress */}
                         <div className="rounded-xl border border-border bg-card p-3 space-y-2">
                           <div className="flex items-center justify-between">
-                            <span className="text-[10px] text-muted-foreground font-mono">Conversa enviada...</span>
+                            <span className="text-[10px] text-muted-foreground font-mono">
+                              {activeTab === 'WhatsApp' ? 'Conversa de WhatsApp enviada...' : activeTab === 'Follow-up' ? 'Follow-up enviado...' : 'Conversa enviada...'}
+                            </span>
                             <span className="text-[10px] font-bold text-primary flex items-center gap-1">
                               <CheckCircle className="w-3 h-3" /> Diagnóstico concluído
                             </span>
@@ -136,12 +149,13 @@ export function Hero() {
                         {/* Score */}
                         <div className="rounded-xl border border-border bg-card p-3 flex items-center justify-between">
                           <div>
-                            <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-0.5">Score da Call</p>
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-0.5">
+                              Score da {activeTab === 'Call' ? 'Call' : activeTab === 'WhatsApp' ? 'Conversa' : 'Follow-up'}
+                            </p>
                             <p className="text-2xl font-extrabold text-foreground leading-none">
                               38<span className="text-base font-medium text-muted-foreground">/100</span>
                             </p>
                           </div>
-                          {/* Mini score arc */}
                           <div className="relative w-12 h-12">
                             <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
                               <circle cx="18" cy="18" r="15.9" fill="none" stroke="currentColor" strokeWidth="3" className="text-muted/30" />
@@ -161,7 +175,9 @@ export function Hero() {
                           <div className="space-y-1">
                             <p className="text-[10px] font-bold uppercase tracking-wider text-orange-500">Erro mais crítico</p>
                             <p className="text-[11px] text-foreground/80 leading-snug">
-                              Você apresentou a solução antes de descobrir a prioridade real do cliente.
+                              {activeTab === 'WhatsApp'
+                                ? 'Você respondeu preço antes de entender contexto, prioridade e consequência.'
+                                : 'Você apresentou a solução antes de descobrir a prioridade real do cliente.'}
                             </p>
                             <p className="text-[10px] text-muted-foreground italic">
                               Isso fez o cliente responder: "vou pensar."
@@ -173,9 +189,13 @@ export function Hero() {
                         <div className="rounded-xl border border-primary/20 bg-primary/5 p-3 flex items-start gap-2.5">
                           <Lightbulb className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
                           <div className="space-y-0.5">
-                            <p className="text-[10px] font-bold uppercase tracking-wider text-primary">Pergunta que faltou</p>
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-primary">
+                              {activeTab === 'WhatsApp' ? 'Mensagem sugerida' : 'Pergunta que faltou'}
+                            </p>
                             <p className="text-[11px] text-foreground/80 italic leading-snug">
-                              "O que faria essa decisão fazer sentido para você hoje?"
+                              {activeTab === 'WhatsApp'
+                                ? '"Antes de te passar a melhor opção, me conta: o que fez você procurar por isso agora?"'
+                                : '"O que faria essa decisão fazer sentido para você hoje?"'}
                             </p>
                           </div>
                         </div>

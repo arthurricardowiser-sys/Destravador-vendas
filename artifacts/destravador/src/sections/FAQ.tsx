@@ -16,32 +16,42 @@ const faqs = [
   {
     question: 'Preciso saber usar IA?',
     answer:
-      'Não. Você recebe o comando estruturado (Prompt Mestre) e o passo a passo completo para aplicar. É um processo de copiar, colar e ler o diagnóstico.',
+      'Não. Você recebe o Prompt Mestre estruturado e o passo a passo completo para aplicar. É um processo de copiar, colar a conversa e ler o diagnóstico.',
   },
   {
     question: 'Funciona para WhatsApp?',
     answer:
-      'Sim. Você pode usar em conversas de WhatsApp, abordagens por mensagem e follow-ups. O sistema inclui um guia específico para aplicação em texto.',
+      'Sim. Você pode colar mensagens de WhatsApp, abordagens por texto, directs e follow-ups. O sistema inclui um guia específico para aplicação em conversas escritas.',
   },
   {
     question: 'Funciona para ligação?',
     answer:
-      'Sim. Basta transcrever ou resumir a call e inserir no sistema conforme o passo a passo. Funciona para qualquer formato de conversa comercial.',
+      'Sim. Basta transcrever ou resumir a call e inserir no sistema conforme o passo a passo. Funciona para qualquer formato de conversa comercial — call, WhatsApp, direct ou follow-up.',
   },
   {
-    question: 'Serve para qualquer tipo de venda?',
+    question: 'Posso usar com conversas antigas?',
     answer:
-      'Funciona melhor para vendas consultivas, high ticket, B2B, serviços, mentorias, infoprodutos e negociações onde existe conversa antes da decisão.',
+      'Sim. Você pode pegar conversas passadas que não fecharam e usar o Auditor para entender o que aconteceu. É uma ótima forma de aprender com o histórico.',
+  },
+  {
+    question: 'Serve para vendas high ticket?',
+    answer:
+      'Funciona especialmente bem para vendas consultivas, high ticket, B2B, serviços, mentorias e infoprodutos — qualquer venda onde existe conversa antes da decisão.',
+  },
+  {
+    question: 'Serve para vendas pelo direct?',
+    answer:
+      'Sim. O sistema funciona com qualquer conversa em formato de texto. Direct do Instagram, Telegram, WhatsApp — basta colar a conversa e rodar o diagnóstico.',
   },
   {
     question: 'Isso substitui treinamento comercial?',
     answer:
-      'Não. Ele funciona como uma ferramenta prática de correção e melhoria contínua das suas conversas — um gerente comercial de bolso para usar depois de cada call.',
+      'Não. Ele funciona como uma ferramenta prática de correção e melhoria contínua — um gerente comercial de bolso que você usa depois de cada conversa para entender o que poderia ter sido diferente.',
   },
   {
     question: 'Tenho garantia?',
     answer:
-      'Sim. Você tem 7 dias de garantia. Se acessar o Destravador e sentir que ele não te ajuda a enxergar suas conversas com mais clareza, basta solicitar o reembolso.',
+      'Sim. Você tem 7 dias de garantia. Use o Destravador em uma conversa real. Se sentir que ele não te ajudou a enxergar sua abordagem com mais clareza, solicite o reembolso e devolvemos 100% sem perguntas.',
   },
 ];
 

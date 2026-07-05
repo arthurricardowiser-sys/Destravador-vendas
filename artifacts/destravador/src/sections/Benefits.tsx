@@ -1,39 +1,38 @@
 import React from 'react';
-import { Target, MessageSquareOff, HelpCircle, TrendingUp, BookOpen, RotateCcw, Brain, ShieldOff } from 'lucide-react';
+import { Target, MessageSquareOff, HelpCircle, TrendingUp, BookOpen, RotateCcw, ArrowRight } from 'lucide-react';
+import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
 const benefits = [
   {
     icon: <Target className="w-7 h-7 text-primary" />,
     text: 'Descubra exatamente onde perdeu autoridade.',
+    description: 'Entenda o ponto da conversa em que o cliente deixou de confiar, avançar ou enxergar valor.',
   },
   {
     icon: <MessageSquareOff className="w-7 h-7 text-orange-500" />,
     text: 'Pare de responder objeções no automático.',
+    description: 'Antes de responder "está caro", entenda o que realmente está por trás da objeção.',
   },
   {
     icon: <HelpCircle className="w-7 h-7 text-accent" />,
     text: 'Saiba qual pergunta fazer quando o cliente trava.',
+    description: 'Receba sugestões de perguntas para voltar ao diagnóstico sem parecer insistente.',
   },
   {
     icon: <TrendingUp className="w-7 h-7 text-purple-500" />,
-    text: 'Termine cada call sabendo o que melhorar.',
+    text: 'Transforme conversas perdidas em aprendizado.',
+    description: 'Cada call ou WhatsApp pode virar um mapa de melhoria para sua próxima abordagem.',
   },
   {
     icon: <BookOpen className="w-7 h-7 text-yellow-600" />,
-    text: 'Transforme conversas perdidas em aprendizado prático.',
+    text: 'Termine cada conversa sabendo o que melhorar.',
+    description: 'Em vez de sair no escuro, você entende o erro, o impacto e a próxima ação.',
   },
   {
     icon: <RotateCcw className="w-7 h-7 text-rose-500" />,
-    text: 'Corrija sua abordagem antes da próxima oportunidade.',
-  },
-  {
-    icon: <Brain className="w-7 h-7 text-primary" />,
     text: 'Venda com mais clareza, menos ansiedade e mais controle.',
-  },
-  {
-    icon: <ShieldOff className="w-7 h-7 text-muted-foreground" />,
-    text: 'Pare de depender apenas da intuição.',
+    description: 'Você passa a conduzir conversas com mais consciência comercial.',
   },
 ];
 
@@ -45,7 +44,6 @@ export function Benefits() {
 
       <div className="max-w-5xl mx-auto relative z-10">
 
-        {/* Header */}
         <FadeIn>
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -57,19 +55,29 @@ export function Benefits() {
           </div>
         </FadeIn>
 
-        {/* 8 benefit cards — 2 col grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {benefits.map((b, i) => (
             <FadeIn key={i} delay={i * 0.07}>
-              <div className="bg-card border border-border rounded-2xl p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 transition-all group">
-                <div className="bg-muted p-3 rounded-xl group-hover:scale-105 transition-transform flex-shrink-0">
+              <div className="bg-card border border-border rounded-2xl p-5 flex items-start gap-4 shadow-sm hover:shadow-md hover:border-primary/20 transition-all group h-full">
+                <div className="bg-muted p-3 rounded-xl group-hover:scale-105 transition-transform flex-shrink-0 mt-0.5">
                   {b.icon}
                 </div>
-                <p className="text-sm font-semibold text-foreground leading-snug">{b.text}</p>
+                <div>
+                  <p className="text-sm font-semibold text-foreground leading-snug mb-1.5">{b.text}</p>
+                  <p className="text-xs text-muted-foreground leading-relaxed">{b.description}</p>
+                </div>
               </div>
             </FadeIn>
           ))}
         </div>
+
+        <FadeIn delay={0.5}>
+          <div className="flex justify-center mt-10">
+            <ButtonCTA href="#oferta" className="w-full sm:w-auto px-8 py-4">
+              Quero Parar de Vender no Escuro <ArrowRight className="w-5 h-5 ml-1" />
+            </ButtonCTA>
+          </div>
+        </FadeIn>
 
       </div>
     </section>

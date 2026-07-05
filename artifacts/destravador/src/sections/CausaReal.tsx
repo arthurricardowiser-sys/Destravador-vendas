@@ -1,5 +1,6 @@
 import React from 'react';
-import { Search, Zap, AlertCircle, Target } from 'lucide-react';
+import { Search, Zap, AlertCircle, Target, ArrowRight } from 'lucide-react';
+import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
 const causes = [
@@ -38,7 +39,6 @@ export function CausaReal() {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-5xl mx-auto">
 
-        {/* Header */}
         <FadeIn>
           <div className="text-center mb-5 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
@@ -52,7 +52,6 @@ export function CausaReal() {
           </div>
         </FadeIn>
 
-        {/* Narrative */}
         <FadeIn delay={0.1}>
           <p className="text-center text-muted-foreground text-sm md:text-base max-w-2xl mx-auto mb-12 leading-relaxed">
             A venda começa a morrer quando a dor é explorada de forma rasa, a urgência não aparece,
@@ -60,7 +59,6 @@ export function CausaReal() {
           </p>
         </FadeIn>
 
-        {/* 4 cause cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {causes.map((c, i) => (
             <FadeIn key={i} delay={i * 0.09}>
@@ -77,14 +75,16 @@ export function CausaReal() {
           ))}
         </div>
 
-        {/* Impact quote */}
         <FadeIn delay={0.45}>
           <div className="mt-12 max-w-2xl mx-auto text-center">
-            <blockquote className="text-base md:text-lg font-semibold text-foreground bg-foreground/3 border border-border rounded-2xl px-8 py-6 leading-relaxed">
+            <blockquote className="text-base md:text-lg font-semibold text-foreground bg-foreground/3 border border-border rounded-2xl px-8 py-6 leading-relaxed mb-8">
               "O 'vou pensar' normalmente não nasce no final da conversa. Ele nasce no momento em
               que o cliente{' '}
               <span className="text-primary">deixou de se sentir compreendido.</span>"
             </blockquote>
+            <ButtonCTA href="#oferta" className="w-full sm:w-auto px-8 py-4">
+              Quero Parar de Vender no Escuro <ArrowRight className="w-5 h-5 ml-1" />
+            </ButtonCTA>
           </div>
         </FadeIn>
 

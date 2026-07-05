@@ -1,0 +1,560 @@
+Quero que você faça uma nova rodada de melhoria na landing page atual do produto “Destravador de Vendas”.
+
+A página já está visualmente boa. Não quero que você refaça tudo do zero.
+
+Quero que você melhore:
+- conexão emocional
+- autoridade
+- clareza para WhatsApp
+- benefícios transformacionais
+- demonstrações práticas
+- quantidade estratégica de CTAs
+- valor percebido da oferta
+
+A página será usada para tráfego frio.
+
+A lógica principal continua sendo:
+
+DOR → CAUSA → MECANISMO → SOLUÇÃO → CONVICÇÃO → OFERTA
+
+==================================================
+1. MANTER O HERO, MAS AJUSTAR PARA CALL + WHATSAPP
+==================================================
+
+Manter a headline principal:
+
+“Nunca mais termine uma conversa de venda sem saber por que o cliente travou.”
+
+Se a página ainda estiver usando “call”, trocar para “conversa de venda”, para incluir calls, WhatsApp, direct e follow-up.
+
+Subheadline:
+
+“Cole uma call transcrita, conversa de WhatsApp ou follow-up. O Auditor Comercial IA identifica onde você perdeu o cliente, qual erro cometeu e qual pergunta ou mensagem poderia ter mudado o rumo da negociação.”
+
+CTA principal:
+
+“Quero Auditar Minha Próxima Conversa”
+
+Microcopy:
+
+✓ Funciona para calls e WhatsApp  
+✓ Sem instalação  
+✓ Diagnóstico prático em poucos minutos  
+
+Manter o notebook grande e protagonista.
+
+==================================================
+2. ADICIONAR MAIS CTAs AO LONGO DA PÁGINA
+==================================================
+
+Hoje a página precisa de mais botões de ação.
+
+Adicionar CTA ao final das principais seções, sem exagerar visualmente.
+
+Inserir botões após:
+
+- Seção de dor emocional
+- Seção de causa real
+- Seção de demonstração prática
+- Seção de WhatsApp
+- Seção de diferenciação
+- Seção de benefícios
+- Oferta
+- CTA final
+
+Variações de texto dos botões:
+
+1. “Quero Auditar Minha Próxima Conversa”
+2. “Quero Descobrir Onde Perdi o Cliente”
+3. “Quero Parar de Vender no Escuro”
+4. “Quero Acessar o Auditor Comercial IA”
+5. “Quero Analisar Meu WhatsApp ou Call”
+
+Todos os botões devem levar para a seção de oferta.
+
+Usar âncora:
+
+#oferta
+
+Exemplo:
+
+<a href="#oferta">Quero Auditar Minha Próxima Conversa</a>
+
+No mobile, manter sticky footer com botão:
+
+“Auditar conversa”
+
+Esse botão também deve levar para #oferta.
+
+==================================================
+3. FORTALECER A DOR EMOCIONAL
+==================================================
+
+Criar ou reforçar uma seção logo após o Hero.
+
+Título:
+
+“O pior não é perder a venda. É não saber onde você errou.”
+
+Texto:
+
+“Você termina a conversa, fecha o notebook, abre o WhatsApp ou atualiza o CRM e tenta lembrar em qual momento o cliente esfriou.”
+
+Adicionar mini storytelling:
+
+“Às vezes a conversa parecia boa.
+O cliente respondeu bem.
+Fez perguntas.
+Demonstrou interesse.
+
+Mas, no final, veio o clássico:
+
+‘Vou pensar.’
+
+E depois disso, silêncio.”
+
+Depois completar:
+
+“O problema é que a maioria dos vendedores nunca descobre se perdeu por preço, falta de confiança, baixa percepção de valor, ausência de urgência ou simplesmente porque fez a pergunta errada no momento errado.”
+
+Cards emocionais:
+
+- Você sente que falou demais tentando convencer.
+- O cliente some depois de dizer “vou ver e te aviso”.
+- Você responde objeções sem saber a causa real.
+- Você acredita que perdeu por preço, mas não tem certeza.
+- Você queria voltar alguns minutos e fazer outra pergunta.
+- Você termina a conversa sem saber onde perdeu autoridade.
+- Você registra “cliente vai pensar”, mas sabe que a venda morreu antes disso.
+
+Ao final da seção, adicionar CTA:
+
+“Quero Descobrir Onde Perdi o Cliente”
+
+==================================================
+4. ADICIONAR SEÇÃO ESPECÍFICA PARA WHATSAPP
+==================================================
+
+Essa seção é obrigatória.
+
+Título:
+
+“Também funciona para quem vende pelo WhatsApp.”
+
+Subtítulo:
+
+“Nem toda venda morre em uma call. Muitas morrem em uma mensagem mal conduzida.”
+
+Texto:
+
+“Se você vende no WhatsApp, provavelmente já viveu isso: o cliente chama, pergunta preço, parece interessado, recebe sua explicação e depois desaparece.”
+
+Criar visual em duas colunas:
+
+Coluna 1 — Conversa comum no WhatsApp:
+
+Cliente:
+“Qual o valor?”
+
+Vendedor:
+“Fica R$497. Posso te explicar como funciona.”
+
+Cliente:
+“Vou ver certinho e te aviso.”
+
+Resultado:
+“Cliente sumiu.”
+
+Coluna 2 — Auditor Comercial IA:
+
+Erro identificado:
+“Você respondeu preço antes de entender contexto, prioridade e consequência.”
+
+Mensagem sugerida:
+“Claro. Antes de te passar a melhor opção, me conta uma coisa: o que fez você procurar por isso agora?”
+
+Próxima ação:
+“Voltar para diagnóstico antes de apresentar valor.”
+
+Adicionar explicação:
+
+“O Auditor Comercial IA não serve apenas para calls. Ele analisa mensagens, follow-ups, directs e conversas escritas para mostrar onde sua condução perdeu força.”
+
+Adicionar CTA:
+
+“Quero Analisar Meu WhatsApp ou Call”
+
+==================================================
+5. CRIAR SEÇÃO FORTE DE AUTORIDADE / ORIGEM DO MÉTODO
+==================================================
+
+Hoje a autoridade dos R$50 milhões está pequena.
+
+Criar uma seção inteira.
+
+Título:
+
+“Esse sistema não nasceu em teoria.”
+
+Subtítulo:
+
+“Ele nasceu revisando conversas reais de vendedores que precisavam bater meta.”
+
+Texto:
+
+“Antes de virar produto, essa lógica era usada para analisar conversas comerciais reais. Calls eram revisadas. Mensagens eram observadas. Objeções eram comparadas. Perguntas eram corrigidas. Vendedores recebiam feedback sobre onde perderam força, onde falaram demais e onde deixaram de aprofundar a dor do cliente.”
+
+Adicionar bloco de autoridade:
+
+“Desenvolvido a partir de uma lógica real de auditoria comercial aplicada em uma operação com mais de R$50 milhões em vendas acumuladas.”
+
+Importante:
+Não afirmar que a IA vendeu R$50 milhões sozinha.
+Não prometer que o cliente terá esse resultado.
+Usar o número como contexto de autoridade, não como promessa.
+
+Criar timeline visual:
+
+1. Conversas reais analisadas
+2. Objeções mapeadas
+3. Erros comerciais identificados
+4. Perguntas corrigidas
+5. Padrões de avanço reconhecidos
+6. Lógica transformada em Auditor Comercial IA
+
+Adicionar CTA:
+
+“Quero Acessar Essa Lógica de Auditoria”
+
+==================================================
+6. MELHORAR BENEFÍCIOS: VENDER TRANSFORMAÇÃO, NÃO RECURSOS
+==================================================
+
+Onde houver benefícios racionais como:
+
+- Diagnóstico
+- Framework
+- Prompt
+- Auditor
+- Biblioteca
+
+Reescrever para benefícios transformacionais.
+
+Novo título da seção:
+
+“O que muda na prática?”
+
+Subtítulo:
+
+“Você para de vender no escuro.”
+
+Cards:
+
+1. “Descubra exatamente onde perdeu autoridade.”
+Descrição:
+“Entenda o ponto da conversa em que o cliente deixou de confiar, avançar ou enxergar valor.”
+
+2. “Pare de responder objeções no automático.”
+Descrição:
+“Antes de responder ‘está caro’, entenda o que realmente está por trás da objeção.”
+
+3. “Saiba qual pergunta fazer quando o cliente trava.”
+Descrição:
+“Receba sugestões de perguntas para voltar ao diagnóstico sem parecer insistente.”
+
+4. “Transforme conversas perdidas em aprendizado.”
+Descrição:
+“Cada call ou WhatsApp pode virar um mapa de melhoria para sua próxima abordagem.”
+
+5. “Termine cada conversa sabendo o que melhorar.”
+Descrição:
+“Em vez de sair no escuro, você entende o erro, o impacto e a próxima ação.”
+
+6. “Venda com mais clareza, menos ansiedade e mais controle.”
+Descrição:
+“Você passa a conduzir conversas com mais consciência comercial.”
+
+Adicionar CTA:
+
+“Quero Parar de Vender no Escuro”
+
+==================================================
+7. ADICIONAR SEÇÃO DE ANTES E DEPOIS
+==================================================
+
+Criar uma seção chamada:
+
+“Antes e depois do diagnóstico.”
+
+Layout comparativo.
+
+ANTES:
+
+- Cliente diz “vou pensar”
+- Você não sabe se perdeu por preço
+- Você responde objeções no escuro
+- Você tenta convencer mais
+- Você termina sem clareza
+
+DEPOIS:
+
+- Você identifica onde a conversa travou
+- Entende a causa real da objeção
+- Recebe a pergunta que faltou
+- Corrige sua próxima abordagem
+- Termina sabendo o que melhorar
+
+Adicionar CTA:
+
+“Quero Diagnosticar Minha Próxima Conversa”
+
+==================================================
+8. ADICIONAR MAIS DEMONSTRAÇÕES PRÁTICAS
+==================================================
+
+Criar seção:
+
+“Veja o mecanismo em ação.”
+
+Adicionar 2 exemplos.
+
+EXEMPLO 1 — Call:
+
+Cliente:
+“Está caro.”
+
+Auditor identifica:
+“Preço não foi a causa principal. O valor não foi conectado à dor e à consequência.”
+
+Pergunta sugerida:
+“Se esse problema continuar por mais seis meses, qual seria o impacto real para você?”
+
+EXEMPLO 2 — WhatsApp:
+
+Cliente:
+“Vou ver certinho e te aviso.”
+
+Auditor identifica:
+“A resposta ficou vaga porque a decisão não foi ancorada em prioridade.”
+
+Mensagem sugerida:
+“Claro. Só para eu entender melhor: o que ainda falta ficar claro para você tomar essa decisão com segurança?”
+
+Explicação:
+
+“O objetivo não é decorar respostas prontas. É entender onde a conversa perdeu profundidade e como reconduzir com inteligência.”
+
+Adicionar CTA:
+
+“Quero Ver Isso Na Minha Próxima Conversa”
+
+==================================================
+9. REFORÇAR O MOCKUP DO NOTEBOOK
+==================================================
+
+Manter o notebook grande no Hero.
+
+Se possível, aumentar em 10% a 20% no desktop.
+
+Adicionar abas na interface do notebook:
+
+Call | WhatsApp | Follow-up
+
+Exemplo do conteúdo dentro do mockup:
+
+Status:
+“Conversa enviada...”
+
+Barra:
+“Analisando diagnóstico comercial...”
+
+Score:
+“38/100”
+
+Erro crítico:
+“Você apresentou a solução antes de entender a prioridade real do cliente.”
+
+Impacto:
+“Isso fez o cliente responder: ‘vou pensar’.”
+
+Pergunta que faltou:
+“O que faria essa decisão fazer sentido para você hoje?”
+
+Chance de recuperação:
+“Alta”
+
+O mockup precisa parecer uma prova viva do sistema funcionando.
+
+==================================================
+10. MELHORAR SEÇÃO “O QUE VOCÊ RECEBE”
+==================================================
+
+Trocar o título para:
+
+“Tudo que faz parte do Sistema Destravador de Vendas.”
+
+Subtítulo:
+
+“Não é apenas um prompt. É um conjunto de ferramentas para revisar, entender e corrigir suas conversas comerciais.”
+
+Cards:
+
+1. Auditor Comercial IA
+“Para analisar calls, WhatsApps, directs e follow-ups.”
+
+2. Prompt Mestre de Diagnóstico
+“Para fazer a IA agir como um gerente comercial experiente revisando sua conversa.”
+
+3. Protocolo de Correção de Conversas
+“Para encontrar erros de abordagem, diagnóstico, condução e fechamento.”
+
+4. Biblioteca de Perguntas de Alto Impacto
+“Para nunca mais ficar sem saber o que perguntar quando o cliente trava.”
+
+5. Biblioteca de Objeções
+“Para entender o que existe por trás de ‘está caro’, ‘vou pensar’ e ‘preciso falar com alguém’.”
+
+6. Guia de Aplicação em Call e WhatsApp
+“Para usar o sistema tanto em ligações quanto em conversas por mensagem.”
+
+Adicionar CTA:
+
+“Quero Acessar o Sistema Completo”
+
+==================================================
+11. REFORÇAR A OFERTA
+==================================================
+
+Na seção da oferta, garantir que o ID seja:
+
+id="oferta"
+
+Título:
+
+“Você não está comprando informação. Está comprando clareza comercial.”
+
+Texto:
+
+“Uma única conversa melhor conduzida pode recuperar o investimento. O objetivo do Destravador é fazer você parar de vender por tentativa e erro e começar a corrigir suas abordagens com base em diagnóstico.”
+
+Destacar visualmente:
+
+- Acesso imediato
+- Funciona para call e WhatsApp
+- Auditor Comercial IA
+- Prompt Mestre
+- Protocolo de Correção
+- Biblioteca de Perguntas
+- Biblioteca de Objeções
+- Guia de aplicação
+- Garantia de 7 dias
+
+CTA principal da oferta:
+
+“Quero Acessar o Destravador Agora”
+
+Microcopy:
+
+Compra segura • Acesso imediato • Garantia de 7 dias
+
+==================================================
+12. GARANTIA
+==================================================
+
+Manter garantia de 7 dias, mas deixar mais humana.
+
+Título:
+
+“Teste por 7 dias sem risco.”
+
+Texto:
+
+“Use o Destravador em uma call, uma conversa de WhatsApp ou um follow-up real. Se você sentir que ele não te ajudou a enxergar sua abordagem com mais clareza, basta solicitar o reembolso dentro do prazo de garantia.”
+
+==================================================
+13. FAQ
+==================================================
+
+Atualizar FAQ para incluir WhatsApp.
+
+Perguntas:
+
+1. Isso é um curso?
+2. Preciso saber usar IA?
+3. Funciona para WhatsApp?
+4. Funciona para ligação?
+5. Posso usar com conversas antigas?
+6. Serve para vendas high ticket?
+7. Serve para vendas pelo direct?
+8. Isso substitui treinamento comercial?
+9. Tenho garantia?
+
+Respostas devem reforçar:
+
+- não é curso
+- é sistema de auditoria comercial
+- funciona com calls, WhatsApp, direct e follow-up
+- ideal para vendas consultivas
+- basta colar ou transcrever a conversa
+- garantia de 7 dias
+
+==================================================
+14. DESIGN E UX
+==================================================
+
+Manter estilo premium SaaS/IA.
+
+Referências:
+Stripe, Apple, Notion, Linear, Vercel, Framer.
+
+Melhorar:
+- espaçamento entre seções
+- ritmo visual
+- hierarquia dos títulos
+- contraste dos CTAs
+- cards mais vivos
+- animações suaves
+- hover em botões
+- hover em cards
+- consistência entre Call e WhatsApp
+- responsividade mobile
+
+Evitar:
+- poluição visual
+- excesso de texto por bloco
+- aparência de página de afiliado
+- promessas exageradas
+- contadores falsos
+
+==================================================
+15. MOBILE
+==================================================
+
+No mobile:
+
+- Manter CTA sticky “Auditar conversa”
+- Botões precisam ser grandes e fáceis de tocar
+- Mockup precisa continuar legível
+- Cards empilhados
+- Seção de WhatsApp precisa aparecer de forma clara
+- Evitar parágrafos longos
+- CTAs devem aparecer após blocos importantes
+
+==================================================
+ENTREGA FINAL
+==================================================
+
+Aplicar as melhorias no código atual.
+
+Não refazer a página do zero.
+
+Prioridades:
+
+1. Aumentar conexão emocional.
+2. Criar seção forte para WhatsApp.
+3. Reforçar autoridade dos R$50 milhões com storytelling.
+4. Transformar benefícios racionais em benefícios emocionais/práticos.
+5. Adicionar mais CTAs estratégicos levando para #oferta.
+6. Mostrar mais exemplos práticos do mecanismo.
+7. Fazer a página vender “clareza comercial”, não apenas IA.
+8. Fazer o visitante pensar: “isso serve exatamente para a forma como eu vendo.”
