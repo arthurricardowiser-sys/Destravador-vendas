@@ -5,31 +5,31 @@ import { FadeIn } from '@/components/FadeIn';
 const faqs = [
   {
     q: 'Preciso ser vendedor profissional?',
-    a: 'Não. O RAIO-X OS funciona para qualquer pessoa que vende por conversa — WhatsApp, ligação, reunião, e-mail. Se você tem negociações que não avançam, o sistema vai te ajudar.',
+    a: 'Não. O RAIO-X OS foi criado para qualquer pessoa que vende por conversa — seja no WhatsApp, ligação, reunião ou e-mail. Se você tem negociações que não avançam, o sistema vai te ajudar a entender onde está o problema.',
   },
   {
     q: 'Funciona para WhatsApp?',
-    a: 'Sim. Você copia a conversa do WhatsApp, cola no sistema e recebe o diagnóstico. É um dos principais canais suportados.',
+    a: 'Sim. Você copia a conversa do WhatsApp, cola no sistema e recebe o diagnóstico completo: causa raiz, erros críticos, script corrigido e plano de ação.',
   },
   {
     q: 'Funciona para ligação ou reunião?',
-    a: 'Sim. Você pode usar a transcrição da ligação, o resumo da reunião ou o histórico de e-mails. O sistema analisa qualquer formato de conversa comercial.',
+    a: 'Sim. Você pode usar a transcrição da ligação, o resumo da reunião ou o histórico de qualquer conversa comercial. O RAIO-X analisa qualquer formato e entrega o mesmo diagnóstico estruturado.',
   },
   {
     q: 'Preciso saber usar IA?',
-    a: 'Não. Você recebe o prompt pronto e o passo a passo. É copiar, colar e ler o diagnóstico. Não precisa de conhecimento técnico.',
+    a: 'Não. O acesso inclui o prompt pronto e o passo a passo completo. Você copia, cola e recebe o diagnóstico — sem configuração, sem conhecimento técnico.',
   },
   {
     q: 'Isso substitui um treinamento de vendas?',
-    a: 'Não. O RAIO-X OS é uma ferramenta de diagnóstico e correção — você usa depois de cada negociação para entender o que aconteceu. Ele complementa qualquer treinamento que você já faça.',
+    a: 'Não. O RAIO-X OS é uma ferramenta de diagnóstico e correção. Você usa depois de cada negociação para entender exatamente o que aconteceu. Ele complementa qualquer treinamento que você já faz — e torna o aprendizado mais prático e direto.',
   },
   {
     q: 'O RAIO-X promete que vou fechar todas as vendas?',
-    a: 'Não. Nenhum sistema honesto promete isso. O RAIO-X OS entrega clareza: você entende onde errou, o que corrigir e como se preparar melhor para a próxima negociação.',
+    a: 'Não. Nenhuma ferramenta honesta promete isso. O RAIO-X entrega diagnóstico, clareza, correção e plano de ação. O resultado depende de você aplicar o que aprende em cada auditoria.',
   },
   {
     q: 'Posso usar no ChatGPT e no Gemini?',
-    a: 'Sim. O acesso inclui prompts compatíveis com os dois. Você escolhe qual prefere usar.',
+    a: 'Sim. O acesso inclui prompts compatíveis com os dois. Você escolhe o que preferir — e usa a IA que já tem na mão.',
   },
 ];
 
@@ -42,9 +42,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
         className="w-full flex items-center justify-between px-6 py-4 text-left gap-4"
       >
         <span className="text-sm md:text-base font-semibold text-foreground leading-snug">{q}</span>
-        <ChevronDown
-          className={`w-5 h-5 text-muted-foreground flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-180 text-primary' : ''}`}
-        />
+        <ChevronDown className={`w-5 h-5 text-muted-foreground flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-180 text-primary' : ''}`} />
       </button>
       {open && (
         <div className="px-6 pb-5">

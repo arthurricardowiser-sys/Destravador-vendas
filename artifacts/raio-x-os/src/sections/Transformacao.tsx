@@ -8,13 +8,15 @@ const before = [
   '"Acho que foi preço."',
   '"O cliente sumiu."',
   '"Não sei o que melhorar."',
+  '"Vou tentar de novo do mesmo jeito."',
 ];
 
 const after = [
   '"Sei exatamente onde perdi controle."',
   '"Entendi a causa raiz."',
-  '"Tenho um plano para a próxima negociação."',
+  '"Tenho um plano para a próxima conversa."',
   '"Sei qual comportamento corrigir."',
+  '"Minha próxima negociação vira um teste consciente."',
 ];
 
 export function Transformacao() {
@@ -26,9 +28,9 @@ export function Transformacao() {
         <FadeIn>
           <div className="text-center mb-14 max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-              Saia do achismo e entre na próxima negociação{' '}
+              Toda negociação agora pode{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                com clareza.
+                virar treinamento.
               </span>
             </h2>
           </div>
@@ -41,9 +43,12 @@ export function Transformacao() {
                 <div className="w-10 h-10 rounded-full bg-red-500/10 border border-red-500/20 flex items-center justify-center">
                   <X className="w-5 h-5 text-red-400" />
                 </div>
-                <h3 className="text-base font-bold text-foreground">Antes</h3>
+                <div>
+                  <h3 className="text-sm font-bold text-foreground">Vendedor no achismo</h3>
+                  <p className="text-xs text-muted-foreground mt-0.5">Sem diagnóstico</p>
+                </div>
               </div>
-              <ul className="space-y-4">
+              <ul className="space-y-3.5">
                 {before.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded-full bg-red-500/10 border border-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -64,9 +69,12 @@ export function Transformacao() {
                 <div className="w-10 h-10 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center">
                   <Check className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-base font-bold text-foreground">Depois</h3>
+                <div>
+                  <h3 className="text-sm font-bold text-foreground">Vendedor com diagnóstico</h3>
+                  <p className="text-xs text-muted-foreground mt-0.5">Com o RAIO-X OS</p>
+                </div>
               </div>
-              <ul className="space-y-4">
+              <ul className="space-y-3.5">
                 {after.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -80,7 +88,7 @@ export function Transformacao() {
           </FadeIn>
         </div>
 
-        <SectionCTA label="Ir para a oferta" />
+        <SectionCTA label="Quero vender com mais clareza" />
       </div>
     </section>
   );

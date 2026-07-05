@@ -1,0 +1,560 @@
+Você é um Copy Chief especialista em Direct Response, landing pages de alta conversão e posicionamento de produtos digitais/SaaS.
+
+Sua tarefa é revisar e melhorar a landing page atual do RAIO-X OS, mantendo a mesma estrutura visual e base do layout já criado, mas reescrevendo a copy de cada seção para que ela responda sempre à pergunta:
+
+"O que isso muda para o vendedor?"
+
+IMPORTANTE:
+Não reescreva a página como uma landing genérica de IA.
+Não venda "IA".
+Não venda "prompt".
+Não venda "dashboard".
+Não venda "framework".
+Venda a transformação:
+
+O vendedor sai do achismo e passa a entender exatamente onde sua negociação perdeu força, por que isso aconteceu e o que precisa corrigir na próxima conversa.
+
+POSICIONAMENTO CENTRAL:
+O RAIO-X OS não é apenas uma ferramenta de análise.
+É um novo jeito de evoluir em vendas.
+
+Toda negociação agora vira treinamento.
+
+PRODUTO:
+RAIO-X OS — Sistema de auditoria comercial baseada em evidências.
+
+MECANISMO ÚNICO:
+Auditoria Comercial Baseada em Evidências.
+
+O RAIO-X aplica automaticamente uma metodologia de auditoria comercial para identificar o comportamento que iniciou a queda da negociação.
+
+A IA deve aparecer apenas como meio.
+O método deve aparecer como mecanismo.
+
+NARRATIVA PRINCIPAL:
+Cada negociação perdida sem diagnóstico aumenta as chances de o vendedor repetir exatamente o mesmo erro na próxima venda.
+
+O RAIO-X OS muda isso ao transformar qualquer conversa comercial em um diagnóstico claro, mostrando:
+- onde a negociação começou a perder força;
+- qual comportamento prejudicou a venda;
+- qual foi a causa raiz;
+- o que falar diferente na próxima conversa;
+- qual habilidade o vendedor deve treinar primeiro.
+
+PÚBLICO:
+Profissionais que vendem por conversas 1 a 1:
+- Closers
+- Afiliados
+- Consultores
+- Corretores
+- SDRs
+- Executivos comerciais
+- Prestadores de serviço
+- Infoprodutores
+- Vendedores que usam WhatsApp, ligação, Meet, Zoom, e-mail ou chat
+
+DIREÇÃO DE COPY:
+Reescreva cada seção com foco em benefício percebido.
+
+Exemplos de tradução de feature para benefício:
+
+Em vez de:
+"Sistema de Score"
+
+Escrever:
+"Descubra em segundos o momento em que sua negociação perdeu força."
+
+Em vez de:
+"Prompt ChatGPT e Gemini"
+
+Escrever:
+"Analise qualquer conversa usando a IA que você já utiliza."
+
+Em vez de:
+"Framework de Auditoria"
+
+Escrever:
+"Receba um diagnóstico consistente, sem depender de achismos."
+
+Em vez de:
+"Script Corrigido"
+
+Escrever:
+"Saiba exatamente o que poderia ter dito para conduzir melhor a conversa."
+
+Em vez de:
+"Plano de Ação"
+
+Escrever:
+"Entre na próxima negociação sabendo qual comportamento corrigir primeiro."
+
+ESTILO:
+- Direct response
+- Clareza
+- Tensão emocional
+- Linguagem simples
+- Tom premium
+- Sem exagero
+- Sem prometer que o usuário vai fechar todas as vendas
+- Foco em diagnóstico, clareza e evolução comercial
+
+MANTER:
+- Layout dark premium
+- Cards
+- Mockups
+- CTAs ao longo da página
+- Estrutura geral atual
+- Responsividade
+- Visual SaaS
+
+MELHORIAS OBRIGATÓRIAS POR SEÇÃO:
+
+1. HERO SECTION
+
+Reescrever o hero com uma lógica de problema + solução.
+
+Headline principal:
+"Cada negociação perdida sem diagnóstico aumenta as chances de você repetir exatamente o mesmo erro na próxima venda."
+
+Headline de apoio logo abaixo:
+"Nunca mais termine uma negociação sem saber exatamente por que ela foi perdida."
+
+Subheadline:
+Criar uma subheadline que fale do mecanismo da solução e desperte curiosidade.
+
+Sugestão:
+"O RAIO-X OS aplica uma Auditoria Comercial Baseada em Evidências para mostrar onde sua conversa começou a perder força, qual comportamento travou a venda e o que você deve corrigir antes da próxima negociação."
+
+CTA principal:
+"Quero descobrir meus erros"
+
+CTA secundário:
+"Ver como funciona"
+
+Mockup:
+Melhorar o mockup para parecer mais um software real, não apenas um dashboard.
+
+Adicionar no mockup:
+- Sidebar lateral
+- Menu com itens como:
+  - Nova Auditoria
+  - Histórico
+  - Diagnósticos
+  - Scripts
+  - Plano de Ação
+- Avatar ou identificação do usuário
+- Histórico de auditorias recentes
+- Botão "Nova Auditoria"
+- Tela principal com:
+  - Score da negociação
+  - Causa raiz
+  - Momento de perda de força
+  - Erro crítico
+  - Script corrigido
+  - Próxima missão
+
+Quanto mais SaaS parecer, maior deve ser o valor percebido.
+
+2. CTAs
+
+Manter CTAs ao final das principais seções.
+
+Regra:
+Nunca repetir exatamente o mesmo CTA em sequência.
+
+Usar variações como:
+- Quero descobrir meus erros
+- Ver minha auditoria
+- Quero analisar minha negociação
+- Ir para a oferta
+- Quero acessar agora
+- Começar meu diagnóstico
+- Quero revisar minha próxima venda
+- Analisar minha conversa
+
+Todos os botões devem apontar para #oferta.
+
+3. SEÇÃO DE DOR
+
+Reescrever para aumentar identificação emocional.
+
+Título sugerido:
+"Você perdeu a venda... mas sabe exatamente onde a conversa começou a dar errado?"
+
+Adicionar pensamentos simulados em cards ou balões visuais:
+
+- "Ele visualizou e nunca respondeu."
+- "Achei que ele ia fechar."
+- "Fiquei sem saber o que responder."
+- "Talvez meu preço esteja alto demais."
+- "A conversa estava boa, mas esfriou."
+- "Será que eu pressionei demais?"
+- "Será que falei pouco valor?"
+- "Será que o lead era ruim mesmo?"
+
+Texto:
+"Muitos vendedores terminam uma negociação tentando adivinhar o motivo da perda. O problema é que, quando você não sabe onde errou, acaba corrigindo o problema errado."
+
+CTA ao final:
+"Quero descobrir onde estou errando"
+
+4. SEÇÃO DO INIMIGO
+
+Manter a ideia do achismo comercial, mas deixar mais visual e forte.
+
+Título:
+"O verdadeiro inimigo da sua conversão é o achismo comercial."
+
+Texto:
+"O achismo faz o vendedor acreditar que perdeu por preço, concorrência ou lead ruim. Mas sem diagnóstico, ele nunca sabe se o problema real foi autoridade, diagnóstico, valor, silêncio, objeção ou fechamento."
+
+Bloco visual obrigatório:
+
+ACHISMO
+↓
+REPETIÇÃO
+↓
+PERDA
+↓
+FRUSTRAÇÃO
+
+Depois mostrar a nova lógica:
+
+EVIDÊNCIA
+↓
+DIAGNÓSTICO
+↓
+CORREÇÃO
+↓
+EVOLUÇÃO
+
+CTA ao final:
+"Quero sair do achismo"
+
+5. SEÇÃO DO MECANISMO
+
+Reescrever para parecer metodologia, não ferramenta genérica de IA.
+
+Título:
+"Auditoria Comercial Baseada em Evidências"
+
+Texto:
+"O RAIO-X aplica automaticamente uma metodologia de auditoria comercial para identificar o comportamento que iniciou a queda da negociação."
+
+Complemento:
+"Em vez de dizer apenas que a venda foi perdida, ele mostra onde a conversa perdeu força, qual foi o impacto e o que deveria ter sido feito diferente."
+
+Mostrar que funciona para:
+- WhatsApp
+- ligação
+- Google Meet
+- Zoom
+- e-mail
+- chat
+
+Entregas em linguagem de benefício:
+- Descubra onde a negociação começou a perder força
+- Identifique o comportamento que travou a venda
+- Veja qual objeção ficou mal conduzida
+- Entenda onde faltou valor, autoridade ou compromisso
+- Receba uma correção prática para a próxima conversa
+
+CTA ao final:
+"Quero analisar minha negociação"
+
+6. COMO FUNCIONA
+
+Manter 3 passos, mas reescrever com benefício.
+
+Título:
+"Como transformar uma conversa perdida em treinamento para a próxima venda"
+
+Passo 1:
+"Cole a conversa ou transcrição"
+
+Descrição:
+"Pode ser WhatsApp, ligação transcrita, Meet, Zoom, e-mail ou chat."
+
+Passo 2:
+"O RAIO-X audita a negociação"
+
+Descrição:
+"A metodologia identifica evidências, padrões, causa raiz e pontos de perda de força."
+
+Passo 3:
+"Você recebe clareza para agir"
+
+Descrição:
+"Diagnóstico, script corrigido, plano de ação e uma missão para a próxima negociação."
+
+CTA:
+"Começar meu diagnóstico"
+
+7. SEÇÃO DE RESULTADO
+
+Inverter a lógica: primeiro benefícios, depois funcionalidades.
+
+Título:
+"O que muda para você depois de cada auditoria"
+
+Primeiro mostrar benefícios:
+
+- Clareza sobre onde a venda começou a travar
+- Diagnóstico objetivo, sem depender de opinião
+- Correção prática do que deveria ter sido dito
+- Plano de ação para a próxima negociação
+- Uma habilidade principal para treinar primeiro
+
+Depois mostrar funcionalidades como apoio:
+
+"Por trás disso, você recebe:"
+
+Cards:
+- Score da negociação
+- Causa raiz
+- Erros críticos
+- Perfil comportamental do lead
+- Comparação: como foi vs. como deveria ser
+- Script corrigido
+- Plano de ação
+- Próxima missão
+
+CTA:
+"Quero receber esse diagnóstico"
+
+8. SEÇÃO DE TRANSFORMAÇÃO
+
+Manter antes/depois, mas criar visualmente dois personagens ou dois cards lado a lado.
+
+Título:
+"Toda negociação agora pode virar treinamento"
+
+Card Antes:
+Vendedor no achismo
+
+- "Não sei onde errei."
+- "Acho que foi preço."
+- "O cliente sumiu."
+- "Não sei o que melhorar."
+- "Vou tentar de novo do mesmo jeito."
+
+Card Depois:
+Vendedor com diagnóstico
+
+- "Sei exatamente onde perdi controle."
+- "Entendi a causa raiz."
+- "Tenho um plano para a próxima conversa."
+- "Sei qual comportamento corrigir."
+- "Minha próxima negociação vira um teste consciente."
+
+CTA:
+"Quero vender com mais clareza"
+
+9. NOVA SEÇÃO ANTES DA OFERTA
+
+Adicionar uma nova seção antes da seção de oferta.
+
+Título:
+"Por que vendedores inteligentes continuam perdendo vendas?"
+
+Criar três cards:
+
+Card 1:
+"Você não registra suas negociações"
+
+Texto:
+"Sem revisar o que aconteceu, toda perda vira apenas uma sensação."
+
+Card 2:
+"Mesmo quando revisa, não sabe o que procurar"
+
+Texto:
+"Sem uma metodologia, você pode focar no preço quando o problema real foi autoridade, dor ou compromisso."
+
+Card 3:
+"Sem diagnóstico, você melhora por tentativa e erro"
+
+Texto:
+"E tentativa e erro custa tempo, energia e vendas perdidas."
+
+Fechamento da seção:
+"O RAIO-X elimina esse ciclo: cada conversa vira um diagnóstico e cada diagnóstico vira uma próxima ação."
+
+CTA:
+"Quero transformar minhas conversas em treinamento"
+
+10. SEÇÃO PARA QUEM É
+
+Manter, mas reescrever com foco em quem vende por conversa.
+
+Título:
+"Para quem vende por conversa e precisa converter melhor"
+
+Texto:
+"Se você depende de conversas para vender, cada mensagem, pergunta ou silêncio pode mudar o resultado da negociação."
+
+Lista:
+- Closers
+- Afiliados
+- Consultores
+- Corretores
+- SDRs
+- Prestadores de serviço
+- Infoprodutores
+- Vendedores no WhatsApp
+- Profissionais que negociam por ligação, Meet, Zoom, e-mail ou chat
+
+CTA:
+"Quero testar no meu tipo de venda"
+
+11. SEÇÃO PARA QUEM NÃO É
+
+Manter com tom de qualificação.
+
+Título:
+"O RAIO-X não é para você se..."
+
+Lista:
+- você não conversa com leads;
+- você não quer revisar suas negociações;
+- você procura uma promessa milagrosa;
+- você não quer corrigir sua execução comercial;
+- você espera que uma IA venda por você sem melhorar sua abordagem.
+
+CTA:
+"Se isso faz sentido para você, veja a oferta"
+
+12. SEÇÃO DA OFERTA
+
+Aqui está o maior ajuste.
+
+A oferta precisa parecer oferta, não apenas lista de produto.
+
+ID da seção:
+oferta
+
+Headline da oferta:
+"Descubra o erro que pode estar fazendo você perder vendas antes mesmo de apresentar sua oferta."
+
+Subheadline:
+"Com o RAIO-X OS, você revisa qualquer negociação em poucos minutos e entende exatamente onde perdeu autoridade, criou resistência, deixou de aprofundar, quebrou o silêncio ou conduziu mal a decisão."
+
+Bloco de valor:
+"Imagine revisar sua última conversa e descobrir:"
+
+Lista:
+- Onde você perdeu autoridade
+- Onde criou resistência
+- Onde deveria ter aprofundado
+- Onde deveria ter permanecido em silêncio
+- O que falar diferente na próxima conversa
+- Qual habilidade treinar primeiro
+- Como transformar aquela perda em aprendizado prático
+
+Depois, só então apresentar o que recebe:
+
+"O que você recebe ao acessar o RAIO-X OS:"
+
+Reescrever features como benefícios:
+
+- Analise qualquer conversa usando a IA que você já utiliza
+  (ChatGPT e Gemini)
+
+- Receba um diagnóstico consistente, sem depender de achismos
+  (Framework de auditoria)
+
+- Descubra o momento em que sua negociação perdeu força
+  (Sistema de score)
+
+- Identifique os padrões que mais prejudicam sua conversão
+  (Biblioteca de comportamentos comerciais)
+
+- Saiba exatamente o que poderia ter dito diferente
+  (Script corrigido)
+
+- Entre na próxima conversa com um foco claro de melhoria
+  (Plano de ação e próxima missão)
+
+Card de oferta:
+Nome:
+RAIO-X OS
+
+Badge:
+Acesso inicial
+
+CTA:
+Quero acessar o RAIO-X agora
+
+Texto abaixo:
+Acesso imediato após confirmação.
+
+Não usar "MVP" como headline da oferta.
+
+13. GARANTIA
+
+Manter simples, mas reforçar clareza.
+
+Título:
+"Teste com suas próprias conversas"
+
+Texto:
+"Use o RAIO-X OS para revisar suas negociações. Se sentir que ele não trouxe mais clareza sobre onde você está errando e o que precisa melhorar, você pode solicitar reembolso dentro do prazo de garantia."
+
+CTA:
+"Quero testar sem risco"
+
+14. FAQ
+
+Manter perguntas e ajustar respostas para benefício.
+
+Perguntas:
+- Preciso ser vendedor profissional?
+- Funciona para WhatsApp?
+- Funciona para ligação ou reunião?
+- Preciso saber usar IA?
+- Isso substitui um treinamento de vendas?
+- O RAIO-X promete que vou fechar todas as vendas?
+- Posso usar no ChatGPT e no Gemini?
+
+Nas respostas:
+Reforçar que o RAIO-X não promete fechar todas as vendas.
+Ele entrega diagnóstico, clareza, correção e plano de ação.
+
+15. CTA FINAL
+
+Reescrever para ser mais emocional.
+
+Título:
+"Sua próxima negociação pode valer milhares de reais."
+
+Texto:
+"Não entre nela sem saber onde você está errando. Use o RAIO-X para transformar suas conversas em diagnóstico, seus erros em aprendizado e sua próxima venda em uma execução mais consciente."
+
+Botão:
+"Quero acessar o RAIO-X agora"
+
+REQUISITOS VISUAIS:
+- Manter design dark premium
+- Manter layout responsivo
+- Melhorar mockups com aparência de software real
+- Adicionar mais elementos visuais nos blocos de dor e inimigo
+- Usar cards, badges, mockups e barras visuais
+- CTAs distribuídos ao longo da página
+- Cada CTA com texto diferente
+- Evitar textos longos demais
+- Usar frases diretas e escaneáveis
+
+REQUISITOS TÉCNICOS:
+- React + Tailwind CSS
+- Código limpo
+- Componentes organizados
+- Não usar backend
+- Todos CTAs principais apontam para #oferta
+- Layout pronto para deploy
+
+REGRA FINAL:
+Antes de finalizar, revise cada seção e verifique se ela responde:
+
+"O que isso muda para o vendedor?"
+
+Se uma seção estiver apenas explicando uma funcionalidade, reescreva em linguagem de transformação.

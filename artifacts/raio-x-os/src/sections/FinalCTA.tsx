@@ -17,15 +17,15 @@ export function FinalCTA() {
             Acesso Imediato
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-foreground">
-            Pare de vender{' '}
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 leading-tight text-foreground">
+            Sua próxima negociação pode{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-accent">
-              no escuro.
+              valer milhares de reais.
             </span>
           </h2>
 
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Se você vende por conversas, cada negociação perdida pode esconder um padrão. O RAIO-X mostra onde está o erro e o que corrigir antes da próxima oportunidade.
+          <p className="text-base md:text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+            Não entre nela sem saber onde você está errando. Use o RAIO-X para transformar suas conversas em diagnóstico, seus erros em aprendizado e sua próxima venda em uma execução mais consciente.
           </p>
 
           <div className="flex justify-center mb-8">

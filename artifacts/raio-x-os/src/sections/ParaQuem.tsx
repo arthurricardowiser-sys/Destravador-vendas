@@ -4,14 +4,14 @@ import { FadeIn } from '@/components/FadeIn';
 import { SectionCTA } from '@/components/SectionCTA';
 
 const perfis = [
-  { label: 'Closers', desc: 'Que precisam entender seus erros de condução' },
+  { label: 'Closers', desc: 'Que precisam entender a condução de cada negociação' },
   { label: 'Afiliados', desc: 'Que vendem no WhatsApp ou direct' },
   { label: 'Consultores', desc: 'Que negociam por ligação ou reunião' },
   { label: 'Corretores', desc: 'Que acompanham propostas e follow-ups' },
   { label: 'SDRs', desc: 'E executivos comerciais' },
   { label: 'Prestadores de serviço', desc: 'Que vendem por conversa' },
   { label: 'Infoprodutores', desc: 'Que fecham no WhatsApp ou Zoom' },
-  { label: 'Vendedores no WhatsApp', desc: 'Que querem parar de repetir erros' },
+  { label: 'Vendedores no WhatsApp', desc: 'Ligação, Meet, Zoom, e-mail ou chat' },
 ];
 
 export function ParaQuem() {
@@ -21,14 +21,17 @@ export function ParaQuem() {
 
       <div className="max-w-5xl mx-auto relative z-10">
         <FadeIn>
-          <div className="text-center mb-14">
+          <div className="text-center mb-6 max-w-2xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 text-[11px] font-bold text-primary tracking-widest uppercase mb-5">
               Para Quem É
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5 leading-tight">
               Para quem vende por conversa e{' '}
-              <span className="text-primary">precisa melhorar conversão</span>
+              <span className="text-primary">precisa converter melhor</span>
             </h2>
+            <p className="text-base text-muted-foreground leading-relaxed">
+              Se você depende de conversas para vender, cada mensagem, pergunta ou silêncio pode mudar o resultado da negociação.
+            </p>
           </div>
         </FadeIn>
 
@@ -51,7 +54,7 @@ export function ParaQuem() {
           </div>
         </FadeIn>
 
-        <SectionCTA label="Quero testar o RAIO-X" />
+        <SectionCTA label="Quero testar no meu tipo de venda" />
       </div>
     </section>
   );

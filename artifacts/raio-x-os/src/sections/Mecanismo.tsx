@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Phone, Video, Mail, Cpu, Search, AlertOctagon, Lightbulb, FileCheck, Brain, Dumbbell } from 'lucide-react';
+import { MessageCircle, Phone, Video, Mail, Cpu, Search, AlertOctagon, Lightbulb, FileCheck, Dumbbell, Shield } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
 import { SectionCTA } from '@/components/SectionCTA';
 
@@ -12,13 +12,13 @@ const canais = [
   { icon: <MessageCircle className="w-4 h-4" />, label: 'Chat' },
 ];
 
-const entregaveis = [
-  { icon: <Search className="w-5 h-5 text-primary" />, label: 'Onde o erro começou' },
-  { icon: <AlertOctagon className="w-5 h-5 text-orange-400" />, label: 'Comportamento crítico' },
-  { icon: <Cpu className="w-5 h-5 text-red-400" />, label: 'Objeção não tratada' },
-  { icon: <Lightbulb className="w-5 h-5 text-yellow-400" />, label: 'Parte que perdeu força' },
-  { icon: <FileCheck className="w-5 h-5 text-accent" />, label: 'Script que deveria ter sido usado' },
-  { icon: <Dumbbell className="w-5 h-5 text-green-400" />, label: 'Habilidade para treinar' },
+const beneficios = [
+  { icon: <Search className="w-5 h-5 text-primary" />, label: 'Descubra onde a negociação começou a perder força' },
+  { icon: <AlertOctagon className="w-5 h-5 text-orange-400" />, label: 'Identifique o comportamento que travou a venda' },
+  { icon: <Lightbulb className="w-5 h-5 text-yellow-400" />, label: 'Veja qual objeção ficou mal conduzida' },
+  { icon: <Shield className="w-5 h-5 text-red-400" />, label: 'Entenda onde faltou valor, autoridade ou compromisso' },
+  { icon: <FileCheck className="w-5 h-5 text-accent" />, label: 'Receba uma correção prática para a próxima conversa' },
+  { icon: <Dumbbell className="w-5 h-5 text-green-400" />, label: 'Saiba qual habilidade treinar primeiro' },
 ];
 
 export function Mecanismo() {
@@ -39,32 +39,25 @@ export function Mecanismo() {
               </span>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              O RAIO-X OS transforma qualquer conversa comercial em um diagnóstico estruturado.
+              O RAIO-X aplica automaticamente uma metodologia de auditoria comercial para identificar o comportamento que iniciou a queda da negociação.
             </p>
           </div>
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-12 max-w-3xl mx-auto">
-            {[
-              'Não é uma IA genérica',
-              'Não é mais um curso de vendas',
-              'Não é um script pronto',
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-2.5 bg-card border border-border/40 rounded-xl px-4 py-3">
-                <span className="w-5 h-5 rounded-full border border-red-500/40 flex items-center justify-center flex-shrink-0">
-                  <span className="w-2 h-0.5 bg-red-400 rounded-full block" />
-                </span>
-                <p className="text-xs text-muted-foreground leading-snug">{item}</p>
-              </div>
-            ))}
+          <div className="max-w-2xl mx-auto mb-12 bg-card border border-border/40 rounded-2xl px-7 py-5">
+            <p className="text-sm text-muted-foreground leading-relaxed text-center">
+              Em vez de dizer apenas que a venda foi perdida, ele mostra{' '}
+              <span className="text-foreground font-semibold">onde a conversa perdeu força</span>, qual foi o impacto e{' '}
+              <span className="text-foreground font-semibold">o que deveria ter sido feito diferente.</span>
+            </p>
           </div>
         </FadeIn>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <FadeIn delay={0.15}>
             <div className="bg-card border border-border/50 rounded-2xl p-7 h-full">
-              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-5">Ele analisa</h3>
+              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-5">Analisa qualquer conversa</h3>
               <div className="grid grid-cols-2 gap-3">
                 {canais.map((canal, i) => (
                   <div key={i} className="flex items-center gap-3 bg-background/60 border border-border/30 rounded-xl px-4 py-3 hover:border-primary/20 transition-colors group">
@@ -79,14 +72,14 @@ export function Mecanismo() {
           <FadeIn delay={0.25}>
             <div className="bg-card border border-primary/20 rounded-2xl p-7 h-full relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-              <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-5">E entrega</h3>
+              <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-5">E você descobre</h3>
               <div className="space-y-3">
-                {entregaveis.map((item, i) => (
+                {beneficios.map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-lg bg-background/60 border border-border/30 flex items-center justify-center flex-shrink-0">
                       {item.icon}
                     </div>
-                    <p className="text-sm text-foreground/80">{item.label}</p>
+                    <p className="text-sm text-foreground/80 leading-snug">{item.label}</p>
                   </div>
                 ))}
               </div>
@@ -94,7 +87,7 @@ export function Mecanismo() {
           </FadeIn>
         </div>
 
-        <SectionCTA label="Começar minha auditoria" />
+        <SectionCTA label="Quero analisar minha negociação" />
       </div>
     </section>
   );

@@ -16,13 +16,13 @@ export function Garantia() {
             </div>
             <div className="text-center md:text-left space-y-4 flex-1">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 text-[11px] font-bold text-primary tracking-widest uppercase">
-                Garantia Simples
+                Garantia
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-                7 dias sem risco.
+                Teste com suas próprias conversas.
               </h2>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Se você acessar o RAIO-X OS e sentir que ele não trouxe mais clareza sobre suas negociações, você pode solicitar reembolso dentro do prazo de garantia. Sem perguntas, sem burocracia.
+                Use o RAIO-X OS para revisar suas negociações. Se sentir que ele não trouxe mais clareza sobre onde você está errando e o que precisa melhorar, você pode solicitar reembolso dentro do prazo de garantia.
               </p>
               <div className="flex justify-center md:justify-start pt-2">
                 <a

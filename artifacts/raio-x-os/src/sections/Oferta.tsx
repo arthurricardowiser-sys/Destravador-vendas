@@ -3,15 +3,47 @@ import { ArrowRight, Lock, ShieldCheck, Zap, BrainCircuit, CheckCircle2, Message
 import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
-const included = [
-  { icon: <BrainCircuit className="w-4 h-4 text-primary" />, label: 'Prompt ChatGPT' },
-  { icon: <BrainCircuit className="w-4 h-4 text-accent" />, label: 'Prompt Gemini' },
-  { icon: <CheckCircle2 className="w-4 h-4 text-blue-400" />, label: 'Framework de auditoria' },
-  { icon: <CheckCircle2 className="w-4 h-4 text-cyan-400" />, label: 'Biblioteca de comportamentos comerciais' },
-  { icon: <CheckCircle2 className="w-4 h-4 text-primary" />, label: 'Sistema de score' },
-  { icon: <CheckCircle2 className="w-4 h-4 text-accent" />, label: 'Modelo de diagnóstico' },
-  { icon: <CheckCircle2 className="w-4 h-4 text-green-400" />, label: 'Scripts corrigidos' },
-  { icon: <CheckCircle2 className="w-4 h-4 text-yellow-400" />, label: 'Plano de ação por negociação' },
+const imagineBenefits = [
+  'Onde você perdeu autoridade',
+  'Onde criou resistência sem perceber',
+  'Onde deveria ter aprofundado',
+  'Onde deveria ter permanecido em silêncio',
+  'O que falar diferente na próxima conversa',
+  'Qual habilidade treinar primeiro',
+  'Como transformar aquela perda em aprendizado prático',
+];
+
+const features = [
+  {
+    benefit: 'Analise qualquer conversa usando a IA que você já utiliza',
+    detail: 'ChatGPT e Gemini',
+    icon: <BrainCircuit className="w-4 h-4 text-primary" />,
+  },
+  {
+    benefit: 'Receba um diagnóstico consistente, sem depender de achismos',
+    detail: 'Framework de auditoria',
+    icon: <CheckCircle2 className="w-4 h-4 text-blue-400" />,
+  },
+  {
+    benefit: 'Descubra o momento em que sua negociação perdeu força',
+    detail: 'Sistema de score',
+    icon: <CheckCircle2 className="w-4 h-4 text-primary" />,
+  },
+  {
+    benefit: 'Identifique os padrões que mais prejudicam sua conversão',
+    detail: 'Biblioteca de comportamentos comerciais',
+    icon: <CheckCircle2 className="w-4 h-4 text-accent" />,
+  },
+  {
+    benefit: 'Saiba exatamente o que poderia ter dito diferente',
+    detail: 'Script corrigido',
+    icon: <CheckCircle2 className="w-4 h-4 text-cyan-400" />,
+  },
+  {
+    benefit: 'Entre na próxima conversa com um foco claro de melhoria',
+    detail: 'Plano de ação e próxima missão',
+    icon: <CheckCircle2 className="w-4 h-4 text-green-400" />,
+  },
 ];
 
 export function Oferta() {
@@ -22,16 +54,18 @@ export function Oferta() {
 
       <div className="max-w-4xl mx-auto relative z-10 space-y-8">
 
-        {/* Valor percebido */}
+        {/* Imagine block */}
         <FadeIn>
-          <div className="bg-card border border-border/40 rounded-2xl p-7 md:p-9">
-            <p className="text-xs font-bold text-primary uppercase tracking-widest mb-4">O que vale mais:</p>
-            <h3 className="text-xl md:text-2xl font-bold text-foreground mb-5 leading-snug">
-              Perder mais vendas sem saber o motivo — ou descobrir o erro antes da próxima negociação?
-            </h3>
-            <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Cada negociação perdida sem diagnóstico pode fazer você repetir o mesmo erro por semanas. O RAIO-X foi criado para encurtar esse ciclo e transformar conversas reais em aprendizado prático.
-            </p>
+          <div className="bg-card border border-border/50 rounded-2xl p-7 md:p-9">
+            <p className="text-xs font-bold text-primary uppercase tracking-widest mb-5">Imagine revisar sua última conversa e descobrir:</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {imagineBenefits.map((item, i) => (
+                <div key={i} className="flex items-start gap-2.5">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0 mt-2" />
+                  <p className="text-sm text-foreground/80 leading-snug">{item}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </FadeIn>
 
@@ -42,40 +76,42 @@ export function Oferta() {
             <div className="absolute -top-24 -right-24 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-accent/10 rounded-full blur-3xl pointer-events-none" />
 
-            {/* Badge */}
             <div className="flex justify-center mb-8">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-5 py-2 text-sm font-bold text-primary tracking-wide">
                 <Zap className="w-4 h-4" />
-                Acesso Inicial
+                Acesso Inicial — RAIO-X OS
               </div>
             </div>
 
             <div className="text-center mb-10">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-foreground mb-5 leading-tight">
-                Entre hoje no RAIO-X OS e pare de{' '}
+                Descubra o erro que pode estar fazendo você perder vendas{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                  vender no escuro.
+                  antes mesmo de apresentar sua oferta.
                 </span>
               </h2>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-                Acesse o sistema de auditoria comercial baseada em evidências que mostra onde suas negociações estão travando e entrega um plano claro para corrigir antes da próxima conversa.
+                Com o RAIO-X OS, você revisa qualquer negociação em poucos minutos e entende exatamente onde perdeu autoridade, criou resistência, deixou de aprofundar, quebrou o silêncio ou conduziu mal a decisão.
               </p>
             </div>
 
-            {/* What's included */}
-            <div className="mb-8">
-              <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-5 text-center">O que está incluso</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mx-auto">
-                {included.map((item, i) => (
-                  <div key={i} className="flex items-center gap-2.5 bg-background/40 border border-border/30 rounded-xl px-4 py-3">
-                    {item.icon}
-                    <span className="text-sm text-foreground/80">{item.label}</span>
+            {/* Features as benefits */}
+            <div className="mb-10">
+              <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-6 text-center">O que você recebe ao acessar o RAIO-X OS:</p>
+              <div className="space-y-3 max-w-2xl mx-auto">
+                {features.map((item, i) => (
+                  <div key={i} className="flex items-start gap-3 bg-background/40 border border-border/30 rounded-xl px-5 py-4">
+                    <div className="flex-shrink-0 mt-0.5">{item.icon}</div>
+                    <div>
+                      <p className="text-sm font-semibold text-foreground leading-snug">{item.benefit}</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">{item.detail}</p>
+                    </div>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* Compatibility badges */}
+            {/* Compatibility */}
             <div className="flex flex-wrap justify-center gap-3 mb-10">
               <div className="flex items-center gap-2 bg-background/60 border border-border/40 rounded-xl px-4 py-2.5">
                 <BrainCircuit className="w-4 h-4 text-primary" />

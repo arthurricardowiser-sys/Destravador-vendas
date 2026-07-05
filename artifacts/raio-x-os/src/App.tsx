@@ -8,6 +8,7 @@ import { Mecanismo } from "@/sections/Mecanismo";
 import { ComoFunciona } from "@/sections/ComoFunciona";
 import { Resultado } from "@/sections/Resultado";
 import { Transformacao } from "@/sections/Transformacao";
+import { PorQuePerdem } from "@/sections/PorQuePerdem";
 import { ParaQuem } from "@/sections/ParaQuem";
 import { ParaQuemNao } from "@/sections/ParaQuemNao";
 import { Oferta } from "@/sections/Oferta";
@@ -29,6 +30,7 @@ function LandingPage() {
       <ComoFunciona />
       <Resultado />
       <Transformacao />
+      <PorQuePerdem />
       <ParaQuem />
       <ParaQuemNao />
       <Oferta />

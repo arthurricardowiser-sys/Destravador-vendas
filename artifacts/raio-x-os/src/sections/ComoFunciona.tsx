@@ -1,5 +1,5 @@
 import React from 'react';
-import { ClipboardPaste, ScanLine, FileBarChart2, ArrowRight, MessageSquare } from 'lucide-react';
+import { ClipboardPaste, ScanLine, Lightbulb, ArrowRight, MessageSquare, FileBarChart2 } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
 import { SectionCTA } from '@/components/SectionCTA';
 
@@ -8,7 +8,7 @@ const steps = [
     number: '01',
     icon: <ClipboardPaste className="w-7 h-7 text-primary" />,
     title: 'Cole a conversa ou transcrição',
-    desc: 'Copie a conversa do WhatsApp, a transcrição da ligação ou o e-mail. Cole no sistema. Não precisa formatar nada.',
+    desc: 'Pode ser WhatsApp, ligação transcrita, Meet, Zoom, e-mail ou chat. Sem formatação, sem preparo — só a conversa real.',
     color: 'border-primary/30 bg-primary/5',
     glow: 'from-primary/20 to-transparent',
   },
@@ -16,15 +16,15 @@ const steps = [
     number: '02',
     icon: <ScanLine className="w-7 h-7 text-accent" />,
     title: 'O RAIO-X audita a negociação',
-    desc: 'O sistema analisa cada etapa da conversa com base em lógica real de auditoria comercial — não em respostas genéricas.',
+    desc: 'A metodologia identifica evidências, padrões, causa raiz e pontos de perda de força ao longo de toda a conversa.',
     color: 'border-accent/30 bg-accent/5',
     glow: 'from-accent/20 to-transparent',
   },
   {
     number: '03',
-    icon: <FileBarChart2 className="w-7 h-7 text-green-400" />,
-    title: 'Você recebe diagnóstico, causa raiz e plano de ação',
-    desc: 'Em minutos você entende onde a negociação saiu do controle, qual foi o erro crítico e o que fazer diferente na próxima conversa.',
+    icon: <Lightbulb className="w-7 h-7 text-green-400" />,
+    title: 'Você recebe clareza para agir',
+    desc: 'Diagnóstico, script corrigido, plano de ação e uma missão para a próxima negociação — tudo em linguagem direta.',
     color: 'border-green-500/30 bg-green-500/5',
     glow: 'from-green-500/20 to-transparent',
   },
@@ -37,12 +37,15 @@ export function ComoFunciona() {
 
       <div className="max-w-5xl mx-auto relative z-10">
         <FadeIn>
-          <div className="text-center mb-16 max-w-2xl mx-auto">
+          <div className="text-center mb-14 max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/30 px-4 py-1.5 text-[11px] font-bold text-muted-foreground tracking-widest uppercase mb-5">
               Como Funciona
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-              Como funciona na prática
+              Como transformar uma conversa perdida em{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+                treinamento para a próxima venda
+              </span>
             </h2>
           </div>
         </FadeIn>
@@ -69,13 +72,12 @@ export function ComoFunciona() {
           ))}
         </div>
 
-        {/* Flow mockup visual */}
+        {/* Flow mockup */}
         <FadeIn delay={0.4}>
           <div className="bg-card border border-border/40 rounded-2xl p-6 md:p-8">
             <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest text-center mb-7">Fluxo visual</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4">
 
-              {/* Step 1 */}
               <div className="bg-background/60 border border-primary/20 rounded-xl p-4 flex-1 max-w-xs">
                 <div className="flex items-center gap-2 mb-3">
                   <div className="w-7 h-7 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -84,7 +86,7 @@ export function ComoFunciona() {
                   <p className="text-xs font-bold text-primary">Conversa colada</p>
                 </div>
                 <div className="space-y-1.5">
-                  {['> Olá, vi seu produto...', '> Qual o valor?', '> Deixa eu pensar...'].map((msg, i) => (
+                  {['> Olá, vi sua proposta...', '> Qual o investimento?', '> Deixa eu pensar...'].map((msg, i) => (
                     <div key={i} className={`text-[10px] font-mono rounded px-2 py-1 ${i % 2 === 0 ? 'bg-primary/8 text-primary/70 mr-4' : 'bg-muted text-muted-foreground ml-4'}`}>
                       {msg}
                     </div>
@@ -97,7 +99,6 @@ export function ComoFunciona() {
                 <span className="text-[9px] text-muted-foreground uppercase tracking-wider font-bold">Auditoria</span>
               </div>
 
-              {/* Step 2 */}
               <div className="bg-background/60 border border-accent/20 rounded-xl p-4 flex-1 max-w-xs">
                 <div className="flex items-center gap-2 mb-3">
                   <div className="w-7 h-7 rounded-lg bg-accent/10 flex items-center justify-center">
@@ -106,7 +107,7 @@ export function ComoFunciona() {
                   <p className="text-xs font-bold text-accent">Processando</p>
                 </div>
                 <div className="space-y-2">
-                  {['Mapeando etapas...', 'Identificando objeções...', 'Calculando score...'].map((msg, i) => (
+                  {['Mapeando etapas...', 'Identificando padrões...', 'Calculando score...'].map((msg, i) => (
                     <div key={i} className="flex items-center gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-accent/60 animate-pulse" style={{ animationDelay: `${i * 0.3}s` }} />
                       <span className="text-[10px] text-muted-foreground font-mono">{msg}</span>
@@ -120,21 +121,20 @@ export function ComoFunciona() {
                 <span className="text-[9px] text-muted-foreground uppercase tracking-wider font-bold">Resultado</span>
               </div>
 
-              {/* Step 3 */}
               <div className="bg-background/60 border border-green-500/20 rounded-xl p-4 flex-1 max-w-xs">
                 <div className="flex items-center gap-2 mb-3">
                   <div className="w-7 h-7 rounded-lg bg-green-500/10 flex items-center justify-center">
                     <FileBarChart2 className="w-3.5 h-3.5 text-green-400" />
                   </div>
-                  <p className="text-xs font-bold text-green-400">Diagnóstico final</p>
+                  <p className="text-xs font-bold text-green-400">Clareza para agir</p>
                 </div>
                 <div className="space-y-1.5">
                   {[
-                    { label: 'Score', val: '38/100', color: 'text-red-400' },
-                    { label: 'Causa raiz', val: 'Identificada', color: 'text-foreground' },
+                    { label: 'Diagnóstico', val: 'Completo', color: 'text-green-400' },
+                    { label: 'Script', val: 'Corrigido', color: 'text-accent' },
                     { label: 'Plano', val: '3 ações', color: 'text-primary' },
                   ].map((item, i) => (
-                    <div key={i} className="flex justify-between items-center text-[10px]">
+                    <div key={i} className="flex justify-between text-[10px]">
                       <span className="text-muted-foreground">{item.label}</span>
                       <span className={`font-bold ${item.color}`}>{item.val}</span>
                     </div>
@@ -145,7 +145,7 @@ export function ComoFunciona() {
           </div>
         </FadeIn>
 
-        <SectionCTA label="Quero testar agora" />
+        <SectionCTA label="Começar meu diagnóstico" />
       </div>
     </section>
   );
