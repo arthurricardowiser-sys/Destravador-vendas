@@ -7,8 +7,10 @@ import { Inimigo } from "@/sections/Inimigo";
 import { Mecanismo } from "@/sections/Mecanismo";
 import { ComoFunciona } from "@/sections/ComoFunciona";
 import { Resultado } from "@/sections/Resultado";
+import { VisualizacaoProduto } from "@/sections/VisualizacaoProduto";
 import { Transformacao } from "@/sections/Transformacao";
 import { PorQuePerdem } from "@/sections/PorQuePerdem";
+import { CasosDeUso } from "@/sections/CasosDeUso";
 import { ParaQuem } from "@/sections/ParaQuem";
 import { ParaQuemNao } from "@/sections/ParaQuemNao";
 import { Oferta } from "@/sections/Oferta";
@@ -29,8 +31,10 @@ function LandingPage() {
       <Mecanismo />
       <ComoFunciona />
       <Resultado />
+      <VisualizacaoProduto />
       <Transformacao />
       <PorQuePerdem />
+      <CasosDeUso />
       <ParaQuem />
       <ParaQuemNao />
       <Oferta />

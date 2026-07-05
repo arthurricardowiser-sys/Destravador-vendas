@@ -1,0 +1,423 @@
+Você é um desenvolvedor full-stack sênior, especialista em React + Tailwind CSS, UX mobile-first, copy chief e especialista em direct response.
+
+Sua tarefa é melhorar a landing page atual do RAIO-X OS mantendo a base, identidade visual, estrutura e componentes já existentes.
+
+IMPORTANTE:
+Não recrie a landing page do zero.
+Não mude a identidade visual principal.
+Aplique apenas os ajustes abaixo para aumentar valor percebido, clareza do produto, prova visual, responsividade mobile e força da oferta.
+
+OBJETIVO PRINCIPAL:
+Deixar mais claro e concreto o que a pessoa recebe ao comprar/acessar o RAIO-X OS.
+
+A página precisa responder melhor:
+“O que exatamente eu vou receber?”
+“Como isso aparece na prática?”
+“Como isso muda minha próxima negociação?”
+“Que tipo de resultado isso pode gerar para mim?”
+
+MANTER:
+- Dark premium
+- Visual SaaS
+- Cards
+- Mockups
+- CTAs distribuídos
+- Copy de direct response
+- Responsividade mobile-first
+- Todos CTAs apontando para #oferta
+
+NOVAS MELHORIAS OBRIGATÓRIAS:
+
+1. Adicionar uma seção de VISUALIZAÇÃO DO PRODUTO.
+2. Adicionar uma seção de RESULTADOS / CASOS DE USO / PROVA VISUAL.
+3. Melhorar a oferta para mostrar de forma mais concreta o que a pessoa recebe.
+4. Melhorar a visualização mobile dessas novas seções.
+5. Não criar depoimentos falsos.
+6. Se não houver resultados reais, usar “casos de uso”, “exemplos de aplicação” e “resultados que o sistema ajuda a buscar”.
+7. Deixar a estrutura pronta para trocar depois por depoimentos reais de alunos/clientes.
+
+POSICIONAMENTO:
+RAIO-X OS — Sistema de Auditoria Comercial Baseada em Evidências.
+
+Big Idea:
+Toda negociação agora vira treinamento.
+
+Mecanismo:
+O RAIO-X aplica uma metodologia de auditoria comercial baseada em evidências para identificar onde a negociação perdeu força, qual comportamento travou a venda e o que corrigir antes da próxima conversa.
+
+==================================================
+NOVA SEÇÃO 1 — VISUALIZAÇÃO DO PRODUTO
+==================================================
+
+Adicionar esta seção antes da seção de oferta, preferencialmente depois da seção “Veja como uma negociação é analisada na prática” ou depois de “O que muda para você depois de cada auditoria”.
+
+Título:
+“Veja exatamente o que você recebe dentro do RAIO-X OS”
+
+Subheadline:
+“Não é uma aula genérica de vendas. É um sistema prático para transformar conversas reais em diagnóstico, correção e plano de ação.”
+
+Objetivo da seção:
+Aumentar tangibilidade. A pessoa precisa visualizar os entregáveis concretos.
+
+Criar uma área visual com mockups/cards mostrando os principais ativos do produto.
+
+No desktop:
+Criar grid com cards grandes e aparência premium.
+
+No mobile:
+Cards empilhados, compactos, com texto legível e sem overflow horizontal.
+
+Cards da seção:
+
+Card 1:
+Título:
+“Prompt de Auditoria para ChatGPT”
+
+Texto:
+“Cole sua conversa e use uma estrutura pronta para receber um diagnóstico comercial completo.”
+
+Benefício:
+“Você não começa do zero e não depende de perguntas genéricas.”
+
+Card 2:
+Título:
+“Prompt de Auditoria para Gemini”
+
+Texto:
+“Use o mesmo sistema na IA que você já utiliza, com uma estrutura adaptada para análise de negociações.”
+
+Benefício:
+“Você consegue analisar conversas sem depender de uma plataforma complexa.”
+
+Card 3:
+Título:
+“Framework de Auditoria Comercial”
+
+Texto:
+“Uma metodologia estruturada para avaliar contexto, diagnóstico, valor, decisão, conversão e continuidade.”
+
+Benefício:
+“Você recebe um diagnóstico consistente, sem depender de achismos.”
+
+Card 4:
+Título:
+“Sistema de Score da Negociação”
+
+Texto:
+“Visualize onde a conversa perdeu força e quais pontos mais prejudicaram a venda.”
+
+Benefício:
+“Você entende rapidamente onde precisa melhorar.”
+
+Card 5:
+Título:
+“Biblioteca de Erros Comerciais”
+
+Texto:
+“Identifique padrões como diagnóstico superficial, desconto prematuro, ansiedade comercial, objeção mal conduzida e perda de controle.”
+
+Benefício:
+“Você para de tratar cada venda perdida como um caso isolado.”
+
+Card 6:
+Título:
+“Script Corrigido”
+
+Texto:
+“Veja como a conversa poderia ter sido conduzida de forma mais estratégica.”
+
+Benefício:
+“Você sai sabendo o que falar diferente na próxima negociação.”
+
+Card 7:
+Título:
+“Plano de Ação”
+
+Texto:
+“Receba uma missão clara para aplicar na próxima conversa.”
+
+Benefício:
+“Você não recebe apenas análise. Você recebe direção.”
+
+Card 8:
+Título:
+“Modelo de Diagnóstico”
+
+Texto:
+“Organize causa raiz, erro crítico, momento de perda de força e próxima ação.”
+
+Benefício:
+“Cada negociação vira aprendizado prático.”
+
+Adicionar um mini mockup visual dentro dessa seção com título:
+“Exemplo de entrega”
+
+Mostrar uma prévia visual como se fosse um relatório:
+
+Score da Negociação:
+72/100
+
+Momento de perda de força:
+“Solução apresentada antes da dor estar clara.”
+
+Causa raiz:
+“Diagnóstico superficial.”
+
+Correção sugerida:
+“Aprofundar impacto antes de apresentar a oferta.”
+
+Próxima missão:
+“Fazer 3 perguntas de consequência antes da proposta.”
+
+CTA da seção:
+“Quero acessar esses materiais”
+
+==================================================
+NOVA SEÇÃO 2 — RESULTADOS / CASOS DE USO
+==================================================
+
+Adicionar uma seção antes da oferta chamada:
+
+Título:
+“O que o RAIO-X ajuda você a melhorar na prática”
+
+Subheadline:
+“Mesmo antes de ter dezenas de negociações analisadas, o objetivo é simples: sair de cada conversa com mais clareza do que corrigir.”
+
+IMPORTANTE:
+Não criar depoimentos falsos.
+Não inventar alunos, nomes, prints ou percentuais.
+Não dizer “alunos aumentaram X%” se isso não existir.
+
+Criar uma seção de prova visual baseada em CASOS DE USO e RESULTADOS ESPERADOS.
+
+Estrutura desktop:
+3 ou 4 cards lado a lado.
+
+Estrutura mobile:
+Cards empilhados.
+
+Cards:
+
+Card 1:
+Título:
+“Antes: o cliente sumiu depois da proposta”
+
+Antes:
+“Eu achei que era preço.”
+
+Depois do RAIO-X:
+“O diagnóstico mostrou que a proposta veio antes de aprofundar a dor e criar urgência.”
+
+Resultado prático:
+“Na próxima conversa, o vendedor sabe que precisa investigar impacto antes de apresentar solução.”
+
+Card 2:
+Título:
+“Antes: a call parecia boa, mas não fechou”
+
+Antes:
+“Eu senti que ele gostou, mas ficou inseguro.”
+
+Depois do RAIO-X:
+“A análise mostrou que faltou critério de decisão e próximo passo claro.”
+
+Resultado prático:
+“O vendedor passa a conduzir a decisão com mais objetividade.”
+
+Card 3:
+Título:
+“Antes: o vendedor deu desconto cedo demais”
+
+Antes:
+“Eu tentei facilitar para fechar.”
+
+Depois do RAIO-X:
+“O diagnóstico mostrou desconto prematuro antes de validar valor e compromisso.”
+
+Resultado prático:
+“O vendedor entende quando segurar preço e quando aprofundar percepção de valor.”
+
+Card 4:
+Título:
+“Antes: o follow-up virou insistência”
+
+Antes:
+“Eu só perguntava se o cliente decidiu.”
+
+Depois do RAIO-X:
+“A análise mostrou falta de continuidade estratégica.”
+
+Resultado prático:
+“O vendedor passa a retomar a conversa com contexto, valor e próximo passo.”
+
+Adicionar uma pequena observação:
+“Esses são exemplos de aplicação do sistema. Os resultados individuais dependem da qualidade da conversa, execução do vendedor e aplicação do plano de ação.”
+
+CTA da seção:
+“Quero transformar minhas conversas em aprendizado”
+
+==================================================
+AJUSTE NA SEÇÃO DE OFERTA
+==================================================
+
+Na seção de oferta, reforçar mais o que a pessoa recebe de forma concreta.
+
+Manter a headline:
+
+“Descubra o erro que pode estar fazendo você perder vendas antes mesmo de apresentar sua oferta.”
+
+Logo depois da subheadline, adicionar um bloco chamado:
+
+“O que você leva hoje”
+
+Criar checklist visual:
+
+- Acesso ao sistema RAIO-X OS
+- Prompt de auditoria para ChatGPT
+- Prompt de auditoria para Gemini
+- Framework de Auditoria Comercial Baseada em Evidências
+- Biblioteca de Erros Comerciais
+- Modelo de Score da Negociação
+- Diagnóstico de Causa Raiz
+- Modelo de Script Corrigido
+- Plano de Ação para a Próxima Conversa
+- Modelo para transformar cada negociação em treinamento
+
+Depois adicionar um bloco:
+
+“Como você usa”
+
+Passo 1:
+“Escolha uma conversa real.”
+
+Passo 2:
+“Cole no ChatGPT ou Gemini usando o prompt RAIO-X.”
+
+Passo 3:
+“Receba diagnóstico, correção e próxima missão.”
+
+Passo 4:
+“Aplique o aprendizado na próxima negociação.”
+
+Adicionar frase de valor:
+“Você não está comprando um prompt. Está acessando um sistema para parar de perder vendas sem diagnóstico.”
+
+Adicionar frase de ancoragem:
+“Uma única venda perdida sem clareza pode custar mais caro do que o acesso ao RAIO-X.”
+
+CTA principal da oferta:
+“Quero acessar o RAIO-X agora”
+
+Texto abaixo:
+“Acesso imediato após confirmação.”
+
+==================================================
+AJUSTE NO MOCKUP DO HERO
+==================================================
+
+Melhorar o mockup do hero para deixar mais claro que a pessoa receberá algo prático.
+
+No desktop:
+Manter mockup de SaaS com:
+- Sidebar
+- Histórico de auditorias
+- Nova Auditoria
+- Score
+- Momento crítico
+- Causa raiz
+- Script corrigido
+- Próxima missão
+
+Adicionar uma aba visual dentro do mockup chamada:
+“Relatório da Auditoria”
+
+Mostrar dentro:
+- Score: 72/100
+- Erro crítico: Diagnóstico superficial
+- Momento crítico: Apresentou solução cedo demais
+- Correção: Aprofundar dor antes da oferta
+- Próxima missão: Fazer 3 perguntas de impacto
+
+No mobile:
+Não mostrar notebook completo.
+Criar mockup em formato de app/card com:
+- Header: RAIO-X OS
+- Aba: Relatório da Auditoria
+- Score visível
+- Momento crítico
+- Causa raiz
+- Correção sugerida
+- Próxima missão
+
+Tudo legível, com fonte adequada e sem precisar dar zoom.
+
+==================================================
+AJUSTE MOBILE GERAL
+==================================================
+
+Prioridade máxima:
+A versão mobile precisa ser excelente.
+
+Regras:
+- Não espremer mockups de desktop no mobile.
+- Usar versões mobile específicas dos mockups.
+- Cards empilhados.
+- Texto curto.
+- Fontes legíveis.
+- Sem overflow horizontal.
+- Botão fixo inferior pequeno e discreto.
+- CTA fixo mobile com texto:
+“Ver oferta”
+ou
+“Analisar conversa”
+- Garantir padding-bottom no final da página para o botão não cobrir o CTA final.
+- Evitar seções muito longas sem respiro.
+- A página precisa parecer rápida de ler no celular.
+
+==================================================
+AJUSTE EM “RESULTADOS DE ALUNOS”
+==================================================
+
+Criar a estrutura pronta para resultados reais futuros.
+
+Adicionar opcionalmente uma subseção pequena chamada:
+“Espaço para resultados reais”
+
+Texto:
+“Assim que novas auditorias forem aplicadas, esta área será atualizada com depoimentos, prints e aprendizados reais dos usuários.”
+
+Se for visualmente melhor, transformar isso em 3 cards placeholder:
+
+Card 1:
+“Print de diagnóstico real”
+Status:
+“Em breve”
+
+Card 2:
+“Antes e depois de uma negociação”
+Status:
+“Em breve”
+
+Card 3:
+“Depoimento de usuário”
+Status:
+“Em breve”
+
+Mas não criar depoimentos falsos.
+
+==================================================
+REGRA FINAL
+==================================================
+
+Antes de finalizar, revise a página inteira e garanta que:
+
+1. A pessoa entende rapidamente o que o RAIO-X faz.
+2. A pessoa visualiza concretamente o que recebe.
+3. A oferta parece tangível.
+4. A página não depende de promessa exagerada.
+5. O mobile está legível e sem mockup espremido.
+6. A seção de resultados não inventa provas falsas.
+7. Cada seção responde:
+“O que isso muda para o vendedor?”

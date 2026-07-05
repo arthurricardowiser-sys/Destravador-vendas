@@ -3,6 +3,26 @@ import { ArrowRight, Lock, ShieldCheck, Zap, BrainCircuit, CheckCircle2, Message
 import { ButtonCTA } from '@/components/ButtonCTA';
 import { FadeIn } from '@/components/FadeIn';
 
+const oQueLeva = [
+  'Acesso ao sistema RAIO-X OS',
+  'Prompt de auditoria para ChatGPT',
+  'Prompt de auditoria para Gemini',
+  'Framework de Auditoria Comercial Baseada em Evidências',
+  'Biblioteca de Erros Comerciais',
+  'Modelo de Score da Negociação',
+  'Diagnóstico de Causa Raiz',
+  'Modelo de Script Corrigido',
+  'Plano de Ação para a Próxima Conversa',
+  'Modelo para transformar cada negociação em treinamento',
+];
+
+const comoUsa = [
+  { step: '01', desc: 'Escolha uma conversa real.' },
+  { step: '02', desc: 'Cole no ChatGPT ou Gemini usando o prompt RAIO-X.' },
+  { step: '03', desc: 'Receba diagnóstico, correção e próxima missão.' },
+  { step: '04', desc: 'Aplique o aprendizado na próxima negociação.' },
+];
+
 const imagineBenefits = [
   'Onde você perdeu autoridade',
   'Onde criou resistência sem perceber',
@@ -13,52 +33,19 @@ const imagineBenefits = [
   'Como transformar aquela perda em aprendizado prático',
 ];
 
-const features = [
-  {
-    benefit: 'Analise qualquer conversa usando a IA que você já utiliza',
-    detail: 'ChatGPT e Gemini',
-    icon: <BrainCircuit className="w-4 h-4 text-primary" />,
-  },
-  {
-    benefit: 'Receba um diagnóstico consistente, sem depender de achismos',
-    detail: 'Framework de auditoria',
-    icon: <CheckCircle2 className="w-4 h-4 text-blue-400" />,
-  },
-  {
-    benefit: 'Descubra o momento em que sua negociação perdeu força',
-    detail: 'Sistema de score',
-    icon: <CheckCircle2 className="w-4 h-4 text-primary" />,
-  },
-  {
-    benefit: 'Identifique os padrões que mais prejudicam sua conversão',
-    detail: 'Biblioteca de comportamentos comerciais',
-    icon: <CheckCircle2 className="w-4 h-4 text-accent" />,
-  },
-  {
-    benefit: 'Saiba exatamente o que poderia ter dito diferente',
-    detail: 'Script corrigido',
-    icon: <CheckCircle2 className="w-4 h-4 text-cyan-400" />,
-  },
-  {
-    benefit: 'Entre na próxima conversa com um foco claro de melhoria',
-    detail: 'Plano de ação e próxima missão',
-    icon: <CheckCircle2 className="w-4 h-4 text-green-400" />,
-  },
-];
-
 export function Oferta() {
   return (
     <section id="oferta" className="py-28 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-muted/5 via-primary/3 to-muted/5 pointer-events-none" />
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="max-w-4xl mx-auto relative z-10 space-y-8">
+      <div className="max-w-4xl mx-auto relative z-10 space-y-7">
 
         {/* Imagine block */}
         <FadeIn>
-          <div className="bg-card border border-border/50 rounded-2xl p-7 md:p-9">
+          <div className="bg-card border border-border/50 rounded-2xl p-6 md:p-8">
             <p className="text-xs font-bold text-primary uppercase tracking-widest mb-5">Imagine revisar sua última conversa e descobrir:</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               {imagineBenefits.map((item, i) => (
                 <div key={i} className="flex items-start gap-2.5">
                   <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0 mt-2" />
@@ -70,8 +57,8 @@ export function Oferta() {
         </FadeIn>
 
         {/* Main offer card */}
-        <FadeIn delay={0.1}>
-          <div className="relative bg-card border-2 border-primary/30 rounded-3xl p-8 md:p-12 shadow-[0_0_80px_rgba(0,0,0,0.4)] overflow-hidden">
+        <FadeIn delay={0.08}>
+          <div className="relative bg-card border-2 border-primary/30 rounded-3xl p-7 md:p-12 shadow-[0_0_80px_rgba(0,0,0,0.4)] overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/80 to-transparent" />
             <div className="absolute -top-24 -right-24 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-accent/10 rounded-full blur-3xl pointer-events-none" />
@@ -95,24 +82,45 @@ export function Oferta() {
               </p>
             </div>
 
-            {/* Features as benefits */}
-            <div className="mb-10">
-              <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-6 text-center">O que você recebe ao acessar o RAIO-X OS:</p>
-              <div className="space-y-3 max-w-2xl mx-auto">
-                {features.map((item, i) => (
-                  <div key={i} className="flex items-start gap-3 bg-background/40 border border-border/30 rounded-xl px-5 py-4">
-                    <div className="flex-shrink-0 mt-0.5">{item.icon}</div>
-                    <div>
-                      <p className="text-sm font-semibold text-foreground leading-snug">{item.benefit}</p>
-                      <p className="text-xs text-muted-foreground mt-0.5">{item.detail}</p>
-                    </div>
+            {/* O que você leva hoje */}
+            <div className="mb-8">
+              <p className="text-xs font-bold text-foreground uppercase tracking-widest mb-5">O que você leva hoje:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                {oQueLeva.map((item, i) => (
+                  <div key={i} className="flex items-center gap-3 bg-background/40 border border-border/20 rounded-xl px-4 py-3">
+                    <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                    <p className="text-sm text-foreground/85 leading-snug">{item}</p>
                   </div>
                 ))}
               </div>
             </div>
 
+            {/* Como você usa */}
+            <div className="mb-8">
+              <p className="text-xs font-bold text-foreground uppercase tracking-widest mb-5">Como você usa:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {comoUsa.map((item, i) => (
+                  <div key={i} className="flex items-start gap-3 bg-background/40 border border-border/20 rounded-xl px-4 py-4">
+                    <span className="text-xs font-black text-primary/50 tracking-widest mt-0.5 flex-shrink-0">{item.step}</span>
+                    <p className="text-sm text-foreground/80 leading-snug">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Value & anchor phrases */}
+            <div className="bg-primary/5 border border-primary/15 rounded-2xl px-6 py-5 mb-8 space-y-3">
+              <p className="text-sm font-medium text-foreground/85 leading-relaxed">
+                Você não está comprando um prompt. Está acessando um sistema para{' '}
+                <span className="text-primary font-bold">parar de perder vendas sem diagnóstico.</span>
+              </p>
+              <p className="text-sm text-muted-foreground italic leading-relaxed">
+                "Uma única venda perdida sem clareza pode custar mais caro do que o acesso ao RAIO-X."
+              </p>
+            </div>
+
             {/* Compatibility */}
-            <div className="flex flex-wrap justify-center gap-3 mb-10">
+            <div className="flex flex-wrap justify-center gap-3 mb-8">
               <div className="flex items-center gap-2 bg-background/60 border border-border/40 rounded-xl px-4 py-2.5">
                 <BrainCircuit className="w-4 h-4 text-primary" />
                 <span className="text-sm font-semibold text-foreground">ChatGPT</span>
@@ -129,7 +137,7 @@ export function Oferta() {
 
             {/* CTA */}
             <div className="flex justify-center mb-4">
-              <ButtonCTA href="#" className="w-full sm:w-auto px-12 py-5 text-lg shadow-[0_0_40px_rgba(99,131,255,0.3)]">
+              <ButtonCTA href="#" className="w-full sm:w-auto px-10 py-5 text-lg shadow-[0_0_40px_rgba(99,131,255,0.3)]">
                 Quero acessar o RAIO-X agora <ArrowRight className="w-5 h-5 ml-2" />
               </ButtonCTA>
             </div>
@@ -151,7 +159,6 @@ export function Oferta() {
             </div>
           </div>
         </FadeIn>
-
       </div>
     </section>
   );
