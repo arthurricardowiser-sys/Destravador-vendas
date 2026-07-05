@@ -1,6 +1,7 @@
 import React from 'react';
 import { BarChart3, AlertTriangle, User2, GitCompare, FileText, Dumbbell, Target, Zap } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
+import { SectionCTA } from '@/components/SectionCTA';
 
 const cards = [
   { icon: <BarChart3 className="w-6 h-6 text-primary" />, title: 'Score da negociação', desc: 'Nota geral da condução — do primeiro contato ao fechamento.', border: 'border-primary/20', bg: 'bg-primary/5' },
@@ -19,12 +20,8 @@ export function Resultado() {
       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-
         <FadeIn>
           <div className="text-center mb-14 max-w-2xl mx-auto">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/30 px-4 py-1.5 text-[11px] font-bold text-muted-foreground tracking-widest uppercase mb-5">
-              O que você recebe
-            </div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
               O que você recebe{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
@@ -53,6 +50,7 @@ export function Resultado() {
           ))}
         </div>
 
+        <SectionCTA label="Quero receber esse diagnóstico" />
       </div>
     </section>
   );

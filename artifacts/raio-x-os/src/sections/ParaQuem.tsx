@@ -1,23 +1,17 @@
 import React from 'react';
-import { Check, X } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
+import { SectionCTA } from '@/components/SectionCTA';
 
-const quemE = [
-  'Closers que precisam entender seus erros de condução',
-  'Afiliados que vendem no WhatsApp ou direct',
-  'Consultores que negociam por ligação ou reunião',
-  'Corretores que acompanham propostas e follow-ups',
-  'SDRs e executivos comerciais',
-  'Prestadores de serviço que vendem por conversa',
-  'Infoprodutores que fecham no WhatsApp ou Zoom',
-  'Qualquer vendedor que quer parar de repetir erros',
-];
-
-const quemNaoE = [
-  'Você não conversa com leads',
-  'Você não quer revisar suas negociações',
-  'Você procura uma promessa milagrosa',
-  'Você não quer corrigir sua execução comercial',
+const perfis = [
+  { label: 'Closers', desc: 'Que precisam entender seus erros de condução' },
+  { label: 'Afiliados', desc: 'Que vendem no WhatsApp ou direct' },
+  { label: 'Consultores', desc: 'Que negociam por ligação ou reunião' },
+  { label: 'Corretores', desc: 'Que acompanham propostas e follow-ups' },
+  { label: 'SDRs', desc: 'E executivos comerciais' },
+  { label: 'Prestadores de serviço', desc: 'Que vendem por conversa' },
+  { label: 'Infoprodutores', desc: 'Que fecham no WhatsApp ou Zoom' },
+  { label: 'Vendedores no WhatsApp', desc: 'Que querem parar de repetir erros' },
 ];
 
 export function ParaQuem() {
@@ -26,10 +20,9 @@ export function ParaQuem() {
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-
         <FadeIn>
           <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/30 px-4 py-1.5 text-[11px] font-bold text-muted-foreground tracking-widest uppercase mb-5">
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 text-[11px] font-bold text-primary tracking-widest uppercase mb-5">
               Para Quem É
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
@@ -39,43 +32,26 @@ export function ParaQuem() {
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-          <FadeIn delay={0.1}>
-            <div className="bg-card border-2 border-primary/25 rounded-2xl p-8 relative overflow-hidden h-full">
-              <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
-              <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-6">É para você se...</h3>
-              <ul className="space-y-3.5">
-                {quemE.map((item, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <div className="w-5 h-5 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Check className="w-3 h-3 text-primary" />
-                    </div>
-                    <span className="text-sm text-foreground/80 leading-snug">{item}</span>
-                  </li>
-                ))}
-              </ul>
+        <FadeIn delay={0.1}>
+          <div className="bg-card border-2 border-primary/25 rounded-2xl p-8 relative overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {perfis.map((perfil, i) => (
+                <div key={i} className="flex items-start gap-3 p-4 bg-background/40 rounded-xl border border-border/30 hover:border-primary/20 transition-colors group">
+                  <div className="w-6 h-6 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-primary/20 transition-colors">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-bold text-foreground leading-snug">{perfil.label}</p>
+                    <p className="text-xs text-muted-foreground leading-snug mt-0.5">{perfil.desc}</p>
+                  </div>
+                </div>
+              ))}
             </div>
-          </FadeIn>
+          </div>
+        </FadeIn>
 
-          <FadeIn delay={0.2}>
-            <div className="bg-card border border-border/40 rounded-2xl p-8 h-full">
-              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-6">O RAIO-X não é para você se...</h3>
-              <ul className="space-y-3.5">
-                {quemNaoE.map((item, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <X className="w-3 h-3 text-muted-foreground" />
-                    </div>
-                    <span className="text-sm text-muted-foreground leading-snug">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </FadeIn>
-
-        </div>
-
+        <SectionCTA label="Quero testar o RAIO-X" />
       </div>
     </section>
   );

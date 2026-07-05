@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield } from 'lucide-react';
+import { Shield, ArrowRight } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
 
 export function Garantia() {
@@ -14,7 +14,7 @@ export function Garantia() {
                 <Shield className="w-12 h-12 text-primary" strokeWidth={1.5} />
               </div>
             </div>
-            <div className="text-center md:text-left space-y-4">
+            <div className="text-center md:text-left space-y-4 flex-1">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 text-[11px] font-bold text-primary tracking-widest uppercase">
                 Garantia Simples
               </div>
@@ -24,9 +24,14 @@ export function Garantia() {
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                 Se você acessar o RAIO-X OS e sentir que ele não trouxe mais clareza sobre suas negociações, você pode solicitar reembolso dentro do prazo de garantia. Sem perguntas, sem burocracia.
               </p>
-              <p className="text-sm font-semibold text-foreground">
-                O risco é inteiramente nosso.
-              </p>
+              <div className="flex justify-center md:justify-start pt-2">
+                <a
+                  href="#oferta"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-primary border border-primary/30 bg-primary/8 hover:bg-primary/15 hover:border-primary/60 rounded-xl px-6 py-3 transition-all duration-200 active:scale-[0.98]"
+                >
+                  Quero testar sem risco <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
             </div>
           </div>
         </FadeIn>

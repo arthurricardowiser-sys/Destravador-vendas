@@ -1,6 +1,7 @@
 import React from 'react';
 import { UserX, BadgeDollarSign, ThermometerSun, MessageSquareX } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
+import { SectionCTA } from '@/components/SectionCTA';
 
 const cards = [
   {
@@ -8,28 +9,28 @@ const cards = [
     title: 'Cliente sumiu depois da proposta',
     desc: 'Você enviou, aguardou, mandou follow-up — e nada. Sem diagnóstico, você não sabe o que aconteceu.',
     border: 'border-red-500/20',
-    glow: 'bg-red-500/5',
+    bg: 'bg-red-500/5',
   },
   {
     icon: <BadgeDollarSign className="w-6 h-6 text-yellow-400" />,
     title: 'Você deu desconto e mesmo assim não fechou',
     desc: 'O preço raramente é o problema real. Mas sem auditoria, você continua cedendo valor sem entender a causa.',
     border: 'border-yellow-500/20',
-    glow: 'bg-yellow-500/5',
+    bg: 'bg-yellow-500/5',
   },
   {
     icon: <ThermometerSun className="w-6 h-6 text-orange-400" />,
     title: 'A conversa parecia boa, mas esfriou',
     desc: 'O lead estava engajado, respondendo — e do nada parou. Algo quebrou a negociação e você não sabe o quê.',
     border: 'border-orange-500/20',
-    glow: 'bg-orange-500/5',
+    bg: 'bg-orange-500/5',
   },
   {
     icon: <MessageSquareX className="w-6 h-6 text-muted-foreground" />,
     title: 'Você não sabe o que deveria ter falado diferente',
     desc: 'Revisa a conversa na cabeça, mas não chega a uma conclusão. Tenta de outro jeito na próxima — sem saber se vai funcionar.',
     border: 'border-border/60',
-    glow: 'bg-muted/20',
+    bg: 'bg-muted/20',
   },
 ];
 
@@ -39,7 +40,6 @@ export function Pain() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-muted/5 to-transparent pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-
         <FadeIn>
           <div className="text-center mb-5 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5 leading-tight">
@@ -76,7 +76,7 @@ export function Pain() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {cards.map((card, i) => (
             <FadeIn key={i} delay={i * 0.08}>
-              <div className={`border ${card.border} ${card.glow} rounded-2xl p-6 flex items-start gap-4 hover:border-primary/20 transition-all duration-300 group`}>
+              <div className={`border ${card.border} ${card.bg} rounded-2xl p-6 flex items-start gap-4 hover:border-primary/20 transition-all duration-300 group`}>
                 <div className="w-11 h-11 rounded-xl bg-background/80 border border-border/40 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
                   {card.icon}
                 </div>
@@ -89,6 +89,7 @@ export function Pain() {
           ))}
         </div>
 
+        <SectionCTA label="Quero descobrir onde estou errando" />
       </div>
     </section>
   );

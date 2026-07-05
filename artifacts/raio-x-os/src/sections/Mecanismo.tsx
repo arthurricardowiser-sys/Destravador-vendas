@@ -1,6 +1,7 @@
 import React from 'react';
 import { MessageCircle, Phone, Video, Mail, Cpu, Search, AlertOctagon, Lightbulb, FileCheck, Brain, Dumbbell } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
+import { SectionCTA } from '@/components/SectionCTA';
 
 const canais = [
   { icon: <MessageCircle className="w-4 h-4" />, label: 'WhatsApp' },
@@ -26,7 +27,6 @@ export function Mecanismo() {
       <div className="absolute right-0 top-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-
         <FadeIn>
           <div className="text-center mb-5 max-w-2xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 text-[11px] font-bold text-primary tracking-widest uppercase mb-5">
@@ -44,7 +44,6 @@ export function Mecanismo() {
           </div>
         </FadeIn>
 
-        {/* Not this / Not that */}
         <FadeIn delay={0.1}>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-12 max-w-3xl mx-auto">
             {[
@@ -63,11 +62,9 @@ export function Mecanismo() {
         </FadeIn>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-
-          {/* Canais */}
           <FadeIn delay={0.15}>
             <div className="bg-card border border-border/50 rounded-2xl p-7 h-full">
-              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-5">Analisa qualquer conversa</h3>
+              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-5">Ele analisa</h3>
               <div className="grid grid-cols-2 gap-3">
                 {canais.map((canal, i) => (
                   <div key={i} className="flex items-center gap-3 bg-background/60 border border-border/30 rounded-xl px-4 py-3 hover:border-primary/20 transition-colors group">
@@ -79,7 +76,6 @@ export function Mecanismo() {
             </div>
           </FadeIn>
 
-          {/* Entregáveis */}
           <FadeIn delay={0.25}>
             <div className="bg-card border border-primary/20 rounded-2xl p-7 h-full relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
@@ -98,6 +94,7 @@ export function Mecanismo() {
           </FadeIn>
         </div>
 
+        <SectionCTA label="Começar minha auditoria" />
       </div>
     </section>
   );

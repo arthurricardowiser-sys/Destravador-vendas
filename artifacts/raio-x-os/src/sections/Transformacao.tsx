@@ -1,6 +1,7 @@
 import React from 'react';
 import { X, Check } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
+import { SectionCTA } from '@/components/SectionCTA';
 
 const before = [
   '"Não sei onde errei."',
@@ -22,30 +23,25 @@ export function Transformacao() {
       <div className="absolute inset-0 bg-gradient-to-b from-muted/5 via-transparent to-muted/5 pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-
         <FadeIn>
           <div className="text-center mb-14 max-w-2xl mx-auto">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/30 px-4 py-1.5 text-[11px] font-bold text-muted-foreground tracking-widest uppercase mb-5">
-              Transformação
-            </div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-              Do escuro à{' '}
+              Saia do achismo e entre na próxima negociação{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                clareza comercial.
+                com clareza.
               </span>
             </h2>
           </div>
         </FadeIn>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
           <FadeIn delay={0.1}>
             <div className="bg-card border border-red-500/20 rounded-2xl p-8 h-full">
               <div className="flex items-center gap-3 mb-7">
                 <div className="w-10 h-10 rounded-full bg-red-500/10 border border-red-500/20 flex items-center justify-center">
                   <X className="w-5 h-5 text-red-400" />
                 </div>
-                <h3 className="text-base font-bold text-foreground">Sem o RAIO-X OS</h3>
+                <h3 className="text-base font-bold text-foreground">Antes</h3>
               </div>
               <ul className="space-y-4">
                 {before.map((item, i) => (
@@ -68,7 +64,7 @@ export function Transformacao() {
                 <div className="w-10 h-10 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center">
                   <Check className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-base font-bold text-foreground">Com o RAIO-X OS</h3>
+                <h3 className="text-base font-bold text-foreground">Depois</h3>
               </div>
               <ul className="space-y-4">
                 {after.map((item, i) => (
@@ -82,9 +78,9 @@ export function Transformacao() {
               </ul>
             </div>
           </FadeIn>
-
         </div>
 
+        <SectionCTA label="Ir para a oferta" />
       </div>
     </section>
   );

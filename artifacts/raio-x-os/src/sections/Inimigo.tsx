@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { FadeIn } from '@/components/FadeIn';
+import { SectionCTA } from '@/components/SectionCTA';
 
 const achismo = [
   { label: 'ACHISMO', color: 'text-red-400', border: 'border-red-500/30', bg: 'bg-red-500/5' },
@@ -40,7 +41,6 @@ export function Inimigo() {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-500/3 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-
         <FadeIn>
           <div className="text-center mb-6 max-w-2xl mx-auto">
             <div className="inline-flex items-center gap-2 rounded-full border border-red-500/25 bg-red-500/8 px-4 py-1.5 text-[11px] font-bold text-red-400 tracking-widest uppercase mb-5">
@@ -89,6 +89,7 @@ export function Inimigo() {
           </FadeIn>
         </div>
 
+        <SectionCTA label="Ver a oferta agora" />
       </div>
     </section>
   );

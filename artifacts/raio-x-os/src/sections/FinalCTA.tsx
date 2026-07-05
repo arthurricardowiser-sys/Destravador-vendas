@@ -30,10 +30,10 @@ export function FinalCTA() {
 
           <div className="flex justify-center mb-8">
             <ButtonCTA
-              href="#checkout"
+              href="#oferta"
               className="px-12 py-5 text-lg shadow-[0_0_60px_rgba(99,131,255,0.3)]"
             >
-              Quero testar o RAIO-X <ArrowRight className="w-5 h-5 ml-2" />
+              Quero acessar o RAIO-X agora <ArrowRight className="w-5 h-5 ml-2" />
             </ButtonCTA>
           </div>
 
